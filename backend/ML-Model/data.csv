@@ -1,0 +1,335 @@
+_id,medicalcondition,symptoms,severity,tests,price[0],price[1],price[2]
+65cccc8816085881d7612b65,Abdominal aortic aneurysm,"Abdominal pain, Back pain, Pulsating sensation in the abdomen",7,"Ultrasound, CT scan, MRI",4500,5500,5000
+65cccc8816085881d7612b66,Acne,"Pimples, Blackheads, Whiteheads, Redness, Inflammation",4,Physical examination,1500,,
+65cccc8816085881d7612b67,Acute cholecystitis,"Abdominal pain (especially in the upper right side), Fever, Nausea, Vomiting, Jaundice",8,"Ultrasound, CT scan, Blood tests",2500,3500,3000
+65cccc8816085881d7612b68,Acute lymphoblastic leukaemia,"Fatigue, Weakness, Fever, Easy bruising, Bleeding, Bone pain, Joint pain",9,"Blood tests, Bone marrow biopsy, Lumbar puncture",1500,3000,2500
+65cccc8816085881d7612b69,Acute lymphoblastic leukaemia: Children,Same as Acute lymphoblastic leukaemia,9,Same as Acute lymphoblastic leukaemia,1500,3000,2500
+65cccc8816085881d7612b6a,Acute lymphoblastic leukaemia: Teenagers and young adults,Same as Acute lymphoblastic leukaemia,9,Same as Acute lymphoblastic leukaemia,1500,3000,2500
+65cccc8816085881d7612b6b,Acute myeloid leukaemia,"Fever, Weakness, Fatigue, Pale skin, Shortness of breath, Easy bruising, Bleeding, Bone pain",9,"Blood tests, Bone marrow biopsy, Lumbar puncture",2000,3500,3000
+65cccc8816085881d7612b6c,Acute myeloid leukaemia: Children,Same as Acute myeloid leukaemia,9,Same as Acute myeloid leukaemia,2000,3500,3000
+65cccc8816085881d7612b6d,Acute myeloid leukaemia: Teenagers and young adults,Same as Acute myeloid leukaemia,9,Same as Acute myeloid leukaemia,2000,3500,3000
+65cccc8816085881d7612b6e,Acute pancreatitis,"Abdominal pain, Nausea, Vomiting, Fever, Rapid pulse, Swollen abdomen",8,"Blood tests, Imaging tests (CT scan, MRI, Ultrasound), Pancreatic function tests",3000,4000,3500
+65cccc8816085881d7612b6f,Adenomyosis,"Heavy menstrual bleeding, Menstrual periods lasting longer than usual, Pelvic pain, Painful periods, Pain during intercourse",6,"Pelvic ultrasound, MRI, Hysteroscopy",3500,4500,4000
+65cccc8816085881d7612b70,Addison’s disease,"Fatigue, Weight loss, Darkening of the skin, Low blood pressure, Salt craving, Hypoglycemia",7,"Blood tests (ACTH stimulation test, Cortisol level test, ACTH level test), Imaging tests (CT scan, MRI)",4000,5000,4500
+65cccc8816085881d7612b71,Alcohol-related liver disease,"Fatigue, Jaundice, Swelling in the legs and abdomen, Confusion, Nausea, Weight loss",8,"Liver function tests, Blood tests (to check for alcohol-related liver damage), Imaging tests (Ultrasound, CT scan, MRI)",2500,3500,3000
+65cccc8816085881d7612b72,Allergic rhinitis,"Sneezing, Runny or stuffy nose, Itchy eyes, nose, or throat, Watery eyes, Coughing",5,"Skin prick test, Blood test (Allergen-specific IgE antibodies), Nasal endoscopy",2000,2500,2200
+65cccc8816085881d7612b73,Allergies,"Runny or stuffy nose, Sneezing, Itchy eyes, skin, or throat, Hives, Swelling, Anaphylaxis (severe allergic reaction)",5,"Skin prick test, Blood test (Allergen-specific IgE antibodies), Patch test",2000,2500,2200
+65cccc8816085881d7612b74,Alzheimer’s disease,"Memory loss, Difficulty performing familiar tasks, Problems with language, Disorientation, Mood swings",9,"Neurological examination, Cognitive tests (Mini-Mental State Examination, Montreal Cognitive Assessment), Brain imaging (MRI, CT scan, PET scan)",3000,4000,3500
+65cccc8816085881d7612b75,Anal cancer,"Rectal bleeding, Anal pain, Itching in the anal area, Changes in bowel habits, Lump near the anus",7,"Physical examination, Anal pap smear, Biopsy",3500,4500,4000
+65cccc8816085881d7612b76,Anaphylaxis,"Skin rash, Itching, Swelling of the lips, tongue, throat, Shortness of breath, Wheezing, Difficulty swallowing, Rapid heartbeat",9,"Blood tests (to measure tryptase levels, complete blood count), Skin prick test (to identify allergen triggering the reaction)",2500,3500,3000
+65cccc8816085881d7612b77,Angina,"Chest pain or discomfort, Pain in your arms, neck, jaw, shoulder or back accompanying chest pain, Nausea, Fatigue, Shortness of breath",8,"Electrocardiogram (ECG), Stress test, Coronary angiography",3000,4000,3500
+65cccc8816085881d7612b78,Angioedema,"Swelling of the skin, typically around the eyes and lips, Swelling of the hands, feet, and throat, Abdominal cramping, Breathing difficulty",7,"Blood tests (to check for levels of complement proteins, including C1 esterase inhibitor), Skin prick test (to identify triggering allergens)",3000,4000,3500
+65cccc8816085881d7612b79,Ankylosing spondylitis,"Lower back pain and stiffness, Pain and stiffness that worsens with rest or inactivity, Reduced flexibility in the spine, Neck pain and fatigue",8,"Physical examination, X-rays of the spine, Blood tests (to check for HLA-B27 antigen)",3500,4500,4000
+65cccc8816085881d7612b7a,Anorexia nervosa,"Extreme weight loss, Thin appearance, Abnormal blood counts, Fatigue, Insomnia, Dizziness, Fainting, Low blood pressure",9,"Physical examination, Blood tests (to check for complete blood count, electrolyte levels, liver function, kidney function), Psychological evaluation",2500,3500,3000
+65cccc8816085881d7612b7b,Anxiety,"Feeling nervous, Restlessness, Increased heart rate, Rapid breathing, Sweating, Trembling",6,"Physical examination, Psychological evaluation (questionnaires, interviews), Blood tests (to rule out medical conditions)",2000,2500,2200
+65cccc8816085881d7612b7c,Anxiety disorders in children,"Excessive worrying, Avoidance of certain situations, Physical complaints (headaches, stomach aches), Irritability, Difficulty concentrating",6,"Psychological evaluation (questionnaires, interviews), Observation of behavior, Blood tests (to rule out medical conditions)",2000,2500,2200
+65cccc8816085881d7612b7d,Appendicitis,"Pain in the abdomen (usually starting near the belly button), Loss of appetite, Nausea, Vomiting, Low-grade fever, Constipation or diarrhea",8,"Physical examination (McBurney's point tenderness test), Blood tests (complete blood count, white blood cell count), Imaging tests (CT scan, ultrasound)",2500,3500,3000
+65cccc8816085881d7612b7e,Arterial thrombosis,"Pain or cramping in the affected area, Numbness or weakness in the limbs, Coldness or pallor in the affected area, Changes in skin color, Swelling",7,"Doppler ultrasound, Magnetic resonance angiography (MRA), Computed tomography angiography (CTA)",3000,4000,3500
+65cccc8816085881d7612b7f,Arthritis,"Joint pain, Joint swelling, Joint stiffness, Reduced range of motion, Warmth around the joint, Redness of the skin around the joint",7,"Physical examination, Blood tests (C-reactive protein, rheumatoid factor, anti-cyclic citrullinated peptide antibodies), Imaging tests (X-ray, MRI, ultrasound)",3000,4000,3500
+65cccc8816085881d7612b80,Asbestosis,"Shortness of breath, Persistent dry cough, Chest tightness or pain, Loss of appetite, Clubbing of fingers (enlarged fingertips), Finger deformity",7,"Chest X-ray, Pulmonary function tests (spirometry, lung volume tests), High-resolution CT scan",3000,4000,3500
+65cccc8816085881d7612b81,Asthma,"Shortness of breath, Chest tightness or pain, Wheezing when exhaling, Coughing or wheezing attacks that are worsened by a respiratory virus",6,"Spirometry, Peak flow meter, Allergy testing (skin prick test, blood test), Chest X-ray",2500,3000,2800
+65cccc8816085881d7612b82,Atopic eczema,"Dry, scaly skin, Redness, Itching, Inflammation, Oozing or crusting, Areas of swelling",5,"Physical examination, Allergy testing (patch testing, skin prick test), Blood tests (to check for allergies or underlying conditions)",2000,2500,2200
+65cccc8816085881d7612b83,Atrial fibrillation,"Palpitations, Irregular heartbeat, Weakness, Fatigue, Shortness of breath, Chest pain, Dizziness",8,"Electrocardiogram (ECG), Holter monitor, Echocardiogram",3000,4000,3500
+65cccc8816085881d7612b84,Attention deficit hyperactivity disorder (ADHD),"Inattention, Hyperactivity, Impulsivity, Difficulty organizing tasks, Forgetfulness, Restlessness",6,"Psychological evaluation (questionnaires, interviews), Observation of behavior, Rating scales (Conners scale, Vanderbilt ADHD diagnostic rating scales)",2500,3000,2800
+65cccc8816085881d7612b85,Autistic spectrum disorder (ASD),"Social challenges, Communication difficulties, Repetitive behaviors, Sensory sensitivities, Restricted interests",7,"Developmental screening, Comprehensive diagnostic evaluation (Autism Diagnostic Observation Schedule, Autism Diagnostic Interview)",3000,4000,3500
+65cccc8816085881d7612b86,Bacterial vaginosis,"Vaginal discharge with a fishy odor, Vaginal itching, Burning sensation during urination",5,"Microscopic examination of vaginal discharge, pH testing",1500,3000,
+65cccc8816085881d7612b87,Benign prostate enlargement,"Frequent urination, Difficulty starting or stopping urination, Weak urine stream",6,"Digital rectal exam, Prostate-specific antigen (PSA) blood test",1800,3200,
+65cccc8816085881d7612b88,Bile duct cancer (cholangiocarcinoma),"Jaundice, Abdominal pain, Unexplained weight loss",8,"Imaging tests (CT, MRI), Biopsy",2500,5000,7000
+65cccc8816085881d7612b89,Binge eating,"Eating large amounts of food in a short period, Feeling out of control during episodes, Eating even when not hungry",4,"Psychological evaluation, Blood tests",1000,2000,
+65cccc8816085881d7612b8a,Bipolar disorder,"Mood swings, Energy changes, Changes in sleep patterns",7,"Mental health assessment, Mood charting",1500,3000,4500
+65cccc8816085881d7612b8b,Bladder cancer,"Blood in urine, Frequent urination, Pelvic pain",8,"Cystoscopy, Imaging tests (CT, MRI)",2000,4000,6000
+65cccc8816085881d7612b8c,Blood poisoning (sepsis),"Fever, Rapid heart rate, Confusion",9,"Blood cultures, Imaging tests (X-rays, CT scans)",3000,6000,8000
+65cccc8816085881d7612b8d,Bone cancer,"Bone pain, Swelling, Fatigue",8,"Biopsy, X-rays, MRI",2500,5000,7000
+65cccc8816085881d7612b8e,Bone cancer: Teenagers and young adults,"Bone pain, Swelling, Fatigue",7,"Biopsy, X-rays, MRI",2200,4500,6500
+65cccc8816085881d7612b8f,Bowel cancer,"Changes in bowel habits, Blood in stool, Abdominal pain",8,"Colonoscopy, CT colonography",2800,5500,7500
+65cccc8816085881d7612b90,Bowel incontinence,"Involuntary bowel movements, Difficulty controlling gas, Diarrhea",6,"Anal manometry, Colonoscopy",1600,3200,4800
+65cccc8816085881d7612b91,Bowel polyps,"No specific symptoms, but can cause bleeding, Changes in bowel habits",5,"Colonoscopy, Flexible sigmoidoscopy",1400,2800,
+65cccc8816085881d7612b92,Brain stem death,"Irreversible loss of brain function, Absence of reflexes, Coma",10,"Clinical assessment, EEG",4000,8000,10000
+65cccc8816085881d7612b93,Brain tumours,"Headaches, Seizures, Changes in personality",9,"MRI, CT scan, Biopsy",3500,7000,9000
+65cccc8816085881d7612b94,Brain tumours: Children,"Headaches, Nausea, Changes in behavior",8,"MRI, CT scan, Biopsy",3000,6000,8000
+65cccc8816085881d7612b95,Brain tumours: Teenagers and young adults,"Headaches, Seizures, Changes in personality",8,"MRI, CT scan, Biopsy",3200,6400,8500
+65cccc8816085881d7612b96,Breast cancer (female),"Lump in the breast, Changes in breast size or shape, Nipple discharge",9,"Mammogram, Breast biopsy",3500,7000,9000
+65cccc8816085881d7612b97,Breast cancer (male),"Lump in the breast, Changes in breast size or shape, Nipple discharge",8,"Mammogram, Breast biopsy",3000,6000,8000
+65cccc8816085881d7612b98,Bronchiectasis,"Chronic cough, Recurrent chest infections, Shortness of breath",7,"CT scan, Pulmonary function tests",2500,5000,7000
+65cccc8816085881d7612b99,Bronchitis,"Cough, Chest discomfort, Shortness of breath",5,"Physical examination, Chest X-ray",1200,2400,
+65cccc8816085881d7612b9a,Bulimia,"Binge eating followed by purging, Excessive exercise, Frequent trips to the bathroom after meals",6,"Physical examination, Blood tests",1400,2800,
+65cccc8816085881d7612b9b,Bunion,"Bump on the side of the big toe, Pain and swelling, Difficulty wearing shoes",4,"Physical examination, X-rays",1000,2000,
+65cccc8816085881d7612b9c,Carcinoid syndrome and carcinoid tumours,"Flushing, Diarrhea, Wheezing",7,"Blood and urine tests, Imaging tests (CT, MRI), Biopsy",2500,5000,7000
+65cccc8816085881d7612b9d,Catarrh,"Runny or stuffy nose, Sneezing, Coughing",3,"Physical examination, Blood tests",800,1600,
+65cccc8816085881d7612b9e,Cellulitis,"Red and swollen skin, Pain, Warmth",6,"Physical examination, Blood cultures",1200,2400,3600
+65cccc8816085881d7612b9f,Cerebral palsy,"Poor coordination, Muscle stiffness, Tremors",8,"Neurological examination, Imaging tests (MRI, CT scan)",3000,6000,8000
+65cccc8816085881d7612ba0,Cervical cancer,"Abnormal vaginal bleeding, Pelvic pain, Pain during intercourse",9,"Pap test, HPV test, Biopsy",3500,7000,9000
+65cccc8816085881d7612ba1,Chest infection,"Cough, Shortness of breath, Chest pain",5,"Chest X-ray, Blood tests",1000,2000,
+65cccc8816085881d7612ba2,Chest pain,"Sharp or dull chest pain, Tightness in the chest, Shortness of breath",7,"ECG, Chest X-ray, Blood tests",1800,3600,5400
+65cccc8816085881d7612ba3,Chickenpox,"Red spots, Itchy rash, Fever",4,"Clinical diagnosis, Blood tests",1200,2400,
+65cccc8816085881d7612ba4,Chilblains,"Red and swollen skin, Itching, Pain",3,Physical examination,800,1600,
+65cccc8816085881d7612ba5,Chlamydia,"Painful urination, Abnormal discharge, Pelvic pain",6,"Urine test, Swab test",1400,2800,4200
+65cccc8816085881d7612ba6,Chronic fatigue syndrome,"Persistent fatigue, Muscle and joint pain, Headaches",6,"Physical examination, Blood tests",1500,3000,
+65cccc8816085881d7612ba7,Chronic kidney disease,"Fatigue, Swelling, Changes in urination",8,"Blood tests, Urine tests, Imaging tests (Ultrasound)",2800,5500,7500
+65cccc8816085881d7612ba8,Chronic lymphocytic leukaemia,"Fatigue, Enlarged lymph nodes, Weight loss",9,"Blood tests, Bone marrow biopsy",3200,6400,8500
+65cccc8816085881d7612ba9,Chronic myeloid leukaemia,"Fatigue, Abdominal pain, Easy bruising",9,"Blood tests, Bone marrow biopsy",3400,6800,9000
+65cccc8816085881d7612baa,Chronic obstructive pulmonary disease,"Shortness of breath, Chronic cough, Wheezing",7,"Spirometry, Chest X-ray, CT scan",2500,5000,7000
+65cccc8816085881d7612bab,Chronic pain,"Persistent pain, Fatigue, Sleep disturbances",6,"Physical examination, Imaging tests (MRI, CT scan)",1800,3600,
+65cccc8816085881d7612bac,Chronic pancreatitis,"Abdominal pain, Weight loss, Nausea",8,"Blood tests, Imaging tests (CT, MRI)",2800,5500,7500
+65cccc8816085881d7612bad,Cirrhosis,"Fatigue, Weakness, Abdominal swelling",8,"Liver function tests, Imaging tests (CT, MRI)",3000,6000,8000
+65cccc8816085881d7612bae,Clostridium difficile,"Diarrhea, Abdominal pain, Fever",6,"Stool tests, Colonoscopy",1500,3000,
+65cccc8816085881d7612baf,Coeliac disease,"Abdominal pain, Diarrhea, Weight loss",6,"Blood tests, Endoscopy",1600,3200,4800
+65cccc8816085881d7612bb0,Cold sore,"Painful blisters, Itching, Redness",3,Clinical diagnosis,800,1600,
+65cccc8816085881d7612bb1,Coma,"Unconsciousness, No response to stimuli, Abnormal breathing",10,"Neurological examination, Imaging tests (CT, MRI), EEG",4000,8000,10000
+65cccc8816085881d7612bb2,Common cold,"Runny or stuffy nose, Sneezing, Coughing",2,"Clinical diagnosis, Blood tests",600,1200,
+65cccc8816085881d7612bb3,Common heart conditions,"Chest pain, Shortness of breath, Fatigue",7,"ECG, Echocardiogram, Blood tests",2000,4000,6000
+65cccc8816085881d7612bb4,Congenital heart disease,"Cyanosis, Shortness of breath, Fatigue",8,"Echocardiogram, Chest X-ray, MRI",2800,5500,7500
+65cccc8816085881d7612bb5,Conjunctivitis,"Redness of the eye, Itching, Discharge",3,Physical examination,800,1600,
+65cccc8816085881d7612bb6,Constipation,"Infrequent bowel movements, Straining during bowel movements, Abdominal discomfort",4,"Clinical diagnosis, Blood tests",1000,2000,
+65cccc8816085881d7612bb7,Coronavirus (COVID-19),"Fever, Cough, Shortness of breath",8,"PCR test, Rapid antigen test, Chest CT scan",3000,6000,8000
+65cccc8816085881d7612bb8,Cough,"Persistent cough, Sputum production, Shortness of breath",4,"Clinical diagnosis, Chest X-ray",1200,2400,
+65cccc8816085881d7612bb9,Crohn’s disease,"Abdominal pain, Diarrhea, Fatigue",7,"Colonoscopy, Blood tests, Imaging tests (CT, MRI)",2500,5000,7000
+65cccc8816085881d7612bba,Croup,"Barking cough, Stridor, Fever",4,"Clinical diagnosis, Chest X-ray",1200,2400,
+65cccc8816085881d7612bbb,Cystic fibrosis,"Persistent cough, Difficulty breathing, Salty-tasting skin",8,"Sweat test, Genetic testing, Pulmonary function tests",3000,6000,8000
+65cccc8816085881d7612bbc,Cystitis,"Urinary urgency, Painful urination, Lower abdominal pain",5,"Urinalysis, Urine culture",1400,2800,
+65cccc8816085881d7612bbd,Deafblindness,Loss of both hearing and vision,8,"Audiometry, Visual field test",2500,5000,
+65cccc8816085881d7612bbe,Deep vein thrombosis,"Swelling, Pain, Redness in the affected limb",7,"D-dimer blood test, Ultrasound",1800,3600,5400
+65cccc8816085881d7612bbf,Dehydration,"Thirst, Dark yellow urine, Fatigue",5,"Blood tests, Urinalysis",1200,2400,
+65cccc8816085881d7612bc0,Dementia,"Memory loss, Cognitive decline, Difficulty in daily tasks",9,"Cognitive tests, Brain imaging (MRI, CT scan)",3000,6000,8000
+65cccc8816085881d7612bc1,Dementia with Lewy bodies,"Visual hallucinations, Tremors, Fluctuating alertness",8,"Cognitive tests, Brain imaging (MRI, CT scan)",2800,5500,7500
+65cccc8816085881d7612bc2,Dental abscess,"Severe toothache, Swelling in the face, Fever",6,"Dental X-ray, Pus culture",1500,3000,
+65cccc8816085881d7612bc3,Depression,"Persistent sadness, Loss of interest, Fatigue",6,"Mental health assessment, Blood tests",1600,3200,4800
+65cccc8816085881d7612bc4,Dermatitis herpetiformis,"Itchy, blistering skin rash",4,"Skin biopsy, Blood tests",1000,2000,
+65cccc8816085881d7612bc5,Diabetes,"Increased thirst, Frequent urination, Fatigue",7,"Fasting blood sugar, HbA1c, Oral glucose tolerance test",2000,4000,6000
+65cccc8816085881d7612bc6,Diarrhoea,"Loose or watery stools, Abdominal cramps, Dehydration",4,"Stool culture, Blood tests",1200,2400,
+65cccc8816085881d7612bc7,Discoid eczema,"Dry, itchy, and cracked skin",3,"Clinical examination, Skin biopsy",800,1600,
+65cccc8816085881d7612bc8,Diverticular disease and diverticulitis,"Abdominal pain, Changes in bowel habits, Fever",6,"Colonoscopy, CT scan",1400,2800,4200
+65cccc8816085881d7612bc9,Dizziness (Lightheadedness),"Feeling faint or lightheaded, Unsteadiness",4,"Blood pressure monitoring, Inner ear tests",1000,2000,
+65cccc8816085881d7612bca,Down’s syndrome,"Distinctive facial features, Intellectual disability, Developmental delays",8,"Chromosomal analysis (karyotype), Prenatal screening",2800,5500,7500
+65cccc8816085881d7612bcb,Dry mouth,"Difficulty swallowing, Sticky or dry feeling in the mouth",3,"Salivary flow test, Blood tests",800,1600,
+65cccc8816085881d7612bcc,Dysphagia (swallowing problems),"Difficulty swallowing, Choking, Regurgitation",5,"Barium swallow test, Endoscopy",1200,2400,
+65cccc8816085881d7612bcd,Dystonia,"Involuntary muscle contractions, Twisting movements",7,"Clinical evaluation, MRI, Electromyography (EMG)",2000,4000,6000
+65cccc8816085881d7612bce,Earache,"Pain in the ear, Hearing loss, Ear discharge",4,"Physical examination, Hearing tests",1200,2400,
+65cccc8816085881d7612bcf,Earwax build-up,"Hearing loss, Ear discomfort, Tinnitus",3,"Ear irrigation, Physical examination",800,1600,
+65cccc8816085881d7612bd0,Ebola virus disease,"Fever, Severe headache, Bleeding",9,"PCR test, Blood tests",3000,6000,8000
+65cccc8816085881d7612bd1,Ectopic pregnancy,"Abdominal pain, Vaginal bleeding, Shoulder pain",7,"Pelvic ultrasound, Blood tests",2200,4500,6500
+65cccc8816085881d7612bd2,Edwards’ syndrome,"Distinctive facial features, Intellectual disability, Heart defects",8,"Chromosomal analysis (karyotype), Prenatal screening",2800,5500,7500
+65cccc8816085881d7612bd3,Endometriosis,"Pelvic pain, Painful periods, Infertility",6,"Pelvic ultrasound, Laparoscopy",1800,3600,5400
+65cccc8816085881d7612bd4,Epilepsy,"Seizures, Temporary confusion, Uncontrollable movements",7,"Electroencephalogram (EEG), Brain imaging (MRI, CT scan)",2200,4500,6500
+65cccc8816085881d7612bd5,Erectile dysfunction (impotence),Difficulty achieving or maintaining an erection,5,"Blood tests, Ultrasound of the penis",1400,2800,
+65cccc8816085881d7612bd6,Escherichia coli (E. coli) O157,"Severe stomach cramps, Diarrhea, Vomiting",6,"Stool culture, Blood tests",1600,3200,
+65cccc8816085881d7612bd7,Ewing sarcoma,"Bone pain, Swelling, Fatigue",8,"Biopsy, X-rays, MRI",2800,5500,7500
+65cccc8816085881d7612bd8,Ewing sarcoma: Children,"Bone pain, Swelling, Fatigue",7,"Biopsy, X-rays, MRI",2500,5000,7000
+65cccc8816085881d7612bd9,Eye cancer,"Changes in vision, Eye pain, Bulging eye",8,"Eye examination, Imaging tests (CT, MRI)",2500,5000,7000
+65cccc8816085881d7612bda,Febrile seizures,"Convulsions, Fever, Loss of consciousness",4,"Clinical diagnosis, Blood tests",1200,2400,
+65cccc8816085881d7612bdb,Feeling of something in your throat (Globus),"Feeling of a lump in the throat, Difficulty swallowing",3,"Physical examination, Endoscopy",800,1600,
+65cccc8816085881d7612bdc,Fever in adults,"High body temperature, Chills, Sweating",4,"Blood tests, Imaging tests (X-rays, CT scans)",1400,2800,
+65cccc8816085881d7612bdd,Fever in children,"High body temperature, Irritability, Poor feeding",3,"Clinical examination, Blood tests",1000,2000,
+65cccc8816085881d7612bde,Fibroids,"Heavy menstrual bleeding, Pelvic pain, Frequent urination",6,"Pelvic ultrasound, Hysteroscopy",1800,3600,5400
+65cccc8816085881d7612bdf,Fibromyalgia,"Widespread pain, Fatigue, Sleep disturbances",5,"Clinical evaluation, Blood tests",1400,2800,
+65cccc8816085881d7612be0,Farting,"Excessive gas, Belching, Abdominal bloating",2,Clinical diagnosis,600,1200,
+65cccc8816085881d7612be1,Flu,"Fever, Cough, Body aches",3,"Clinical diagnosis, Rapid influenza test",1000,2000,
+65cccc8816085881d7612be2,Foetal alcohol syndrome,"Facial deformities, Growth delays, Intellectual disability",7,"Clinical examination, Blood tests",2200,4500,6500
+65cccc8816085881d7612be3,Food poisoning,"Nausea, Vomiting, Diarrhea",4,"Stool culture, Blood tests",1200,2400,
+65cccc8816085881d7612be4,Functional neurological disorder (FND),Neurological symptoms inconsistent with known diseases,6,"Neurological examination, MRI, EEG",1800,3600,
+65cccc8816085881d7612be5,Fungal nail infection,"Thickened, discolored nails",3,Nail clippings examination,800,1600,
+65cccc8816085881d7612be6,Gallbladder cancer,"Abdominal pain, Jaundice, Unexplained weight loss",8,"Imaging tests (CT, MRI), Biopsy",3000,6000,8000
+65cccc8816085881d7612be7,Gallstones,"Abdominal pain, Jaundice, Nausea",6,"Abdominal ultrasound, CT scan",1600,3200,4800
+65cccc8816085881d7612be8,Ganglion cyst,"Lump or mass, Pain, Limited joint movement",4,"Clinical examination, Ultrasound",1200,2400,
+65cccc8816085881d7612be9,Gastroenteritis,"Nausea, Vomiting, Diarrhea",4,"Stool culture, Blood tests",1200,2400,
+65cccc8816085881d7612bea,Gastro-oesophageal reflux disease (GORD),"Heartburn, Regurgitation, Chest pain",5,"Upper endoscopy, pH monitoring",1400,2800,
+65cccc8816085881d7612beb,Genital herpes,"Painful sores, Itching, Flu-like symptoms",4,"Viral culture, PCR test",1200,2400,
+65cccc8816085881d7612bec,Genital symptoms,"Pain, Itching, Discharge",3,"Clinical examination, Swab tests",800,1600,
+65cccc8816085881d7612bed,Genital warts,"Small growths, Itching, Discomfort",3,"Clinical examination, Biopsy",1000,2000,
+65cccc8816085881d7612bee,Germ cell tumours,"Testicular or ovarian mass, Abdominal pain",7,"Blood tests, Imaging tests (CT, MRI), Biopsy",2500,5000,7000
+65cccc8816085881d7612bef,Glandular fever,"Fatigue, Sore throat, Swollen lymph nodes",5,"Monospot test, Blood tests",1400,2800,
+65cccc8816085881d7612bf0,Gonorrhoea,"Painful urination, Abnormal discharge, Pelvic pain",5,"Urine test, Swab test",1400,2800,
+65cccc8816085881d7612bf1,Gout,"Joint pain, Swelling, Redness",4,"Joint fluid analysis, Blood tests",1200,2400,
+65cccc8816085881d7612bf2,Gum disease,"Bleeding gums, Bad breath, Receding gums",3,"Dental examination, X-rays",800,1600,
+65cccc8816085881d7612bf3,Haemorrhoids (piles),"Bleeding during bowel movements, Itching, Swelling",3,"Clinical examination, Colonoscopy",1000,2000,
+65cccc8816085881d7612bf4,"Hand, foot and mouth disease","Fever, Sore throat, Skin rash",3,Clinical diagnosis,800,1600,
+65cccc8816085881d7612bf5,Hay fever,"Sneezing, Runny or stuffy nose, Itchy eyes",2,Clinical diagnosis,600,1200,
+65cccc8816085881d7612bf6,Head and neck cancer,"Persistent sore throat, Difficulty swallowing, Lump in the neck",8,"Biopsy, Imaging tests (CT, MRI)",3000,6000,8000
+65cccc8816085881d7612bf7,Head lice and nits,"Itching, Red bumps on the scalp, Presence of nits",2,Visual examination,600,1200,
+65cccc8816085881d7612bf8,Headaches,Pain or discomfort in the head,3,"Clinical examination, Imaging tests (CT, MRI)",1000,2000,
+65cccc8816085881d7612bf9,Hearing loss,Reduced ability to hear,4,"Audiometry, Hearing tests",1200,2400,
+65cccc8816085881d7612bfa,Heart attack,"Chest pain, Shortness of breath, Sweating",9,"ECG, Blood tests, Coronary angiography",3500,7000,9000
+65cccc8816085881d7612bfb,Heart failure,"Shortness of breath, Fatigue, Swelling in the legs",8,"Echocardiogram, Blood tests",2800,5500,7500
+65cccc8816085881d7612bfc,Hepatitis A,"Fatigue, Nausea, Jaundice",6,"Blood tests, Hepatitis A antibody test",1600,3200,4800
+65cccc8816085881d7612bfd,Hepatitis B,"Fatigue, Abdominal pain, Jaundice",7,"Blood tests, Hepatitis B surface antigen test",2000,4000,6000
+65cccc8816085881d7612bfe,Hepatitis C,"Fatigue, Abdominal pain, Jaundice",8,"Blood tests, HCV antibody test",2800,5500,7500
+65cccc8816085881d7612bff,Hiatus hernia,"Heartburn, Regurgitation, Chest pain",5,"Upper endoscopy, pH monitoring",1400,2800,
+65cccc8816085881d7612c00,High cholesterol,"No specific symptoms, Elevated cholesterol levels",3,Lipid profile blood test,1000,2000,
+65cccc8816085881d7612c01,HIV,"Flu-like symptoms, Fatigue, Swollen lymph nodes",8,"HIV antibody test, PCR test",2800,5500,7500
+65cccc8816085881d7612c02,Hodgkin lymphoma,"Swollen lymph nodes, Fatigue, Unexplained weight loss",8,"Biopsy, Imaging tests (CT, PET-CT)",3000,6000,8000
+65cccc8816085881d7612c03,Hodgkin lymphoma: Children,"Swollen lymph nodes, Fatigue, Unexplained weight loss",7,"Biopsy, Imaging tests (CT, PET-CT)",2500,5000,7000
+65cccc8816085881d7612c04,Hodgkin lymphoma: Teenagers and young adults,"Swollen lymph nodes, Fatigue, Unexplained weight loss",7,"Biopsy, Imaging tests (CT, PET-CT)",2500,5000,7000
+65cccc8816085881d7612c05,Huntington’s disease,"Motor and cognitive decline, Involuntary movements",9,"Genetic testing, Neurological examination",3000,6000,8000
+65cccc8816085881d7612c06,Hyperglycaemia (high blood sugar),"Increased thirst, Frequent urination, Fatigue",6,"Blood glucose tests, HbA1c",1800,3600,5400
+65cccc8816085881d7612c07,Hyperhidrosis,"Excessive sweating, Damp palms, Foot odor",4,"Clinical diagnosis, Sweat tests",1200,2400,
+65cccc8816085881d7612c08,Hypoglycaemia (low blood sugar),"Shakiness, Sweating, Confusion",4,"Blood glucose tests, Insulin levels",1200,2400,
+65cccc8816085881d7612c09,Idiopathic pulmonary fibrosis,"Shortness of breath, Cough, Fatigue, Unexplained weight loss, Aching muscles and joints, Clubbing (enlargement and rounding) of fingertips",8,"Chest X-ray, High-resolution CT scan, Pulmonary function tests (spirometry, diffusion capacity)",3000,4000,3500
+65cccc8816085881d7612c0a,Impetigo,"Red sores that quickly rupture and ooze, Honey-colored crusts, Itching, Swollen lymph nodes, Fever",5,"Physical examination, Swab of the affected area for bacterial culture and sensitivity",2000,2500,2200
+65cccc8816085881d7612c0b,Indigestion,"Pain or discomfort in the upper abdomen, Belching, Bloating, Nausea, Vomiting, Heartburn",4,"Physical examination, Endoscopy, Upper gastrointestinal series",1500,2000,1800
+65cccc8816085881d7612c0c,Ingrown toenail,"Pain, Swelling, Redness, Infection, Tenderness",3,Physical examination,1000,1500,1200
+65cccc8816085881d7612c0d,Inherited heart conditions,"Varies depending on the specific condition, may include chest pain, shortness of breath, palpitations, fainting, fatigue",8,"Genetic testing, Electrocardiogram (ECG), Echocardiogram, Cardiac MRI",3000,4000,3500
+65cccc8816085881d7612c0e,Insomnia,"Difficulty falling asleep, Difficulty staying asleep, Waking up too early, Daytime fatigue or sleepiness, Irritability, Depression or anxiety",6,"Sleep diary, Polysomnography (sleep study), Psychological evaluation",2500,3000,2800
+65cccc8816085881d7612c0f,Iron deficiency anaemia,"Fatigue, Weakness, Pale or yellowish skin, Irregular heartbeat, Shortness of breath, Dizziness or lightheadedness, Chest pain, Cold hands and feet",7,"Complete blood count (CBC), Serum iron test, Ferritin test, Stool test",3000,4000,3500
+65cccc8816085881d7612c10,Irritable bowel syndrome (IBS),"Abdominal pain or cramping, Bloating, Gas, Diarrhea or constipation, Mucus in the stool",6,"Physical examination, Blood tests (to rule out other conditions), Stool tests, Colonoscopy",2500,3000,2800
+65cccc8816085881d7612c11,Itching,"Skin rash, Redness, Dry skin, Cracked skin, Bumps, Scaly skin, Swelling, Blisters",4,"Physical examination, Allergy testing, Skin biopsy",1500,2000,1800
+65cccc8816085881d7612c12,Itchy bottom,"Itching around the anus, Irritation or pain around the anus, Redness or inflammation around the anus",3,"Physical examination, Anal swab test",1000,1500,1200
+65cccc8816085881d7612c13,Kaposi’s sarcoma,"Red or purple patches on the skin or inside the mouth, Swelling, Skin lesions, Fever, Night sweats, Weight loss",7,"Biopsy of skin lesion, Endoscopy, Imaging tests (CT scan, MRI)",3000,4000,3500
+65cccc8816085881d7612c14,Kidney cancer,"Blood in urine, Lower back pain on one side, Loss of appetite, Weight loss, Fatigue, Anemia",7,"Physical examination, Blood tests (complete blood count, kidney function tests), Imaging tests (CT scan, MRI, ultrasound)",3000,4000,3500
+65cccc8816085881d7612c15,Kidney infection,"Back pain, Side (flank) pain, Abdominal pain, Groin pain, Frequent urination, Painful urination, Cloudy or bloody urine, Fever",6,"Urinalysis, Urine culture, Blood tests, Imaging tests (CT scan, ultrasound)",2500,3000,2800
+65cccc8816085881d7612c16,Kidney stones,"Severe pain in the side and back, below the ribs, Pain that spreads to the lower abdomen and groin, Painful urination, Pink, red or brown urine, Cloudy or foul-smelling urine, Nausea and vomiting",6,"Urinalysis, Blood tests, Imaging tests (CT scan, ultrasound, X-ray), Urine culture",2500,3000,2800
+65cccc8816085881d7612c17,Labyrinthitis,"Vertigo (spinning sensation), Nausea, Vomiting, Balance problems, Hearing loss or ringing in the ears (tinnitus)",6,"Physical examination, Hearing tests, Balance tests, Imaging tests (CT scan, MRI)",2500,3000,2800
+65cccc8816085881d7612c18,Lactose intolerance,"Diarrhea, Nausea, Abdominal cramps, Bloating, Gas",4,"Lactose tolerance test, Hydrogen breath test, Stool acidity test",1500,2000,1800
+65cccc8816085881d7612c19,Laryngeal (larynx) cancer,"Hoarseness or changes in the voice, Sore throat or cough that does not go away, Difficulty swallowing, Ear pain, Lump in the neck",7,"Physical examination, Laryngoscopy, Biopsy, Imaging tests (CT scan, MRI)",3000,4000,3500
+65cccc8816085881d7612c1a,Laryngitis,"Hoarseness, Weak voice, Sore throat, Dry throat, Cough, Difficulty swallowing",5,"Physical examination, Throat culture, Laryngoscopy",2000,2500,2200
+65cccc8816085881d7612c1b,Leg cramps,"Sudden, sharp muscle pain or tightening, Muscle twitching, Hard lump of muscle tissue (muscle knot), Redness or swelling",3,"Physical examination, Blood tests, Nerve conduction studies",1000,1500,1200
+65cccc8816085881d7612c1c,Lichen planus,"Itching, Purple, flat-topped bumps (plaques), White, lacy patches, Painful sores or ulcers",4,"Physical examination, Skin biopsy",1500,2000,1800
+65cccc8816085881d7612c1d,Lipoedema,"Enlarged hips, thighs, buttocks, and legs disproportionate to the upper body, Tendency to bruise easily, Pain, Swelling, Sensitivity to touch",6,"Physical examination, Ultrasonography, Lymphoscintigraphy",2500,3000,2800
+65cccc8816085881d7612c1e,Liver cancer,"Weight loss, Loss of appetite, Feeling very full after a small meal, Nausea or vomiting, An enlarged liver felt as a mass under the ribs on the right side",8,"Blood tests (alpha-fetoprotein), Imaging tests (CT scan, MRI, ultrasound), Biopsy",3000,4000,3500
+65cccc8816085881d7612c1f,Liver disease,"Fatigue, Weakness, Nausea, Vomiting, Weight loss, Yellowing of the skin and eyes (jaundice), Swelling in the legs and abdomen",7,"Liver function tests, Blood tests (complete blood count, coagulation tests), Imaging tests (ultrasound, CT scan)",3000,4000,3500
+65cccc8816085881d7612c20,Liver tumours,"Abdominal pain, Jaundice, Unexplained weight loss, Loss of appetite, Feeling full after a small meal, Nausea or vomiting",7,"Blood tests (alpha-fetoprotein), Imaging tests (CT scan, MRI, ultrasound), Biopsy",3000,4000,3500
+65cccc8816085881d7612c21,Loss of libido,"Reduced interest in sexual activity, Reduced sexual desire or arousal, Difficulty achieving orgasm, Erectile dysfunction (in men), Pain during intercourse (in women)",5,"Physical examination, Blood tests (testosterone levels), Hormone tests, Psychological evaluation",2000,2500,2200
+65cccc8816085881d7612c22,Lung cancer,"Persistent cough, Coughing up blood, Chest pain, Hoarseness, Unexplained weight loss, Shortness of breath, Fatigue",8,"Imaging tests (CT scan, MRI, PET scan), Sputum cytology, Biopsy",3000,4000,3500
+65cccc8816085881d7612c23,Lupus,"Fatigue, Fever, Joint pain, Stiffness and swelling, Butterfly-shaped rash on the face, Skin lesions, Shortness of breath, Chest pain",7,"Blood tests (antinuclear antibody test, complete blood count), Urine tests, Imaging tests (X-ray, ultrasound)",3000,4000,3500
+65cccc8816085881d7612c24,Lyme disease,"Erythema migrans (bull's-eye rash), Fatigue, Fever, Chills, Headache, Muscle and joint aches, Swollen lymph nodes",6,"Physical examination, Blood tests (ELISA, Western blot), Lumbar puncture",2500,3000,2800
+65cccc8816085881d7612c25,Lymphoedema,"Swelling in one or more limbs, Heaviness or tightness in the affected limb, Limited range of motion, Aching or discomfort, Recurring infections, Hardening and thickening of the skin",6,"Physical examination, Lymphoscintigraphy, MRI or CT scan",2500,3000,2800
+65cccc8816085881d7612c26,Lymphogranuloma venereum (LGV),"Painless genital ulcers or sores, Swollen lymph nodes in the groin, Rectal pain, Rectal discharge, Anal ulcers, Anal bleeding, Anal discharge",7,"Physical examination, Swab test of genital or rectal discharge, Blood tests, Imaging tests (ultrasound, MRI)",3000,4000,3500
+65cccc8816085881d7612c27,Malaria,"Fever, Chills, Sweats, Headaches, Nausea and vomiting, Muscle pain and fatigue",6,"Blood smear test, Rapid diagnostic test (RDT), Polymerase chain reaction (PCR) test",2500,3000,2800
+65cccc8816085881d7612c28,Malignant brain tumour (cancerous),"Headaches, Seizures, Weakness or paralysis, Speech difficulties, Changes in vision, Nausea and vomiting, Confusion, Memory problems",9,"MRI or CT scan, Biopsy, Lumbar puncture, Angiogram",4000,5000,4500
+65cccc8816085881d7612c29,Malnutrition,"Fatigue, Dizziness, Weight loss, Swelling in the limbs, Brittle nails, Dry, patchy skin, Hair loss, Weakness, Increased susceptibility to infections",6,"Physical examination, Blood tests (complete blood count, albumin, electrolytes), Nutritional assessment",2500,3000,2800
+65cccc8816085881d7612c2a,Measles,"Fever, Dry cough, Runny nose, Sore throat, Inflamed eyes (conjunctivitis), Tiny white spots with bluish-white centers on a red background inside the mouth (Koplik's spots), Rash",5,"Physical examination, Blood tests, Viral culture, Immunoglobulin M (IgM) antibody test",2000,2500,2200
+65cccc8816085881d7612c2b,Meningitis,"Sudden high fever, Stiff neck, Severe headache, Confusion or difficulty concentrating, Seizures, Sleepiness or difficulty waking up, Sensitivity to light, Lack of interest in drinking and eating",8,"Lumbar puncture (spinal tap), Blood tests, Imaging tests (CT scan, MRI)",3000,4000,3500
+65cccc8816085881d7612c2c,Menopause,"Irregular periods, Vaginal dryness, Hot flashes, Night sweats, Sleep disturbances, Mood changes, Weight gain, Thinning hair, Loss of breast fullness",5,"Physical examination, Blood tests (FSH, estrogen, LH), Bone density test",2000,2500,2200
+65cccc8816085881d7612c2d,Mesothelioma,"Shortness of breath, Chest pain, Unexplained weight loss, Fatigue, Wheezing, Persistent cough, Lumps of tissue under the skin on your chest",8,"Imaging tests (CT scan, MRI, PET scan), Biopsy, Thoracoscopy, Thoracentesis",3000,4000,3500
+65cccc8816085881d7612c2e,Middle ear infection (otitis media),"Ear pain, Drainage of fluid from the ear, Difficulty hearing, Fever, Irritability, Loss of balance",5,"Physical examination, Tympanometry, Acoustic reflectometry, Audiometry",2000,2500,2200
+65cccc8816085881d7612c2f,Migraine,"Moderate to severe throbbing pain, Often on one side of the head, Sensitivity to light, sound, and smells, Nausea and vomiting, Blurred vision",6,"Physical examination, Neurological examination, Imaging tests (CT scan, MRI)",2500,3000,2800
+65cccc8816085881d7612c30,Miscarriage,"Vaginal bleeding or spotting, Abdominal pain or cramping, Fluid or tissue passing from the vagina, Sudden decrease in pregnancy signs, such as breast tenderness or morning sickness",7,"Physical examination, Pelvic exam, Ultrasound, Blood tests (hCG levels)",3000,4000,3500
+65cccc8816085881d7612c31,Motor neurone disease (MND),"Muscle weakness, Stiffness, Spasticity, Muscle cramps, Difficulty speaking, Difficulty swallowing, Breathing difficulties",8,"Physical examination, Electromyography (EMG), Nerve conduction studies, MRI of the brain and spine",3000,4000,3500
+65cccc8816085881d7612c32,Mouth cancer,"Persistent mouth ulcers, Persistent mouth pain, Persistent lumps or thickening in the mouth, Persistent white or red patches on the gums, tongue, or lining of the mouth, Difficulty chewing or swallowing, Difficulty moving the jaw or tongue, Numbness of the tongue or other areas of the mouth, Persistent bad breath",7,"Physical examination, Biopsy, Endoscopy, Imaging tests (CT scan, MRI)",3000,4000,3500
+65cccc8816085881d7612c33,Mouth ulcer,"Pain, Soreness or irritation in the mouth, Redness or swelling, White or yellow ulcer with a red border",4,"Physical examination, Biopsy",1500,2000,1800
+65cccc8816085881d7612c34,Multiple myeloma,"Bone pain, especially in the spine or chest, Weakness or numbness in the legs, Fatigue, Recurrent infections, Weight loss, Excessive thirst, Nausea, Constipation",8,"Blood tests (complete blood count, serum protein electrophoresis), Urine tests (urine protein electrophoresis), Bone marrow biopsy, Imaging tests (X-ray, MRI, CT scan)",3000,4000,3500
+65cccc8816085881d7612c35,Multiple sclerosis (MS),"Fatigue, Numbness or weakness, Difficulty walking, Spasticity, Tremors, Problems with coordination and balance, Bladder and bowel dysfunction, Cognitive changes",8,"Neurological examination, MRI of the brain and spinal cord, Lumbar puncture (spinal tap), Evoked potentials tests",3000,4000,3500
+65cccc8816085881d7612c36,Mumps,"Swollen and tender salivary glands (parotitis) on one or both sides of the face, Fever, Headache, Muscle aches, Fatigue, Loss of appetite",6,"Physical examination, Blood tests, Viral culture",2500,3000,2800
+65cccc8816085881d7612c37,Meniere’s disease,"Vertigo (spinning sensation), Tinnitus (ringing in the ear), Hearing loss, A feeling of fullness or pressure in the ear",6,"Physical examination, Hearing tests, Balance tests, Imaging tests (MRI, CT scan)",2500,3000,2800
+65cccc8816085881d7612c38,Myasthenia gravis,"Muscle weakness that improves with rest, Drooping eyelids, Double vision, Weakness in the arms or legs, Difficulty chewing, swallowing, or speaking, Fatigue",7,"Neurological examination, Blood tests (antibodies to acetylcholine receptor), Electromyography (EMG), Imaging tests (CT scan, MRI)",3000,4000,3500
+65cccc8816085881d7612c39,Nasal and sinus cancer,"Blocked sinuses that don't clear, Sinus pain, Postnasal drip, Nosebleeds, Runny nose, Decreased sense of smell, Watery eyes, Pain in the upper teeth",7,"Physical examination, Nasal endoscopy, Imaging tests (CT scan, MRI)",3000,4000,3500
+65cccc8816085881d7612c3a,Nasopharyngeal cancer,"A lump in the neck, Nosebleeds, Hearing loss, Blurred or double vision, Ear infections that keep coming back, Facial pain or numbness, Changes in voice, Persistent headaches",7,"Physical examination, Nasal endoscopy, Imaging tests (CT scan, MRI)",3000,4000,3500
+65cccc8816085881d7612c3b,Neuroblastoma: Children,"Swelling in the abdomen, Chest, Neck, or pelvis, Lump or mass under the skin, Blueish lumps in the skin, Bone pain, Fever, Weight loss, Anemia, Fatigue",8,"Physical examination, Urine tests (vanillylmandelic acid, homovanillic acid), Blood tests (catecholamines), Imaging tests (CT scan, MRI, bone scan)",3000,4000,3500
+65cccc8816085881d7612c3c,Neuroendocrine tumours,"Varies depending on the type and location of the tumour, may include abdominal pain, diarrhea, flushing, wheezing, weight loss",7,"Blood tests (chromogranin A, serotonin, insulin, gastrin), Imaging tests (CT scan, MRI, PET scan), Biopsy",3000,4000,3500
+65cccc8816085881d7612c3d,Non-alcoholic fatty liver disease (NAFLD),"Fatigue, Enlarged liver, Abdominal swelling, Enlarged blood vessels underneath the skin's surface, Enlarged breasts in men",6,"Liver function tests, Blood tests (lipid profile, fasting blood glucose), Imaging tests (ultrasound, CT scan, MRI)",2500,3000,2800
+65cccc8816085881d7612c3e,Non-Hodgkin lymphoma,"Swollen lymph nodes, Fever, Night sweats, Unexplained weight loss, Fatigue, Abdominal pain or swelling, Chest pain or pressure, Shortness of breath",8,"Physical examination, Blood tests, Lymph node biopsy, Imaging tests (CT scan, MRI, PET scan)",3000,4000,3500
+65cccc8816085881d7612c3f,Non-Hodgkin lymphoma: Children,"Swollen lymph nodes, Abdominal pain or swelling, Chest pain or pressure, Coughing or trouble breathing, Fatigue, Fever, Night sweats, Unexplained weight loss, Easy bruising or bleeding",8,"Physical examination, Blood tests, Lymph node biopsy, Imaging tests (CT scan, MRI, PET scan)",3000,4000,3500
+65cccc8816085881d7612c40,Norovirus,"Nausea, Vomiting, Diarrhea, Stomach pain, Fever, Headache, Body aches",5,"Stool sample testing, PCR testing",2000,2500,2200
+65cccc8816085881d7612c41,Nosebleed,"Bleeding from one or both nostrils, Dripping blood from the nose, Frequent swallowing",3,"Physical examination, Nasal endoscopy",1000,1500,1200
+65cccc8816085881d7612c42,Obesity,"Increased body weight, Fatigue, Breathlessness, Snoring, Joint and back pain, Excessive sweating, Difficulty sleeping, Poor self-image",7,"Body mass index (BMI) calculation, Waist circumference measurement, Blood tests (lipid profile, glucose levels), Imaging tests (CT scan, MRI)",3000,4000,3500
+65cccc8816085881d7612c43,Obsessive compulsive disorder (OCD),"Obsessions (recurring unwanted thoughts), Compulsions (repetitive behaviors), Fear of contamination, Fear of harm, Fear of making mistakes, Excessive concern with order, symmetry, or exactness",6,"Psychological evaluation, Self-report questionnaires, Diagnostic interviews",2500,3000,2800
+65cccc8816085881d7612c44,Obstructive sleep apnoea,"Loud snoring, Pauses in breathing during sleep, Gasping or choking during sleep, Daytime sleepiness, Morning headaches, Difficulty concentrating, Irritability, Depression",7,"Nocturnal polysomnography, Home sleep apnea testing, Oximetry",3000,4000,3500
+65cccc8816085881d7612c45,Oesophageal cancer,"Difficulty swallowing (dysphagia), Unexplained weight loss, Persistent indigestion or heartburn, Hoarseness, Chronic cough, Coughing up blood",8,"Upper endoscopy (gastroscopy), Biopsy, Imaging tests (CT scan, MRI, PET scan)",3000,4000,3500
+65cccc8816085881d7612c46,Oral thrush in adults,"White lesions in the mouth and throat, Soreness or pain in the mouth or throat, Difficulty swallowing",4,"Physical examination, Scrapings of the lesions for microscopic examination, Culture of the lesions",1500,2000,1800
+65cccc8816085881d7612c47,Osteoporosis,"Back pain, Loss of height over time, A stooped posture, A bone fracture that occurs more easily than expected",6,"Bone density test (DEXA scan), Blood tests (calcium, vitamin D levels), Imaging tests (X-ray)",2500,3000,2800
+65cccc8816085881d7612c48,Osteosarcoma,"Bone pain or tenderness, Swelling near a bone, Difficulty moving a limb or joint, Limping, Unexplained weight loss, Fatigue, Fever",7,"X-ray, CT scan, MRI, Bone scan, Biopsy",3000,4000,3500
+65cccc8816085881d7612c49,Otitis externa,"Ear pain, Itchiness in the ear canal, Redness and swelling in the ear canal, Drainage of clear, odorless fluid",4,"Physical examination, Culture of the drainage from the ear, Swab for bacterial culture and sensitivity",1500,2000,1800
+65cccc8816085881d7612c4a,Ovarian cancer,"Abdominal bloating or swelling, Quickly feeling full when eating, Weight loss, Discomfort in the pelvis area, Changes in bowel habits, such as constipation, A frequent need to urinate",8,"Pelvic examination, Transvaginal ultrasound, CA-125 blood test, Biopsy",3000,4000,3500
+65cccc8816085881d7612c4b,Ovarian cancer: Teenagers and young adults,"Abdominal bloating or swelling, Quickly feeling full when eating, Weight loss, Discomfort in the pelvis area, Changes in bowel habits, such as constipation, A frequent need to urinate",8,"Pelvic examination, Transvaginal ultrasound, CA-125 blood test, Biopsy",3000,4000,3500
+65cccc8816085881d7612c4c,Ovarian cyst,"Pain or pressure in the abdomen, Bloating, Swelling or heaviness in the lower abdomen, Pelvic pain before or during the menstrual cycle, Painful intercourse, Changes in bowel habits, such as constipation",6,"Pelvic examination, Ultrasound, Blood tests (CA-125)",2500,3000,2800
+65cccc8816085881d7612c4d,Overactive thyroid,"Nervousness, Irritability, Increased perspiration, Thinning of the skin, Fine, brittle hair, Weakness, Fatigue, Tremor, Muscle weakness",6,"Thyroid function tests (TSH, T4, T3), Thyroid ultrasound, Radioactive iodine uptake test",2500,3000,2800
+65cccc8816085881d7612c4e,Paget’s disease of the nipple,"Redness, Itching, Nipple discharge",6,"Mammogram, Biopsy",1800,3600,
+65cccc8816085881d7612c4f,Pancreatic cancer,"Abdominal pain, Jaundice, Weight loss",8,"CT scan, MRI, Biopsy",2800,5500,7500
+65cccc8816085881d7612c50,Panic disorder,"Panic attacks, Sweating, Trembling",4,"Psychological evaluation, Blood tests",1200,2400,
+65cccc8816085881d7612c51,Parkinson’s disease,"Tremors, Slowed movement, Muscle stiffness",7,"Neurological examination, MRI, Dopamine transporter scan",2200,4500,6500
+65cccc8816085881d7612c52,Patau’s syndrome,"Distinctive facial features, Intellectual disability, Heart defects",8,"Chromosomal analysis (karyotype), Prenatal screening",2800,5500,7500
+65cccc8816085881d7612c53,Pelvic inflammatory disease,"Pelvic pain, Abnormal vaginal discharge, Painful urination",6,"Pelvic exam, Ultrasound, Swab tests",1800,3600,5400
+65cccc8816085881d7612c54,Pelvic organ prolapse,"Pressure or fullness in the pelvic area, Bulging sensation",5,"Pelvic exam, Ultrasound",1400,2800,
+65cccc8816085881d7612c55,Penile cancer,"Sores, Discharge, Bleeding",6,"Biopsy, Imaging tests (CT, MRI)",1800,3600,
+65cccc8816085881d7612c56,Peripheral neuropathy,"Numbness, Tingling, Weakness",6,"Nerve conduction studies, Electromyography (EMG)",1800,3600,
+65cccc8816085881d7612c57,Personality disorder,"Difficulty forming relationships, Impulsive behavior, Mood swings",5,"Psychological evaluation, Interview",1400,2800,
+65cccc8816085881d7612c58,Pleurisy,"Chest pain, Shortness of breath, Dry cough",5,"Chest X-ray, CT scan",1400,2800,
+65cccc8816085881d7612c59,Pneumonia,"Cough with phlegm, Fever, Shortness of breath",6,"Chest X-ray, Blood tests",1800,3600,
+65cccc8816085881d7612c5a,Polycystic ovary syndrome (PCOS),"Irregular periods, Acne, Excess hair growth",4,"Ultrasound, Blood tests",1200,2400,
+65cccc8816085881d7612c5b,Polymyalgia rheumatica,"Muscle pain and stiffness, Fatigue, Limited range of motion",5,"Blood tests, Imaging tests (MRI, CT scan)",1400,2800,
+65cccc8816085881d7612c5c,Post-polio syndrome,"Muscle weakness, Fatigue, Joint pain",6,"Clinical evaluation, Electromyography (EMG)",1800,3600,
+65cccc8816085881d7612c5d,Post-traumatic stress disorder (PTSD),"Flashbacks, Nightmares, Anxiety",6,"Psychological evaluation, Interview",1800,3600,
+65cccc8816085881d7612c5e,Postnatal depression,"Persistent sadness, Lack of interest in the baby, Fatigue",5,"Edinburgh Postnatal Depression Scale, Psychiatric evaluation",1400,2800,
+65cccc8816085881d7612c5f,Pregnancy and baby,Varies based on pregnancy stage,2,"Ultrasound, Blood tests",800,1600,
+65cccc8816085881d7612c60,Pressure ulcers,"Skin discoloration, Pain, Open sores",4,"Clinical examination, Imaging tests (X-rays, MRI)",1200,2400,
+65cccc8816085881d7612c61,Prostate cancer,"Frequent urination, Blood in urine, Erectile dysfunction",8,"PSA blood test, Biopsy, MRI",2800,5500,7500
+65cccc8816085881d7612c62,Psoriasis,"Red patches of skin, Silvery scales, Itching",4,"Clinical examination, Skin biopsy",1400,2800,
+65cccc8816085881d7612c63,Psoriatic arthritis,"Joint pain, Swelling, Nail changes",6,"X-rays, Blood tests",1800,3600,
+65cccc8816085881d7612c64,Psychosis,"Hallucinations, Delusions, Disorganized thinking",7,"Psychological evaluation, Brain imaging (MRI, CT scan)",2200,4500,6500
+65cccc8816085881d7612c65,Pubic lice,"Itching in the genital area, Visible lice or eggs",3,Visual examination,800,1600,
+65cccc8816085881d7612c66,Rare tumours,Varies based on the type of tumour,7,"Biopsy, Imaging tests (CT, MRI)",2200,4500,6500
+65cccc8816085881d7612c67,Raynaud’s phenomenon,"Cold fingers or toes, Color changes in skin, Numbness or tingling",4,"Cold stimulation test, Blood tests",1200,2400,
+65cccc8816085881d7612c68,Reactive arthritis,"Joint pain, Swelling, Redness",5,"Joint fluid analysis, Blood tests",1400,2800,
+65cccc8816085881d7612c69,Restless legs syndrome,"Urge to move legs, Uncomfortable sensations, Worsening at rest",4,"Clinical examination, Sleep study",1200,2400,
+65cccc8816085881d7612c6a,Retinoblastoma: Children,"White pupil, Crossed eyes, Red or inflamed eyes",7,"Eye examination, Imaging tests (CT, MRI)",2200,4500,6500
+65cccc8816085881d7612c6b,Rhabdomyosarcoma,"Swelling, Lumps, Pain",8,"Biopsy, Imaging tests (CT, MRI)",2800,5500,7500
+65cccc8816085881d7612c6c,Rheumatoid arthritis,"Joint pain, Swelling, Morning stiffness",6,"Blood tests, X-rays",1800,3600,
+65cccc8816085881d7612c6d,Ringworm and other fungal infections,"Red, itchy rash, Circular shape",3,"Skin scraping, KOH test",800,1600,
+65cccc8816085881d7612c6e,Rosacea,"Redness, Visible blood vessels, Pimple-like bumps",4,"Clinical examination, Skin biopsy",1400,2800,
+65cccc8816085881d7612c6f,Scabies,"Itching, Red rash, Small burrow-like lines",3,"Skin scraping, Microscopic examination",800,1600,
+65cccc8816085881d7612c70,Scarlet fever,"Red rash, Fever, Sore throat",4,"Throat swab, Blood tests",1200,2400,
+65cccc8816085881d7612c71,Schizophrenia,"Hallucinations, Delusions, Disorganized thinking",7,"Psychological evaluation, Brain imaging (MRI, CT scan)",2200,4500,6500
+65cccc8816085881d7612c72,Scoliosis,"Uneven shoulders or hips, Back pain, Difficulty breathing",5,"X-rays, CT scan",1400,2800,
+65cccc8816085881d7612c73,Septic shock,"Low blood pressure, Rapid heart rate, Confusion",9,"Blood cultures, Imaging tests (CT, X-rays)",3500,7000,9000
+65cccc8816085881d7612c74,Shingles,"Painful rash, Burning sensation, Headache",5,"Clinical diagnosis, Viral culture",1400,2800,
+65cccc8816085881d7612c75,Shortness of breath,"Difficulty breathing, Rapid breathing, Wheezing",5,"Pulmonary function tests, Chest X-ray",1400,2800,
+65cccc8816085881d7612c76,Sickle cell disease,"Fatigue, Pain, Anemia",6,"Blood tests, Hemoglobin electrophoresis",1800,3600,
+65cccc8816085881d7612c77,Sinusitis,"Facial pain, Nasal congestion, Headache",4,"Clinical examination, Sinus X-rays",1200,2400,
+65cccc8816085881d7612c78,Sjogren’s syndrome,"Dry eyes, Dry mouth, Joint pain",5,"Schirmer's test, Blood tests",1400,2800,
+65cccc8816085881d7612c79,Skin cancer (melanoma),"Changes in mole, Irregular borders, Itching",7,"Skin biopsy, Imaging tests (CT, MRI)",2200,4500,6500
+65cccc8816085881d7612c7a,Skin cancer (non-melanoma),"Bump or spot, Changes in skin texture, Bleeding",6,"Skin biopsy, Imaging tests (CT, MRI)",1800,3600,
+65cccc8816085881d7612c7b,Skin rashes in children,Varies based on the type of rash,3,"Clinical examination, Skin scraping",800,1600,
+65cccc8816085881d7612c7c,Slapped cheek syndrome,"Red rash on the face, Fever, Headache",3,"Clinical diagnosis, Blood tests",800,1600,
+65cccc8816085881d7612c7d,Soft tissue sarcomas,"Lump, Pain, Swelling",7,"Biopsy, Imaging tests (CT, MRI)",2200,4500,6500
+65cccc8816085881d7612c7e,Soft tissue sarcomas: Teenagers and young adults,"Lump, Pain, Swelling",6,"Biopsy, Imaging tests (CT, MRI)",1800,3600,
+65cccc8816085881d7612c7f,Sore throat,Pain or irritation in the throat,2,"Throat swab, Blood tests",800,1600,
+65cccc8816085881d7612c80,Spleen problems and spleen removal,"Pain or fullness in the left upper abdomen, Anemia",5,"Ultrasound, CT scan",1400,2800,
+65cccc8816085881d7612c81,Stillbirth,"No fetal movements, Absence of heartbeat",8,"Ultrasound, Doppler studies",2800,5500,7500
+65cccc8816085881d7612c82,Stomach ache and abdominal pain,Varies based on the cause,3,"Abdominal ultrasound, Endoscopy",1000,2000,
+65cccc8816085881d7612c83,Stomach cancer,"Abdominal pain, Indigestion, Unexplained weight loss",8,"Endoscopy, Biopsy, Imaging tests (CT, MRI)",2800,5500,7500
+65cccc8816085881d7612c84,Stomach ulcer,"Burning stomach pain, Bloating, Nausea",5,"Endoscopy, Blood tests",1400,2800,
+65cccc8816085881d7612c85,Streptococcus A (strep A),"Sore throat, Fever, Swollen tonsils",4,"Throat swab, Rapid strep test",1200,2400,
+65cccc8816085881d7612c86,"Stress, anxiety and low mood",Varies based on the condition,3,"Psychological evaluation, Blood tests",1000,2000,
+65cccc8816085881d7612c87,Sudden infant death syndrome (SIDS),"Sudden, unexplained death of an otherwise healthy baby",7,"Autopsy, Genetic testing",2200,4500,6500
+65cccc8816085881d7612c88,Suicide,Varies based on individual experiences,9,"Psychological evaluation, Risk assessment",3500,7000,9000
+65cccc8816085881d7612c89,Sunburn,"Red, painful skin, Swelling, Blisters",2,Clinical examination,800,1600,
+65cccc8816085881d7612c8a,Supraventricular tachycardia,"Rapid heartbeat, Palpitations, Dizziness",4,"Electrocardiogram (ECG), Holter monitor",1200,2400,
+65cccc8816085881d7612c8b,Swollen glands,"Enlarged, tender lymph nodes",3,"Clinical examination, Blood tests",800,1600,
+65cccc8816085881d7612c8c,Syphilis,"Painless sores, Rash, Fever",5,"Blood tests, Rapid plasma reagin (RPR) test",1400,2800,
+65cccc8816085881d7612c8d,Testicular cancer,"Lump or swelling in the testicle, Pain",7,"Ultrasound, Blood tests, Biopsy",2200,4500,6500
+65cccc8816085881d7612c8e,Testicular cancer: Teenagers and young adults,"Lump or swelling in the testicle, Pain",6,"Ultrasound, Blood tests, Biopsy",1800,3600,
+65cccc8816085881d7612c8f,Testicular lumps and swellings,Varies based on the cause,3,"Ultrasound, Blood tests",800,1600,
+65cccc8816085881d7612c90,Thirst,Increased sensation of needing to drink,2,"Blood tests, Urinalysis",800,1600,
+65cccc8816085881d7612c91,Threadworms,"Itching around the anus, Visible worms in stool",3,"Visual examination, Sticky tape test",800,1600,
+65cccc8816085881d7612c92,Thrush,"Itching, Burning, Cottage cheese-like discharge",3,"Clinical examination, Swab test",800,1600,
+65cccc8816085881d7612c93,Thyroid cancer,"Neck lump, Hoarseness, Difficulty swallowing",6,"Ultrasound, Biopsy, Blood tests",1800,3600,
+65cccc8816085881d7612c94,Thyroid cancer: Teenagers and young adults,"Neck lump, Hoarseness, Difficulty swallowing",5,"Ultrasound, Biopsy, Blood tests",1400,2800,
+65cccc8816085881d7612c95,Tinnitus,"Ringing, buzzing, or hissing sound in the ears",3,"Hearing tests, Imaging tests (MRI)",800,1600,
+65cccc8816085881d7612c96,Tonsillitis,"Sore throat, Difficulty swallowing, Fever",3,"Throat swab, Blood tests",1000,2000,
+65cccc8816085881d7612c97,Tooth decay,"Toothache, Sensitivity, Discoloration",2,"Dental examination, X-rays",800,1600,
+65cccc8816085881d7612c98,Toothache,Pain in or around the tooth,2,"Dental examination, X-rays",800,1600,
+65cccc8816085881d7612c99,Transient ischaemic attack (TIA),"Temporary weakness, Speech difficulties, Dizziness",6,"CT scan, MRI, Doppler ultrasound",1800,3600,
+65cccc8816085881d7612c9a,Trigeminal neuralgia,"Severe facial pain, Episodes of stabbing pain",4,"Clinical evaluation, MRI",1200,2400,
+65cccc8816085881d7612c9b,Tuberculosis (TB),"Cough, Weight loss, Night sweats",6,"Chest X-ray, Tuberculin skin test, Sputum test",1800,3600,
+65cccc8816085881d7612c9c,Type 1 diabetes,"Increased thirst, Frequent urination, Fatigue",6,"Blood glucose tests, HbA1c",1800,3600,
+65cccc8816085881d7612c9d,Type 2 diabetes,"Increased thirst, Frequent urination, Fatigue",7,"Blood glucose tests, HbA1c",2200,4500,
+65cccc8816085881d7612c9e,Trichomonas infection,"Itching, Burning, Discharge",3,"Swab test, Wet mount test",800,1600,
+65cccc8816085881d7612c9f,Transverse myelitis,"Back pain, Weakness, Sensory disturbances",6,"MRI, Lumbar puncture",1800,3600,
+65cccc8816085881d7612ca0,Ulcerative colitis,"Diarrhea, Abdominal pain, Blood in stool",6,"Colonoscopy, Blood tests",1800,3600,
+65cccc8816085881d7612ca1,Underactive thyroid,"Fatigue, Weight gain, Cold intolerance",4,"Thyroid function tests, Thyroid ultrasound",1200,2400,
+65cccc8816085881d7612ca2,Urinary incontinence,Involuntary urine leakage,3,"Bladder diary, Pelvic ultrasound",1000,2000,
+65cccc8816085881d7612ca3,Urinary tract infection (UTI),"Burning sensation, Frequent urination, Cloudy urine",3,"Urinalysis, Urine culture",1000,2000,
+65cccc8816085881d7612ca4,Urinary tract infection (UTI) in children,"Fever, Irritability, Bedwetting",2,"Urine analysis, Ultrasound",800,1600,
+65cccc8816085881d7612ca5,Urticaria (hives),"Raised, red, itchy welts on the skin",3,"Clinical examination, Allergy tests",1000,2000,
+65cccc8816085881d7612ca6,Vaginal cancer,"Abnormal vaginal bleeding, Pelvic pain, Pain during intercourse",7,"Pelvic exam, Pap smear, Biopsy",2200,4500,6500
+65cccc8816085881d7612ca7,Vaginal discharge,"Changes in color or odor, Itching, Pain",3,"Pelvic exam, Swab tests",1000,2000,
+65cccc8816085881d7612ca8,Varicose eczema,"Red, itchy, swollen skin, Varicose veins",4,"Clinical examination, Doppler ultrasound",1200,2400,
+65cccc8816085881d7612ca9,Venous leg ulcer,"Open sore on the leg, Swelling, Pain",5,"Clinical examination, Doppler ultrasound",1400,2800,
+65cccc8816085881d7612caa,Vertigo,"Dizziness, Nausea, Unsteadiness",4,"Dix-Hallpike maneuver, Electronystagmography (ENG)",1200,2400,
+65cccc8816085881d7612cab,Vitamin B12 or folate deficiency anaemia,"Fatigue, Shortness of breath, Pale skin",3,"Blood tests, Serum B12 and folate levels",1000,2000,
+65cccc8816085881d7612cac,Vomiting in adults,Forced expulsion of stomach contents,3,"Clinical examination, Blood tests",1000,2000,
+65cccc8816085881d7612cad,Vulval cancer,"Itching, Pain, Bleeding",6,"Pelvic exam, Biopsy",1800,3600,
+65cccc8816085881d7612cae,Warts and verrucas,"Small, rough growths on the skin",2,"Clinical examination, Skin biopsy",800,1600,
+65cccc8816085881d7612caf,Whooping cough,"Severe cough, Whooping sound, Vomiting after coughing",4,"Nasal swab, Blood tests",1200,2400,
+65cccc8816085881d7612cb0,Wilms’ tumour,"Abdominal swelling, Blood in urine, Fever",7,"CT scan, MRI, Biopsy",2200,4500,6500
+65cccc8816085881d7612cb1,Womb (uterus) cancer,"Abnormal vaginal bleeding, Pelvic pain, Pain during intercourse",7,"Pelvic exam, Endometrial biopsy",2200,4500,6500
+65cccc8816085881d7612cb2,Yellow fever,"Fever, Muscle pain, Jaundice",5,"Blood tests, Liver function tests",1400,2800,

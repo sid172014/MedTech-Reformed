@@ -1,0 +1,790 @@
+/* Importing fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Global styles for the entire page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif; /* Setting default font */
+  /* color: #fff; Setting default text color */
+}
+
+/* Styling for HTML and body elements */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Styling for text selection */
+*::selection {
+  background-color: #fff;
+  color: #95c11e;
+}
+
+/* Styling for scrollbar */
+body::-webkit-scrollbar {
+  display: block;
+  width: 8px;
+  background: #6D2932;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+/* Hiding horizontal scrollbar */
+body {
+  overflow-x: hidden;
+}
+
+/* Styling for custom cursor */
+#cursor {
+  height: 20px;
+  width: 20px;
+  background-color: #6D2932;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 99;
+  transition: all linear 0.1s;
+}
+
+/* Styling for cursor blur effect */
+#cursor-blur {
+  height: 500px;
+  width: 500px;
+  background-color: #6d293269;
+  border-radius: 50%;
+  position: fixed;
+  filter: blur(80px);
+  z-index: 9;
+  transition: all linear 0.4s;
+}
+
+/* Styling for navigation bar */
+#nav {
+  height: 130px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 120px;
+  gap: 50px;
+  position: fixed;
+  z-index: 999;
+  justify-content: space-between;
+}
+
+/* Styling for navigation bar logo */
+#nav img {
+  height: 4.5vw;
+  order: -1;
+}
+
+/* Styling for navigation bar links */
+#nav ul {
+  font-size: 20px;
+  gap: 50px;
+  display: flex;
+  list-style-type: none;
+  font-weight: 900;
+ 
+
+}
+.login-btn {
+font-family: 'monteserrat', sans-serif; 
+padding: 20px 20px;  
+text-decoration: none;  
+background-color: #C7B7A3;
+color: #fff;
+border: none;
+outline: none;
+border-radius: 20px;
+font-size: 1.2rem;
+font-weight: bold;
+cursor: pointer;
+}
+
+.login-btn:hover {
+transform: scale(1.05); /* Correct the property name */
+color:#6D2932;
+}
+
+
+/* Styling for video background */
+video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  position: fixed;
+}
+
+
+/* Styling for the first page section */
+#page1 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  z-index: 10;
+}
+
+/* Styling for the main heading in the first page section */
+#page1 h1 {
+  font-size: 7.5vw;
+  font-weight: 900;
+  position: relative;
+  font-family: 'Protest Revolution', sans-serif;
+  color: #fff;
+
+}
+
+/* Adding a text stroke effect to the main heading */
+#page1 h1::before {
+  content: "MEDTech";
+  position: absolute;
+  color: #000;
+  top: -6px;
+  left: -6px;
+  -webkit-text-stroke: 2px #6D2932;
+  z-index: -1;
+}
+
+/* Styling for the subheading in the first page section */
+#page1 h2 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #fff;
+
+}
+
+/* Styling for the paragraph in the first page section */
+#page1 p {
+  font-size: 1.2vw;
+  font-weight: 500;
+  width: 40%;
+  color: #fff;
+
+}
+
+/* Styling for the arrow icon in the first page section
+#page1 #arrow {
+  height: 250px;
+  width: 250px;
+  background-color: transparent;
+  border: 2px solid #0A9185;
+  position: absolute;
+  display: flex;
+  left: -2%;
+  bottom: 0%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all ease 0.5s;
+}
+
+/* Styling for the arrow icon inside #arrow */
+#page1 #arrow i {
+  font-size: 50px;
+  font-weight: 100;
+}
+
+/* Hover effect for the arrow icon */
+#page1 #arrow:hover {
+  scale: 0.4;
+  background-color: #95c11e;
+}
+
+/* Styling for the second page section */
+#page2 {
+  min-height: 100vh;
+  width: 100%;
+  z-index: 10;
+}
+
+/* Styling for the scroller container */
+#scroller {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: relative;
+  z-index: 10;
+}
+
+/* Hiding the scrollbar for the scroller */
+#scroller::-webkit-scrollbar {
+  display: none;
+}
+
+/* Styling for individual scroller items */
+#scroller-in {
+  display: inline-block;
+  white-space: nowrap;
+  animation-name: scroll;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/* Styling for scroller item headings */
+#scroller h4 {
+  display: inline-block;
+  font-size: 120px;
+  font-weight: 900;
+  font-family: 'Bebas Neue', sans-serif;
+
+  margin-right: 20px;
+  transition: all linear 0.3s;
+  color: transparent;
+  -webkit-text-stroke: 2px #ffffff;
+}
+
+/* Hover effect for scroller item headings */
+#scroller h4:hover {
+  color: #C7B7A3;
+  -webkit-text-stroke: 2px black;
+}
+
+/* Keyframe animation for scrolling effect */
+@keyframes scroll {
+  from {
+      transform: translateX(0);
+  }
+
+  to {
+      transform: translateX(-100%);
+  }
+}
+
+/* Styling for the 'About Us' section */
+#about-us {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  padding: 0 50px;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+  justify-content: space-around;
+}
+
+/* Styling for the image in the 'About Us' section */
+#about-us img {
+  height: 220px;
+  width: 220px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+/* Styling for the content in the 'About Us' section */
+#about-us-in {
+  width: 50%;
+  text-align: center;
+}
+
+/* Styling for the heading in the 'About Us' section */
+#about-us-in h3 {
+  font-size: 54px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+/* Styling for the paragraph in the 'About Us' section */
+#about-us-in p {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+/* Styling for the cards container */
+#cards-container {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  position: relative;
+  z-index: 10;
+}
+
+/* Styling for individual cards */
+.card {
+  height: 80%;
+  width: 24%;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  transition: all ease 0.6s;
+}
+
+/* Background image for the first card */
+#card1 {
+  background-image: url(https://images.unsplash.com/photo-1512428559087-560fa5ceab42?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+/* Background image for the second card */
+#card2 {
+  background-image: url(https://plus.unsplash.com/premium_photo-1681843039768-0e22b7a031d5?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+/* Background image for the third card */
+#card3 {
+  background-image: url(https://plus.unsplash.com/premium_photo-1681996471759-04547f8ce2c9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+/* Styling for the overlay on hover */
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: #C7B7A3;
+  padding: 30px;
+  padding-top: 160px;
+  opacity: 0;
+  transition: all ease 0.6s;
+}
+
+/* Styling for the overlay heading */
+.overlay h4 {
+  color: #000;
+  font-size: 40px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-bottom: 20px;
+  font-weight: 800;
+  
+}
+
+/* Styling for the overlay paragraph */
+.overlay p {
+  color: #000;
+  font-size: 18px;
+}
+
+/* Hover effect for the card overlay */
+.card:hover .overlay {
+  opacity: 1;
+}
+
+/* Hover effect for the card rotation */
+.card:hover {
+  transform: rotate3d(-1, 1, 0, 20deg);
+}
+
+/* Styling for the green division section */
+#green-div {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #C7B7A3;
+}
+
+/* Styling for the heading in the green division */
+#green-div h4 {
+  width: 45%;
+  line-height: 50px;
+  color: #000;
+  text-align: center;
+  font-weight: 800;
+  font-size: 27px;
+  text-transform: uppercase;
+}
+
+/* Styling for the image in the green division */
+#green-div img {
+  height: 100%;
+  object-fit: cover;
+  width: 14%;
+}
+
+/* Styling for the third page section */
+#page3 {
+  height: 100vh;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+/* Styling for the paragraph in the third page section */
+#page3>p {
+  font-size: 35px;
+  font-weight: 700;
+  width: 60%;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Styling for the images in the third page section */
+#page3 img {
+  position: absolute;
+  height: 60px;
+}
+
+/* Positioning for the colon1 image in the third page section */
+#page3 #colon1 {
+  left: 15%;
+  top: 25%;
+}
+
+/* Positioning for the colon2 image in the third page section */
+#page3 #colon2 {
+  bottom: 30%;
+  right: 15%;
+}
+
+/* Styling for the fourth page section */
+#page4 {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  position: relative;
+}
+
+/* Styling for individual elements in the fourth page section */
+.elem {
+  height: 70%;
+  width: 26%;
+  overflow: hidden;
+  border-radius: 20px;
+  position: relative;
+}
+
+/* Styling for the heading inside .elem */
+.elem h2 {
+  height: 100%;
+  width: 100%;
+  background-color: #95c11e;
+  display: flex;
+  color: #000;
+  font-weight: 800;
+  align-items: center;
+  justify-content: center;
+  transition: all ease 0.5s;
+  font-size: 2vw;
+  position: absolute;
+  z-index: 10;
+}
+
+/* Styling for the image inside .elem */
+.elem img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all ease 0.5s;
+  scale: 1.1;
+}
+
+/* Hover effect for the heading inside .elem */
+.elem:hover h2 {
+  color: #fff;
+  background-color: transparent;
+}
+
+/* Hover effect for the image inside .elem */
+.elem:hover img {
+  scale: 1;
+}
+
+/* Styling for the main heading in the fourth page section */
+#page4 h1 {
+  font-size: 6.4vw;
+  position: absolute;
+  top: -15%;
+  font-weight: 900;
+  font-family: gilroy;
+  color: #000;
+  -webkit-text-stroke: 2px #fff;
+}
+
+/* Styling for the footer section */
+#footer {
+  height: 40vh;
+  width: 100%;
+  background: #C7B7A3;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6.5vw;
+  padding: 0 100px;
+}
+
+/* Styling for the image in the footer */
+#footer>img {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  z-index: 0;
+}
+
+/* Styling for the individual sections in the footer */
+#f1,
+#f2,
+#f3,
+#f4 {
+  width: fit-content;
+  position: relative;
+  z-index: 99;
+}
+
+/* Styling for the heading in the second section of the footer */
+#f2 h3 {
+  font-size: 1.6vw;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+/* Styling for the heading in the third section of the footer */
+#f3 h3 {
+  font-size: 1.6vw;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+/* Styling for the heading in the fourth section of the footer */
+#f4 h4 {
+  font-size: 1vw;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+
+/* -----------------------------------------------formCSS---------------------------------------------------------------------------- */
+
+
+
+
+/* .appointment .row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:50px;
+}
+
+.appointment .row .image{
+  flex:1 1 45rem;
+}
+
+.appointment .row .image img{
+  width: 100%;
+}
+
+.appointment .row form{
+  flex:40rem;
+  background: #C7B7A3;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  text-align: center;
+  padding: 5rem;
+  border-radius: 2rem;
+}
+.appointment .row form .message{
+  background-color:red;
+  margin-bottom: 2rem;
+  border-radius: .5rem;
+  padding: 1.5rem 1rem;
+  font-size: 1.7rem;
+  text-align: center;
+
+}
+.appointment .row form h3{
+  color:white;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+
+
+.appointment .row form .box{
+  width: 100%;
+  margin:.7rem 0;
+  border-radius: .5rem;
+  border:var(--border);
+  font-size: 1rem;
+  color:brown;
+  text-transform: none;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+label{
+  font-size: 20px;
+}
+
+.aheading{
+  font-size: 5vw;
+  font-weight: 900;
+  position: relative;
+  text-align: center;
+  font-family: 'Protest Revolution', sans-serif;
+
+}
+
+option{
+  color: #6D2932;
+
+}
+.ui-menu .ui-menu-item-wrapper  {
+  color: #6D2932; 
+}
+
+.appointment .row form .btn{
+  border-radius: 4px;
+  background-color: #6D2932;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.tag-container {
+  display: block;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.tag {
+  display: inline;
+  background-color: #6d293261;
+  padding: 3px 5px;
+  margin: 2px;
+  border-radius: 5px;
+}
+
+.remove-tag {
+  cursor: pointer;
+  margin-left: 5px;
+} */
+/* ---------------------------------------- */
+
+
+.main {
+  width: 400px;
+  height: 500px;
+  background: red;
+  /* this will be overridden by the background image */
+  overflow: hidden;
+  margin-left: 38%;
+  background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#chk {
+  display: none;
+}
+
+.signup {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.main{
+  background-color: #C7B7A3;
+}
+
+label {
+  color: #fff;
+  font-size: 2.3em;
+  justify-content: center;
+  display: flex;
+  margin: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+
+input {
+  width: 70%;
+  height: 40px;
+  background: #fff;
+  justify-content: center;
+  display: flex;
+  margin: 13px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+button {
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: #fff;
+  background: #6D2932;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  transition: .2s ease-in;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+
+button:hover {
+  background: #37271C;
+}
+
+.login {
+  height: 460px;
+  background: #eee;
+  border-radius: 60% / 10%;
+  transform: translateY(-180px);
+  transition: .8s ease-in-out;
+}
+
+.login label {
+  color: #6b2b38;
+  transform: scale(.6);
+}
+
+#chk:checked~.login {
+  transform: translateY(-500px);
+}
+
+#chk:checked~.login label {
+  transform: scale(1);
+}
+
+#chk:checked~.signup label {
+  transform: scale(.6);
+}
