@@ -1,0 +1,35 @@
+/* CSS */
+.table-container {
+    margin-top: 20px;
+  }
+  
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-header {
+    background-color: #f1dbdb;
+    padding: 12px 15px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  
+  .custom-table td, .custom-table th {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  .custom-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .custom-table tbody tr:hover {
+    background-color: #f0f0f0;
+  }
+  
