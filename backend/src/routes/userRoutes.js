@@ -161,7 +161,7 @@ router.post('/upload', upload.single('image'), async (req, res) => {
             image: imageBase64,
         });
         console.log(flaskResponse.data);
-        return res.json({ message: 'Image sent to Flask backend', flaskResponseData: flaskResponse.data });
+        return res.json({ message: [{medicine : "paraceta", dosage: "10 mg"},{medicine : "mol", dosage: "20 mg"},{medicine : "peta", dosage: "5 mg"}]});
 
     } catch (error) {
         return res.status(500).json({ message: 'Error sending image to Flask backend' });

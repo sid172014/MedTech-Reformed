@@ -9,6 +9,7 @@ import MedHistory from "./pages/MedHistory";
 import Reminders from "./pages/Reminders";
 import Profile from "./pages/Profile";
 
+
 const MainSection = ({ componentSelected }) => {
 
   let renderElement = "null";
@@ -17,8 +18,10 @@ const MainSection = ({ componentSelected }) => {
     renderElement = <Dashboard></Dashboard>
   }else if(componentSelected === 'Labs'){
     renderElement = <Lab></Lab>
+    toast.success("Loaded Lab Tests");
   }else if(componentSelected === "Medical History"){
     renderElement = <MedHistory></MedHistory>
+    toast.success("Loaded Medical History");
   }else if(componentSelected === "Reminders"){
     renderElement = <Reminders></Reminders>
   }else if(componentSelected === "Profile"){
