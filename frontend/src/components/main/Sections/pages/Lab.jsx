@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import axios from 'axios';
-
 import './lab.css'
 
 const Lab = () => {
@@ -19,6 +18,7 @@ const Lab = () => {
     }, []);
 
     return (
+        
         <div className="table-container">
             {data.length === 0 ? null : (
                 <table className="custom-table">
