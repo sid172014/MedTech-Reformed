@@ -1,19 +1,24 @@
 import './sidebar.css'
 
-const SideBar = () => {
+const SideBar = ({setcomponentSelected}) => {
+  
+ const handleClick = (element) =>{
+    setcomponentSelected(element);
+ }
+    
   return (
     <aside id='sidebar' className='sidebar'>
         <ul className='sidebar-nav' id='sidebar-nav'>
 
             <li className='nav-item'>
-                <a className='nav-link' href='/'>
+                <a onClick={() => {handleClick("Dashboard")}} className='nav-link'>
                     <i className='bi bi-grid'></i>
                     <span>Dashboard</span>
                 </a>
             </li>
 
             <li className='nav-item'>
-                <a className='nav-link collapsed' data-bs-target="#components-nav" data-bs-toggle="collapse" href='#'>
+                <a onClick={() => {handleClick("Document")}} className='nav-link collapsed' data-bs-target="#components-nav" data-bs-toggle="collapse" href='#'>
                     <i className='bi bi-menu-button-wide'></i>
                     <span>Documents</span>
                 </a>
@@ -43,7 +48,7 @@ const SideBar = () => {
 
 
             <li className='nav-item'>
-                <a className='nav-link collapsed' data-bs-target="#forms-nav" data-bs-toggle="collapse" href='#'>
+                <a onClick={() => {handleClick("Forms")}} className='nav-link collapsed' data-bs-target="#forms-nav" data-bs-toggle="collapse" href='#'>
                     <i className='bi bi-journal-text'></i>
                     <span>Forms</span>
                     <i className='bi bi-chevron-down ms-auto'></i>

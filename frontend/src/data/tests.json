@@ -1,0 +1,4530 @@
+[{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b69"
+  },
+  "medicalcondition": "Acute lymphoblastic leukaemia: Children",
+  "symptoms": "Same as Acute lymphoblastic leukaemia",
+  "severity": 9,
+  "tests": "Same as Acute lymphoblastic leukaemia",
+  "price": [
+    1500,
+    3000,
+    2500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b68"
+  },
+  "medicalcondition": "Acute lymphoblastic leukaemia",
+  "symptoms": "Fatigue, Weakness, Fever, Easy bruising, Bleeding, Bone pain, Joint pain",
+  "severity": 9,
+  "tests": "Blood tests, Bone marrow biopsy, Lumbar puncture",
+  "price": [
+    1500,
+    3000,
+    2500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b6b"
+  },
+  "medicalcondition": "Acute myeloid leukaemia",
+  "symptoms": "Fever, Weakness, Fatigue, Pale skin, Shortness of breath, Easy bruising, Bleeding, Bone pain",
+  "severity": 9,
+  "tests": "Blood tests, Bone marrow biopsy, Lumbar puncture",
+  "price": [
+    2000,
+    3500,
+    3000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b7a"
+  },
+  "medicalcondition": "Anorexia nervosa",
+  "symptoms": "Extreme weight loss, Thin appearance, Abnormal blood counts, Fatigue, Insomnia, Dizziness, Fainting, Low blood pressure",
+  "severity": 9,
+  "tests": "Physical examination, Blood tests (to check for complete blood count, electrolyte levels, liver function, kidney function), Psychological evaluation",
+  "price": [
+    2500,
+    3500,
+    3000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b82"
+  },
+  "medicalcondition": "Atopic eczema",
+  "symptoms": "Dry, scaly skin, Redness, Itching, Inflammation, Oozing or crusting, Areas of swelling",
+  "severity": 5,
+  "tests": "Physical examination, Allergy testing (patch testing, skin prick test), Blood tests (to check for allergies or underlying conditions)",
+  "price": [
+    2000,
+    2500,
+    2200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b83"
+  },
+  "medicalcondition": "Atrial fibrillation",
+  "symptoms": "Palpitations, Irregular heartbeat, Weakness, Fatigue, Shortness of breath, Chest pain, Dizziness",
+  "severity": 8,
+  "tests": "Electrocardiogram (ECG), Holter monitor, Echocardiogram",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b89"
+  },
+  "medicalcondition": "Binge eating",
+  "symptoms": "Eating large amounts of food in a short period, Feeling out of control during episodes, Eating even when not hungry",
+  "severity": 4,
+  "tests": "Psychological evaluation, Blood tests",
+  "price": [
+    1000,
+    2000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b92"
+  },
+  "medicalcondition": "Brain stem death",
+  "symptoms": "Irreversible loss of brain function, Absence of reflexes, Coma",
+  "severity": 10,
+  "tests": "Clinical assessment, EEG",
+  "price": [
+    4000,
+    8000,
+    10000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b97"
+  },
+  "medicalcondition": "Breast cancer (male)",
+  "symptoms": "Lump in the breast, Changes in breast size or shape, Nipple discharge",
+  "severity": 8,
+  "tests": "Mammogram, Breast biopsy",
+  "price": [
+    3000,
+    6000,
+    8000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b9b"
+  },
+  "medicalcondition": "Bunion",
+  "symptoms": "Bump on the side of the big toe, Pain and swelling, Difficulty wearing shoes",
+  "severity": 4,
+  "tests": "Physical examination, X-rays",
+  "price": [
+    1000,
+    2000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b9f"
+  },
+  "medicalcondition": "Cerebral palsy",
+  "symptoms": "Poor coordination, Muscle stiffness, Tremors",
+  "severity": 8,
+  "tests": "Neurological examination, Imaging tests (MRI, CT scan)",
+  "price": [
+    3000,
+    6000,
+    8000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612ba4"
+  },
+  "medicalcondition": "Chilblains",
+  "symptoms": "Red and swollen skin, Itching, Pain",
+  "severity": 3,
+  "tests": "Physical examination",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612ba7"
+  },
+  "medicalcondition": "Chronic kidney disease",
+  "symptoms": "Fatigue, Swelling, Changes in urination",
+  "severity": 8,
+  "tests": "Blood tests, Urine tests, Imaging tests (Ultrasound)",
+  "price": [
+    2800,
+    5500,
+    7500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bab"
+  },
+  "medicalcondition": "Chronic pain",
+  "symptoms": "Persistent pain, Fatigue, Sleep disturbances",
+  "severity": 6,
+  "tests": "Physical examination, Imaging tests (MRI, CT scan)",
+  "price": [
+    1800,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612baf"
+  },
+  "medicalcondition": "Coeliac disease",
+  "symptoms": "Abdominal pain, Diarrhea, Weight loss",
+  "severity": 6,
+  "tests": "Blood tests, Endoscopy",
+  "price": [
+    1600,
+    3200,
+    4800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bb8"
+  },
+  "medicalcondition": "Cough",
+  "symptoms": "Persistent cough, Sputum production, Shortness of breath",
+  "severity": 4,
+  "tests": "Clinical diagnosis, Chest X-ray",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bbb"
+  },
+  "medicalcondition": "Cystic fibrosis",
+  "symptoms": "Persistent cough, Difficulty breathing, Salty-tasting skin",
+  "severity": 8,
+  "tests": "Sweat test, Genetic testing, Pulmonary function tests",
+  "price": [
+    3000,
+    6000,
+    8000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bbd"
+  },
+  "medicalcondition": "Deafblindness",
+  "symptoms": "Loss of both hearing and vision",
+  "severity": 8,
+  "tests": "Audiometry, Visual field test",
+  "price": [
+    2500,
+    5000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bbe"
+  },
+  "medicalcondition": "Deep vein thrombosis",
+  "symptoms": "Swelling, Pain, Redness in the affected limb",
+  "severity": 7,
+  "tests": "D-dimer blood test, Ultrasound",
+  "price": [
+    1800,
+    3600,
+    5400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bbf"
+  },
+  "medicalcondition": "Dehydration",
+  "symptoms": "Thirst, Dark yellow urine, Fatigue",
+  "severity": 5,
+  "tests": "Blood tests, Urinalysis",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bc3"
+  },
+  "medicalcondition": "Depression",
+  "symptoms": "Persistent sadness, Loss of interest, Fatigue",
+  "severity": 6,
+  "tests": "Mental health assessment, Blood tests",
+  "price": [
+    1600,
+    3200,
+    4800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bc6"
+  },
+  "medicalcondition": "Diarrhoea",
+  "symptoms": "Loose or watery stools, Abdominal cramps, Dehydration",
+  "severity": 4,
+  "tests": "Stool culture, Blood tests",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bc8"
+  },
+  "medicalcondition": "Diverticular disease and diverticulitis",
+  "symptoms": "Abdominal pain, Changes in bowel habits, Fever",
+  "severity": 6,
+  "tests": "Colonoscopy, CT scan",
+  "price": [
+    1400,
+    2800,
+    4200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bc9"
+  },
+  "medicalcondition": "Dizziness (Lightheadedness)",
+  "symptoms": "Feeling faint or lightheaded, Unsteadiness",
+  "severity": 4,
+  "tests": "Blood pressure monitoring, Inner ear tests",
+  "price": [
+    1000,
+    2000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bca"
+  },
+  "medicalcondition": "Down’s syndrome",
+  "symptoms": "Distinctive facial features, Intellectual disability, Developmental delays",
+  "severity": 8,
+  "tests": "Chromosomal analysis (karyotype), Prenatal screening",
+  "price": [
+    2800,
+    5500,
+    7500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bce"
+  },
+  "medicalcondition": "Earache",
+  "symptoms": "Pain in the ear, Hearing loss, Ear discharge",
+  "severity": 4,
+  "tests": "Physical examination, Hearing tests",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bcf"
+  },
+  "medicalcondition": "Earwax build-up",
+  "symptoms": "Hearing loss, Ear discomfort, Tinnitus",
+  "severity": 3,
+  "tests": "Ear irrigation, Physical examination",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bd0"
+  },
+  "medicalcondition": "Ebola virus disease",
+  "symptoms": "Fever, Severe headache, Bleeding",
+  "severity": 9,
+  "tests": "PCR test, Blood tests",
+  "price": [
+    3000,
+    6000,
+    8000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bd5"
+  },
+  "medicalcondition": "Erectile dysfunction (impotence)",
+  "symptoms": "Difficulty achieving or maintaining an erection",
+  "severity": 5,
+  "tests": "Blood tests, Ultrasound of the penis",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bd7"
+  },
+  "medicalcondition": "Ewing sarcoma",
+  "symptoms": "Bone pain, Swelling, Fatigue",
+  "severity": 8,
+  "tests": "Biopsy, X-rays, MRI",
+  "price": [
+    2800,
+    5500,
+    7500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612be1"
+  },
+  "medicalcondition": "Flu",
+  "symptoms": "Fever, Cough, Body aches",
+  "severity": 3,
+  "tests": "Clinical diagnosis, Rapid influenza test",
+  "price": [
+    1000,
+    2000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612be7"
+  },
+  "medicalcondition": "Gallstones",
+  "symptoms": "Abdominal pain, Jaundice, Nausea",
+  "severity": 6,
+  "tests": "Abdominal ultrasound, CT scan",
+  "price": [
+    1600,
+    3200,
+    4800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612be8"
+  },
+  "medicalcondition": "Ganglion cyst",
+  "symptoms": "Lump or mass, Pain, Limited joint movement",
+  "severity": 4,
+  "tests": "Clinical examination, Ultrasound",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bed"
+  },
+  "medicalcondition": "Genital warts",
+  "symptoms": "Small growths, Itching, Discomfort",
+  "severity": 3,
+  "tests": "Clinical examination, Biopsy",
+  "price": [
+    1000,
+    2000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bf0"
+  },
+  "medicalcondition": "Gonorrhoea",
+  "symptoms": "Painful urination, Abnormal discharge, Pelvic pain",
+  "severity": 5,
+  "tests": "Urine test, Swab test",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bf7"
+  },
+  "medicalcondition": "Head lice and nits",
+  "symptoms": "Itching, Red bumps on the scalp, Presence of nits",
+  "severity": 2,
+  "tests": "Visual examination",
+  "price": [
+    600,
+    1200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bf8"
+  },
+  "medicalcondition": "Headaches",
+  "symptoms": "Pain or discomfort in the head",
+  "severity": 3,
+  "tests": "Clinical examination, Imaging tests (CT, MRI)",
+  "price": [
+    1000,
+    2000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bff"
+  },
+  "medicalcondition": "Hiatus hernia",
+  "symptoms": "Heartburn, Regurgitation, Chest pain",
+  "severity": 5,
+  "tests": "Upper endoscopy, pH monitoring",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c0a"
+  },
+  "medicalcondition": "Impetigo",
+  "symptoms": "Red sores that quickly rupture and ooze, Honey-colored crusts, Itching, Swollen lymph nodes, Fever",
+  "severity": 5,
+  "tests": "Physical examination, Swab of the affected area for bacterial culture and sensitivity",
+  "price": [
+    2000,
+    2500,
+    2200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c0f"
+  },
+  "medicalcondition": "Iron deficiency anaemia",
+  "symptoms": "Fatigue, Weakness, Pale or yellowish skin, Irregular heartbeat, Shortness of breath, Dizziness or lightheadedness, Chest pain, Cold hands and feet",
+  "severity": 7,
+  "tests": "Complete blood count (CBC), Serum iron test, Ferritin test, Stool test",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c11"
+  },
+  "medicalcondition": "Itching",
+  "symptoms": "Skin rash, Redness, Dry skin, Cracked skin, Bumps, Scaly skin, Swelling, Blisters",
+  "severity": 4,
+  "tests": "Physical examination, Allergy testing, Skin biopsy",
+  "price": [
+    1500,
+    2000,
+    1800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c14"
+  },
+  "medicalcondition": "Kidney cancer",
+  "symptoms": "Blood in urine, Lower back pain on one side, Loss of appetite, Weight loss, Fatigue, Anemia",
+  "severity": 7,
+  "tests": "Physical examination, Blood tests (complete blood count, kidney function tests), Imaging tests (CT scan, MRI, ultrasound)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c1b"
+  },
+  "medicalcondition": "Leg cramps",
+  "symptoms": "Sudden, sharp muscle pain or tightening, Muscle twitching, Hard lump of muscle tissue (muscle knot), Redness or swelling",
+  "severity": 3,
+  "tests": "Physical examination, Blood tests, Nerve conduction studies",
+  "price": [
+    1000,
+    1500,
+    1200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c1f"
+  },
+  "medicalcondition": "Liver disease",
+  "symptoms": "Fatigue, Weakness, Nausea, Vomiting, Weight loss, Yellowing of the skin and eyes (jaundice), Swelling in the legs and abdomen",
+  "severity": 7,
+  "tests": "Liver function tests, Blood tests (complete blood count, coagulation tests), Imaging tests (ultrasound, CT scan)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c20"
+  },
+  "medicalcondition": "Liver tumours",
+  "symptoms": "Abdominal pain, Jaundice, Unexplained weight loss, Loss of appetite, Feeling full after a small meal, Nausea or vomiting",
+  "severity": 7,
+  "tests": "Blood tests (alpha-fetoprotein), Imaging tests (CT scan, MRI, ultrasound), Biopsy",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c22"
+  },
+  "medicalcondition": "Lung cancer",
+  "symptoms": "Persistent cough, Coughing up blood, Chest pain, Hoarseness, Unexplained weight loss, Shortness of breath, Fatigue",
+  "severity": 8,
+  "tests": "Imaging tests (CT scan, MRI, PET scan), Sputum cytology, Biopsy",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c23"
+  },
+  "medicalcondition": "Lupus",
+  "symptoms": "Fatigue, Fever, Joint pain, Stiffness and swelling, Butterfly-shaped rash on the face, Skin lesions, Shortness of breath, Chest pain",
+  "severity": 7,
+  "tests": "Blood tests (antinuclear antibody test, complete blood count), Urine tests, Imaging tests (X-ray, ultrasound)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c24"
+  },
+  "medicalcondition": "Lyme disease",
+  "symptoms": "Erythema migrans (bull's-eye rash), Fatigue, Fever, Chills, Headache, Muscle and joint aches, Swollen lymph nodes",
+  "severity": 6,
+  "tests": "Physical examination, Blood tests (ELISA, Western blot), Lumbar puncture",
+  "price": [
+    2500,
+    3000,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c2a"
+  },
+  "medicalcondition": "Measles",
+  "symptoms": "Fever, Dry cough, Runny nose, Sore throat, Inflamed eyes (conjunctivitis), Tiny white spots with bluish-white centers on a red background inside the mouth (Koplik's spots), Rash",
+  "severity": 5,
+  "tests": "Physical examination, Blood tests, Viral culture, Immunoglobulin M (IgM) antibody test",
+  "price": [
+    2000,
+    2500,
+    2200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c2b"
+  },
+  "medicalcondition": "Meningitis",
+  "symptoms": "Sudden high fever, Stiff neck, Severe headache, Confusion or difficulty concentrating, Seizures, Sleepiness or difficulty waking up, Sensitivity to light, Lack of interest in drinking and eating",
+  "severity": 8,
+  "tests": "Lumbar puncture (spinal tap), Blood tests, Imaging tests (CT scan, MRI)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c2e"
+  },
+  "medicalcondition": "Middle ear infection (otitis media)",
+  "symptoms": "Ear pain, Drainage of fluid from the ear, Difficulty hearing, Fever, Irritability, Loss of balance",
+  "severity": 5,
+  "tests": "Physical examination, Tympanometry, Acoustic reflectometry, Audiometry",
+  "price": [
+    2000,
+    2500,
+    2200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c3a"
+  },
+  "medicalcondition": "Nasopharyngeal cancer",
+  "symptoms": "A lump in the neck, Nosebleeds, Hearing loss, Blurred or double vision, Ear infections that keep coming back, Facial pain or numbness, Changes in voice, Persistent headaches",
+  "severity": 7,
+  "tests": "Physical examination, Nasal endoscopy, Imaging tests (CT scan, MRI)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c3b"
+  },
+  "medicalcondition": "Neuroblastoma: Children",
+  "symptoms": "Swelling in the abdomen, Chest, Neck, or pelvis, Lump or mass under the skin, Blueish lumps in the skin, Bone pain, Fever, Weight loss, Anemia, Fatigue",
+  "severity": 8,
+  "tests": "Physical examination, Urine tests (vanillylmandelic acid, homovanillic acid), Blood tests (catecholamines), Imaging tests (CT scan, MRI, bone scan)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c3c"
+  },
+  "medicalcondition": "Neuroendocrine tumours",
+  "symptoms": "Varies depending on the type and location of the tumour, may include abdominal pain, diarrhea, flushing, wheezing, weight loss",
+  "severity": 7,
+  "tests": "Blood tests (chromogranin A, serotonin, insulin, gastrin), Imaging tests (CT scan, MRI, PET scan), Biopsy",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c3f"
+  },
+  "medicalcondition": "Non-Hodgkin lymphoma: Children",
+  "symptoms": "Swollen lymph nodes, Abdominal pain or swelling, Chest pain or pressure, Coughing or trouble breathing, Fatigue, Fever, Night sweats, Unexplained weight loss, Easy bruising or bleeding",
+  "severity": 8,
+  "tests": "Physical examination, Blood tests, Lymph node biopsy, Imaging tests (CT scan, MRI, PET scan)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c46"
+  },
+  "medicalcondition": "Oral thrush in adults",
+  "symptoms": "White lesions in the mouth and throat, Soreness or pain in the mouth or throat, Difficulty swallowing",
+  "severity": 4,
+  "tests": "Physical examination, Scrapings of the lesions for microscopic examination, Culture of the lesions",
+  "price": [
+    1500,
+    2000,
+    1800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c4a"
+  },
+  "medicalcondition": "Ovarian cancer",
+  "symptoms": "Abdominal bloating or swelling, Quickly feeling full when eating, Weight loss, Discomfort in the pelvis area, Changes in bowel habits, such as constipation, A frequent need to urinate",
+  "severity": 8,
+  "tests": "Pelvic examination, Transvaginal ultrasound, CA-125 blood test, Biopsy",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c4c"
+  },
+  "medicalcondition": "Ovarian cyst",
+  "symptoms": "Pain or pressure in the abdomen, Bloating, Swelling or heaviness in the lower abdomen, Pelvic pain before or during the menstrual cycle, Painful intercourse, Changes in bowel habits, such as constipation",
+  "severity": 6,
+  "tests": "Pelvic examination, Ultrasound, Blood tests (CA-125)",
+  "price": [
+    2500,
+    3000,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c51"
+  },
+  "medicalcondition": "Parkinson’s disease",
+  "symptoms": "Tremors, Slowed movement, Muscle stiffness",
+  "severity": 7,
+  "tests": "Neurological examination, MRI, Dopamine transporter scan",
+  "price": [
+    2200,
+    4500,
+    6500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c53"
+  },
+  "medicalcondition": "Pelvic inflammatory disease",
+  "symptoms": "Pelvic pain, Abnormal vaginal discharge, Painful urination",
+  "severity": 6,
+  "tests": "Pelvic exam, Ultrasound, Swab tests",
+  "price": [
+    1800,
+    3600,
+    5400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c54"
+  },
+  "medicalcondition": "Pelvic organ prolapse",
+  "symptoms": "Pressure or fullness in the pelvic area, Bulging sensation",
+  "severity": 5,
+  "tests": "Pelvic exam, Ultrasound",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c55"
+  },
+  "medicalcondition": "Penile cancer",
+  "symptoms": "Sores, Discharge, Bleeding",
+  "severity": 6,
+  "tests": "Biopsy, Imaging tests (CT, MRI)",
+  "price": [
+    1800,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c58"
+  },
+  "medicalcondition": "Pleurisy",
+  "symptoms": "Chest pain, Shortness of breath, Dry cough",
+  "severity": 5,
+  "tests": "Chest X-ray, CT scan",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c5c"
+  },
+  "medicalcondition": "Post-polio syndrome",
+  "symptoms": "Muscle weakness, Fatigue, Joint pain",
+  "severity": 6,
+  "tests": "Clinical evaluation, Electromyography (EMG)",
+  "price": [
+    1800,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c5d"
+  },
+  "medicalcondition": "Post-traumatic stress disorder (PTSD)",
+  "symptoms": "Flashbacks, Nightmares, Anxiety",
+  "severity": 6,
+  "tests": "Psychological evaluation, Interview",
+  "price": [
+    1800,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c65"
+  },
+  "medicalcondition": "Pubic lice",
+  "symptoms": "Itching in the genital area, Visible lice or eggs",
+  "severity": 3,
+  "tests": "Visual examination",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b6a"
+  },
+  "medicalcondition": "Acute lymphoblastic leukaemia: Teenagers and young adults",
+  "symptoms": "Same as Acute lymphoblastic leukaemia",
+  "severity": 9,
+  "tests": "Same as Acute lymphoblastic leukaemia",
+  "price": [
+    1500,
+    3000,
+    2500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b6f"
+  },
+  "medicalcondition": "Adenomyosis",
+  "symptoms": "Heavy menstrual bleeding, Menstrual periods lasting longer than usual, Pelvic pain, Painful periods, Pain during intercourse",
+  "severity": 6,
+  "tests": "Pelvic ultrasound, MRI, Hysteroscopy",
+  "price": [
+    3500,
+    4500,
+    4000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b75"
+  },
+  "medicalcondition": "Anal cancer",
+  "symptoms": "Rectal bleeding, Anal pain, Itching in the anal area, Changes in bowel habits, Lump near the anus",
+  "severity": 7,
+  "tests": "Physical examination, Anal pap smear, Biopsy",
+  "price": [
+    3500,
+    4500,
+    4000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b79"
+  },
+  "medicalcondition": "Ankylosing spondylitis",
+  "symptoms": "Lower back pain and stiffness, Pain and stiffness that worsens with rest or inactivity, Reduced flexibility in the spine, Neck pain and fatigue",
+  "severity": 8,
+  "tests": "Physical examination, X-rays of the spine, Blood tests (to check for HLA-B27 antigen)",
+  "price": [
+    3500,
+    4500,
+    4000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b80"
+  },
+  "medicalcondition": "Asbestosis",
+  "symptoms": "Shortness of breath, Persistent dry cough, Chest tightness or pain, Loss of appetite, Clubbing of fingers (enlarged fingertips), Finger deformity",
+  "severity": 7,
+  "tests": "Chest X-ray, Pulmonary function tests (spirometry, lung volume tests), High-resolution CT scan",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b85"
+  },
+  "medicalcondition": "Autistic spectrum disorder (ASD)",
+  "symptoms": "Social challenges, Communication difficulties, Repetitive behaviors, Sensory sensitivities, Restricted interests",
+  "severity": 7,
+  "tests": "Developmental screening, Comprehensive diagnostic evaluation (Autism Diagnostic Observation Schedule, Autism Diagnostic Interview)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b86"
+  },
+  "medicalcondition": "Bacterial vaginosis",
+  "symptoms": "Vaginal discharge with a fishy odor, Vaginal itching, Burning sensation during urination",
+  "severity": 5,
+  "tests": "Microscopic examination of vaginal discharge, pH testing",
+  "price": [
+    1500,
+    3000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b88"
+  },
+  "medicalcondition": "Bile duct cancer (cholangiocarcinoma)",
+  "symptoms": "Jaundice, Abdominal pain, Unexplained weight loss",
+  "severity": 8,
+  "tests": "Imaging tests (CT, MRI), Biopsy",
+  "price": [
+    2500,
+    5000,
+    7000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b8a"
+  },
+  "medicalcondition": "Bipolar disorder",
+  "symptoms": "Mood swings, Energy changes, Changes in sleep patterns",
+  "severity": 7,
+  "tests": "Mental health assessment, Mood charting",
+  "price": [
+    1500,
+    3000,
+    4500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b8d"
+  },
+  "medicalcondition": "Bone cancer",
+  "symptoms": "Bone pain, Swelling, Fatigue",
+  "severity": 8,
+  "tests": "Biopsy, X-rays, MRI",
+  "price": [
+    2500,
+    5000,
+    7000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b8e"
+  },
+  "medicalcondition": "Bone cancer: Teenagers and young adults",
+  "symptoms": "Bone pain, Swelling, Fatigue",
+  "severity": 7,
+  "tests": "Biopsy, X-rays, MRI",
+  "price": [
+    2200,
+    4500,
+    6500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b93"
+  },
+  "medicalcondition": "Brain tumours",
+  "symptoms": "Headaches, Seizures, Changes in personality",
+  "severity": 9,
+  "tests": "MRI, CT scan, Biopsy",
+  "price": [
+    3500,
+    7000,
+    9000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b94"
+  },
+  "medicalcondition": "Brain tumours: Children",
+  "symptoms": "Headaches, Nausea, Changes in behavior",
+  "severity": 8,
+  "tests": "MRI, CT scan, Biopsy",
+  "price": [
+    3000,
+    6000,
+    8000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b96"
+  },
+  "medicalcondition": "Breast cancer (female)",
+  "symptoms": "Lump in the breast, Changes in breast size or shape, Nipple discharge",
+  "severity": 9,
+  "tests": "Mammogram, Breast biopsy",
+  "price": [
+    3500,
+    7000,
+    9000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b9c"
+  },
+  "medicalcondition": "Carcinoid syndrome and carcinoid tumours",
+  "symptoms": "Flushing, Diarrhea, Wheezing",
+  "severity": 7,
+  "tests": "Blood and urine tests, Imaging tests (CT, MRI), Biopsy",
+  "price": [
+    2500,
+    5000,
+    7000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b9e"
+  },
+  "medicalcondition": "Cellulitis",
+  "symptoms": "Red and swollen skin, Pain, Warmth",
+  "severity": 6,
+  "tests": "Physical examination, Blood cultures",
+  "price": [
+    1200,
+    2400,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612ba1"
+  },
+  "medicalcondition": "Chest infection",
+  "symptoms": "Cough, Shortness of breath, Chest pain",
+  "severity": 5,
+  "tests": "Chest X-ray, Blood tests",
+  "price": [
+    1000,
+    2000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612baa"
+  },
+  "medicalcondition": "Chronic obstructive pulmonary disease",
+  "symptoms": "Shortness of breath, Chronic cough, Wheezing",
+  "severity": 7,
+  "tests": "Spirometry, Chest X-ray, CT scan",
+  "price": [
+    2500,
+    5000,
+    7000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bac"
+  },
+  "medicalcondition": "Chronic pancreatitis",
+  "symptoms": "Abdominal pain, Weight loss, Nausea",
+  "severity": 8,
+  "tests": "Blood tests, Imaging tests (CT, MRI)",
+  "price": [
+    2800,
+    5500,
+    7500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bb7"
+  },
+  "medicalcondition": "Coronavirus (COVID-19)",
+  "symptoms": "Fever, Cough, Shortness of breath",
+  "severity": 8,
+  "tests": "PCR test, Rapid antigen test, Chest CT scan",
+  "price": [
+    3000,
+    6000,
+    8000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bbc"
+  },
+  "medicalcondition": "Cystitis",
+  "symptoms": "Urinary urgency, Painful urination, Lower abdominal pain",
+  "severity": 5,
+  "tests": "Urinalysis, Urine culture",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bc0"
+  },
+  "medicalcondition": "Dementia",
+  "symptoms": "Memory loss, Cognitive decline, Difficulty in daily tasks",
+  "severity": 9,
+  "tests": "Cognitive tests, Brain imaging (MRI, CT scan)",
+  "price": [
+    3000,
+    6000,
+    8000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bc2"
+  },
+  "medicalcondition": "Dental abscess",
+  "symptoms": "Severe toothache, Swelling in the face, Fever",
+  "severity": 6,
+  "tests": "Dental X-ray, Pus culture",
+  "price": [
+    1500,
+    3000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bc4"
+  },
+  "medicalcondition": "Dermatitis herpetiformis",
+  "symptoms": "Itchy, blistering skin rash",
+  "severity": 4,
+  "tests": "Skin biopsy, Blood tests",
+  "price": [
+    1000,
+    2000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bcd"
+  },
+  "medicalcondition": "Dystonia",
+  "symptoms": "Involuntary muscle contractions, Twisting movements",
+  "severity": 7,
+  "tests": "Clinical evaluation, MRI, Electromyography (EMG)",
+  "price": [
+    2000,
+    4000,
+    6000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bd1"
+  },
+  "medicalcondition": "Ectopic pregnancy",
+  "symptoms": "Abdominal pain, Vaginal bleeding, Shoulder pain",
+  "severity": 7,
+  "tests": "Pelvic ultrasound, Blood tests",
+  "price": [
+    2200,
+    4500,
+    6500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bd2"
+  },
+  "medicalcondition": "Edwards’ syndrome",
+  "symptoms": "Distinctive facial features, Intellectual disability, Heart defects",
+  "severity": 8,
+  "tests": "Chromosomal analysis (karyotype), Prenatal screening",
+  "price": [
+    2800,
+    5500,
+    7500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bd4"
+  },
+  "medicalcondition": "Epilepsy",
+  "symptoms": "Seizures, Temporary confusion, Uncontrollable movements",
+  "severity": 7,
+  "tests": "Electroencephalogram (EEG), Brain imaging (MRI, CT scan)",
+  "price": [
+    2200,
+    4500,
+    6500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bd9"
+  },
+  "medicalcondition": "Eye cancer",
+  "symptoms": "Changes in vision, Eye pain, Bulging eye",
+  "severity": 8,
+  "tests": "Eye examination, Imaging tests (CT, MRI)",
+  "price": [
+    2500,
+    5000,
+    7000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bdb"
+  },
+  "medicalcondition": "Feeling of something in your throat (Globus)",
+  "symptoms": "Feeling of a lump in the throat, Difficulty swallowing",
+  "severity": 3,
+  "tests": "Physical examination, Endoscopy",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bdc"
+  },
+  "medicalcondition": "Fever in adults",
+  "symptoms": "High body temperature, Chills, Sweating",
+  "severity": 4,
+  "tests": "Blood tests, Imaging tests (X-rays, CT scans)",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bdf"
+  },
+  "medicalcondition": "Fibromyalgia",
+  "symptoms": "Widespread pain, Fatigue, Sleep disturbances",
+  "severity": 5,
+  "tests": "Clinical evaluation, Blood tests",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612be6"
+  },
+  "medicalcondition": "Gallbladder cancer",
+  "symptoms": "Abdominal pain, Jaundice, Unexplained weight loss",
+  "severity": 8,
+  "tests": "Imaging tests (CT, MRI), Biopsy",
+  "price": [
+    3000,
+    6000,
+    8000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bea"
+  },
+  "medicalcondition": "Gastro-oesophageal reflux disease (GORD)",
+  "symptoms": "Heartburn, Regurgitation, Chest pain",
+  "severity": 5,
+  "tests": "Upper endoscopy, pH monitoring",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612beb"
+  },
+  "medicalcondition": "Genital herpes",
+  "symptoms": "Painful sores, Itching, Flu-like symptoms",
+  "severity": 4,
+  "tests": "Viral culture, PCR test",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bec"
+  },
+  "medicalcondition": "Genital symptoms",
+  "symptoms": "Pain, Itching, Discharge",
+  "severity": 3,
+  "tests": "Clinical examination, Swab tests",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bf1"
+  },
+  "medicalcondition": "Gout",
+  "symptoms": "Joint pain, Swelling, Redness",
+  "severity": 4,
+  "tests": "Joint fluid analysis, Blood tests",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bf9"
+  },
+  "medicalcondition": "Hearing loss",
+  "symptoms": "Reduced ability to hear",
+  "severity": 4,
+  "tests": "Audiometry, Hearing tests",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bfd"
+  },
+  "medicalcondition": "Hepatitis B",
+  "symptoms": "Fatigue, Abdominal pain, Jaundice",
+  "severity": 7,
+  "tests": "Blood tests, Hepatitis B surface antigen test",
+  "price": [
+    2000,
+    4000,
+    6000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bfe"
+  },
+  "medicalcondition": "Hepatitis C",
+  "symptoms": "Fatigue, Abdominal pain, Jaundice",
+  "severity": 8,
+  "tests": "Blood tests, HCV antibody test",
+  "price": [
+    2800,
+    5500,
+    7500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c00"
+  },
+  "medicalcondition": "High cholesterol",
+  "symptoms": "No specific symptoms, Elevated cholesterol levels",
+  "severity": 3,
+  "tests": "Lipid profile blood test",
+  "price": [
+    1000,
+    2000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c01"
+  },
+  "medicalcondition": "HIV",
+  "symptoms": "Flu-like symptoms, Fatigue, Swollen lymph nodes",
+  "severity": 8,
+  "tests": "HIV antibody test, PCR test",
+  "price": [
+    2800,
+    5500,
+    7500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c09"
+  },
+  "medicalcondition": "Idiopathic pulmonary fibrosis",
+  "symptoms": "Shortness of breath, Cough, Fatigue, Unexplained weight loss, Aching muscles and joints, Clubbing (enlargement and rounding) of fingertips",
+  "severity": 8,
+  "tests": "Chest X-ray, High-resolution CT scan, Pulmonary function tests (spirometry, diffusion capacity)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c0e"
+  },
+  "medicalcondition": "Insomnia",
+  "symptoms": "Difficulty falling asleep, Difficulty staying asleep, Waking up too early, Daytime fatigue or sleepiness, Irritability, Depression or anxiety",
+  "severity": 6,
+  "tests": "Sleep diary, Polysomnography (sleep study), Psychological evaluation",
+  "price": [
+    2500,
+    3000,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c17"
+  },
+  "medicalcondition": "Labyrinthitis",
+  "symptoms": "Vertigo (spinning sensation), Nausea, Vomiting, Balance problems, Hearing loss or ringing in the ears (tinnitus)",
+  "severity": 6,
+  "tests": "Physical examination, Hearing tests, Balance tests, Imaging tests (CT scan, MRI)",
+  "price": [
+    2500,
+    3000,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c1e"
+  },
+  "medicalcondition": "Liver cancer",
+  "symptoms": "Weight loss, Loss of appetite, Feeling very full after a small meal, Nausea or vomiting, An enlarged liver felt as a mass under the ribs on the right side",
+  "severity": 8,
+  "tests": "Blood tests (alpha-fetoprotein), Imaging tests (CT scan, MRI, ultrasound), Biopsy",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c26"
+  },
+  "medicalcondition": "Lymphogranuloma venereum (LGV)",
+  "symptoms": "Painless genital ulcers or sores, Swollen lymph nodes in the groin, Rectal pain, Rectal discharge, Anal ulcers, Anal bleeding, Anal discharge",
+  "severity": 7,
+  "tests": "Physical examination, Swab test of genital or rectal discharge, Blood tests, Imaging tests (ultrasound, MRI)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c27"
+  },
+  "medicalcondition": "Malaria",
+  "symptoms": "Fever, Chills, Sweats, Headaches, Nausea and vomiting, Muscle pain and fatigue",
+  "severity": 6,
+  "tests": "Blood smear test, Rapid diagnostic test (RDT), Polymerase chain reaction (PCR) test",
+  "price": [
+    2500,
+    3000,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c29"
+  },
+  "medicalcondition": "Malnutrition",
+  "symptoms": "Fatigue, Dizziness, Weight loss, Swelling in the limbs, Brittle nails, Dry, patchy skin, Hair loss, Weakness, Increased susceptibility to infections",
+  "severity": 6,
+  "tests": "Physical examination, Blood tests (complete blood count, albumin, electrolytes), Nutritional assessment",
+  "price": [
+    2500,
+    3000,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c2c"
+  },
+  "medicalcondition": "Menopause",
+  "symptoms": "Irregular periods, Vaginal dryness, Hot flashes, Night sweats, Sleep disturbances, Mood changes, Weight gain, Thinning hair, Loss of breast fullness",
+  "severity": 5,
+  "tests": "Physical examination, Blood tests (FSH, estrogen, LH), Bone density test",
+  "price": [
+    2000,
+    2500,
+    2200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c2f"
+  },
+  "medicalcondition": "Migraine",
+  "symptoms": "Moderate to severe throbbing pain, Often on one side of the head, Sensitivity to light, sound, and smells, Nausea and vomiting, Blurred vision",
+  "severity": 6,
+  "tests": "Physical examination, Neurological examination, Imaging tests (CT scan, MRI)",
+  "price": [
+    2500,
+    3000,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c31"
+  },
+  "medicalcondition": "Motor neurone disease (MND)",
+  "symptoms": "Muscle weakness, Stiffness, Spasticity, Muscle cramps, Difficulty speaking, Difficulty swallowing, Breathing difficulties",
+  "severity": 8,
+  "tests": "Physical examination, Electromyography (EMG), Nerve conduction studies, MRI of the brain and spine",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c32"
+  },
+  "medicalcondition": "Mouth cancer",
+  "symptoms": "Persistent mouth ulcers, Persistent mouth pain, Persistent lumps or thickening in the mouth, Persistent white or red patches on the gums, tongue, or lining of the mouth, Difficulty chewing or swallowing, Difficulty moving the jaw or tongue, Numbness of the tongue or other areas of the mouth, Persistent bad breath",
+  "severity": 7,
+  "tests": "Physical examination, Biopsy, Endoscopy, Imaging tests (CT scan, MRI)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c34"
+  },
+  "medicalcondition": "Multiple myeloma",
+  "symptoms": "Bone pain, especially in the spine or chest, Weakness or numbness in the legs, Fatigue, Recurrent infections, Weight loss, Excessive thirst, Nausea, Constipation",
+  "severity": 8,
+  "tests": "Blood tests (complete blood count, serum protein electrophoresis), Urine tests (urine protein electrophoresis), Bone marrow biopsy, Imaging tests (X-ray, MRI, CT scan)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c37"
+  },
+  "medicalcondition": "Meniere’s disease",
+  "symptoms": "Vertigo (spinning sensation), Tinnitus (ringing in the ear), Hearing loss, A feeling of fullness or pressure in the ear",
+  "severity": 6,
+  "tests": "Physical examination, Hearing tests, Balance tests, Imaging tests (MRI, CT scan)",
+  "price": [
+    2500,
+    3000,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c3e"
+  },
+  "medicalcondition": "Non-Hodgkin lymphoma",
+  "symptoms": "Swollen lymph nodes, Fever, Night sweats, Unexplained weight loss, Fatigue, Abdominal pain or swelling, Chest pain or pressure, Shortness of breath",
+  "severity": 8,
+  "tests": "Physical examination, Blood tests, Lymph node biopsy, Imaging tests (CT scan, MRI, PET scan)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c40"
+  },
+  "medicalcondition": "Norovirus",
+  "symptoms": "Nausea, Vomiting, Diarrhea, Stomach pain, Fever, Headache, Body aches",
+  "severity": 5,
+  "tests": "Stool sample testing, PCR testing",
+  "price": [
+    2000,
+    2500,
+    2200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c42"
+  },
+  "medicalcondition": "Obesity",
+  "symptoms": "Increased body weight, Fatigue, Breathlessness, Snoring, Joint and back pain, Excessive sweating, Difficulty sleeping, Poor self-image",
+  "severity": 7,
+  "tests": "Body mass index (BMI) calculation, Waist circumference measurement, Blood tests (lipid profile, glucose levels), Imaging tests (CT scan, MRI)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c44"
+  },
+  "medicalcondition": "Obstructive sleep apnoea",
+  "symptoms": "Loud snoring, Pauses in breathing during sleep, Gasping or choking during sleep, Daytime sleepiness, Morning headaches, Difficulty concentrating, Irritability, Depression",
+  "severity": 7,
+  "tests": "Nocturnal polysomnography, Home sleep apnea testing, Oximetry",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c45"
+  },
+  "medicalcondition": "Oesophageal cancer",
+  "symptoms": "Difficulty swallowing (dysphagia), Unexplained weight loss, Persistent indigestion or heartburn, Hoarseness, Chronic cough, Coughing up blood",
+  "severity": 8,
+  "tests": "Upper endoscopy (gastroscopy), Biopsy, Imaging tests (CT scan, MRI, PET scan)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c52"
+  },
+  "medicalcondition": "Patau’s syndrome",
+  "symptoms": "Distinctive facial features, Intellectual disability, Heart defects",
+  "severity": 8,
+  "tests": "Chromosomal analysis (karyotype), Prenatal screening",
+  "price": [
+    2800,
+    5500,
+    7500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c56"
+  },
+  "medicalcondition": "Peripheral neuropathy",
+  "symptoms": "Numbness, Tingling, Weakness",
+  "severity": 6,
+  "tests": "Nerve conduction studies, Electromyography (EMG)",
+  "price": [
+    1800,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c59"
+  },
+  "medicalcondition": "Pneumonia",
+  "symptoms": "Cough with phlegm, Fever, Shortness of breath",
+  "severity": 6,
+  "tests": "Chest X-ray, Blood tests",
+  "price": [
+    1800,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c60"
+  },
+  "medicalcondition": "Pressure ulcers",
+  "symptoms": "Skin discoloration, Pain, Open sores",
+  "severity": 4,
+  "tests": "Clinical examination, Imaging tests (X-rays, MRI)",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c64"
+  },
+  "medicalcondition": "Psychosis",
+  "symptoms": "Hallucinations, Delusions, Disorganized thinking",
+  "severity": 7,
+  "tests": "Psychological evaluation, Brain imaging (MRI, CT scan)",
+  "price": [
+    2200,
+    4500,
+    6500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c69"
+  },
+  "medicalcondition": "Restless legs syndrome",
+  "symptoms": "Urge to move legs, Uncomfortable sensations, Worsening at rest",
+  "severity": 4,
+  "tests": "Clinical examination, Sleep study",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c6a"
+  },
+  "medicalcondition": "Retinoblastoma: Children",
+  "symptoms": "White pupil, Crossed eyes, Red or inflamed eyes",
+  "severity": 7,
+  "tests": "Eye examination, Imaging tests (CT, MRI)",
+  "price": [
+    2200,
+    4500,
+    6500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c6d"
+  },
+  "medicalcondition": "Ringworm and other fungal infections",
+  "symptoms": "Red, itchy rash, Circular shape",
+  "severity": 3,
+  "tests": "Skin scraping, KOH test",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c73"
+  },
+  "medicalcondition": "Septic shock",
+  "symptoms": "Low blood pressure, Rapid heart rate, Confusion",
+  "severity": 9,
+  "tests": "Blood cultures, Imaging tests (CT, X-rays)",
+  "price": [
+    3500,
+    7000,
+    9000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c75"
+  },
+  "medicalcondition": "Shortness of breath",
+  "symptoms": "Difficulty breathing, Rapid breathing, Wheezing",
+  "severity": 5,
+  "tests": "Pulmonary function tests, Chest X-ray",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c78"
+  },
+  "medicalcondition": "Sjogren’s syndrome",
+  "symptoms": "Dry eyes, Dry mouth, Joint pain",
+  "severity": 5,
+  "tests": "Schirmer's test, Blood tests",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c7d"
+  },
+  "medicalcondition": "Soft tissue sarcomas",
+  "symptoms": "Lump, Pain, Swelling",
+  "severity": 7,
+  "tests": "Biopsy, Imaging tests (CT, MRI)",
+  "price": [
+    2200,
+    4500,
+    6500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c7e"
+  },
+  "medicalcondition": "Soft tissue sarcomas: Teenagers and young adults",
+  "symptoms": "Lump, Pain, Swelling",
+  "severity": 6,
+  "tests": "Biopsy, Imaging tests (CT, MRI)",
+  "price": [
+    1800,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c80"
+  },
+  "medicalcondition": "Spleen problems and spleen removal",
+  "symptoms": "Pain or fullness in the left upper abdomen, Anemia",
+  "severity": 5,
+  "tests": "Ultrasound, CT scan",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c82"
+  },
+  "medicalcondition": "Stomach ache and abdominal pain",
+  "symptoms": "Varies based on the cause",
+  "severity": 3,
+  "tests": "Abdominal ultrasound, Endoscopy",
+  "price": [
+    1000,
+    2000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c83"
+  },
+  "medicalcondition": "Stomach cancer",
+  "symptoms": "Abdominal pain, Indigestion, Unexplained weight loss",
+  "severity": 8,
+  "tests": "Endoscopy, Biopsy, Imaging tests (CT, MRI)",
+  "price": [
+    2800,
+    5500,
+    7500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c85"
+  },
+  "medicalcondition": "Streptococcus A (strep A)",
+  "symptoms": "Sore throat, Fever, Swollen tonsils",
+  "severity": 4,
+  "tests": "Throat swab, Rapid strep test",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c86"
+  },
+  "medicalcondition": "Stress, anxiety and low mood",
+  "symptoms": "Varies based on the condition",
+  "severity": 3,
+  "tests": "Psychological evaluation, Blood tests",
+  "price": [
+    1000,
+    2000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c88"
+  },
+  "medicalcondition": "Suicide",
+  "symptoms": "Varies based on individual experiences",
+  "severity": 9,
+  "tests": "Psychological evaluation, Risk assessment",
+  "price": [
+    3500,
+    7000,
+    9000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c8a"
+  },
+  "medicalcondition": "Supraventricular tachycardia",
+  "symptoms": "Rapid heartbeat, Palpitations, Dizziness",
+  "severity": 4,
+  "tests": "Electrocardiogram (ECG), Holter monitor",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c8e"
+  },
+  "medicalcondition": "Testicular cancer: Teenagers and young adults",
+  "symptoms": "Lump or swelling in the testicle, Pain",
+  "severity": 6,
+  "tests": "Ultrasound, Blood tests, Biopsy",
+  "price": [
+    1800,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c99"
+  },
+  "medicalcondition": "Transient ischaemic attack (TIA)",
+  "symptoms": "Temporary weakness, Speech difficulties, Dizziness",
+  "severity": 6,
+  "tests": "CT scan, MRI, Doppler ultrasound",
+  "price": [
+    1800,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c9b"
+  },
+  "medicalcondition": "Tuberculosis (TB)",
+  "symptoms": "Cough, Weight loss, Night sweats",
+  "severity": 6,
+  "tests": "Chest X-ray, Tuberculin skin test, Sputum test",
+  "price": [
+    1800,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c9f"
+  },
+  "medicalcondition": "Transverse myelitis",
+  "symptoms": "Back pain, Weakness, Sensory disturbances",
+  "severity": 6,
+  "tests": "MRI, Lumbar puncture",
+  "price": [
+    1800,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612ca2"
+  },
+  "medicalcondition": "Urinary incontinence",
+  "symptoms": "Involuntary urine leakage",
+  "severity": 3,
+  "tests": "Bladder diary, Pelvic ultrasound",
+  "price": [
+    1000,
+    2000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612ca9"
+  },
+  "medicalcondition": "Venous leg ulcer",
+  "symptoms": "Open sore on the leg, Swelling, Pain",
+  "severity": 5,
+  "tests": "Clinical examination, Doppler ultrasound",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612cad"
+  },
+  "medicalcondition": "Vulval cancer",
+  "symptoms": "Itching, Pain, Bleeding",
+  "severity": 6,
+  "tests": "Pelvic exam, Biopsy",
+  "price": [
+    1800,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612caf"
+  },
+  "medicalcondition": "Whooping cough",
+  "symptoms": "Severe cough, Whooping sound, Vomiting after coughing",
+  "severity": 4,
+  "tests": "Nasal swab, Blood tests",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c6b"
+  },
+  "medicalcondition": "Rhabdomyosarcoma",
+  "symptoms": "Swelling, Lumps, Pain",
+  "severity": 8,
+  "tests": "Biopsy, Imaging tests (CT, MRI)",
+  "price": [
+    2800,
+    5500,
+    7500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c6f"
+  },
+  "medicalcondition": "Scabies",
+  "symptoms": "Itching, Red rash, Small burrow-like lines",
+  "severity": 3,
+  "tests": "Skin scraping, Microscopic examination",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c70"
+  },
+  "medicalcondition": "Scarlet fever",
+  "symptoms": "Red rash, Fever, Sore throat",
+  "severity": 4,
+  "tests": "Throat swab, Blood tests",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c71"
+  },
+  "medicalcondition": "Schizophrenia",
+  "symptoms": "Hallucinations, Delusions, Disorganized thinking",
+  "severity": 7,
+  "tests": "Psychological evaluation, Brain imaging (MRI, CT scan)",
+  "price": [
+    2200,
+    4500,
+    6500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c76"
+  },
+  "medicalcondition": "Sickle cell disease",
+  "symptoms": "Fatigue, Pain, Anemia",
+  "severity": 6,
+  "tests": "Blood tests, Hemoglobin electrophoresis",
+  "price": [
+    1800,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c7f"
+  },
+  "medicalcondition": "Sore throat",
+  "symptoms": "Pain or irritation in the throat",
+  "severity": 2,
+  "tests": "Throat swab, Blood tests",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c84"
+  },
+  "medicalcondition": "Stomach ulcer",
+  "symptoms": "Burning stomach pain, Bloating, Nausea",
+  "severity": 5,
+  "tests": "Endoscopy, Blood tests",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c87"
+  },
+  "medicalcondition": "Sudden infant death syndrome (SIDS)",
+  "symptoms": "Sudden, unexplained death of an otherwise healthy baby",
+  "severity": 7,
+  "tests": "Autopsy, Genetic testing",
+  "price": [
+    2200,
+    4500,
+    6500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c8b"
+  },
+  "medicalcondition": "Swollen glands",
+  "symptoms": "Enlarged, tender lymph nodes",
+  "severity": 3,
+  "tests": "Clinical examination, Blood tests",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c91"
+  },
+  "medicalcondition": "Threadworms",
+  "symptoms": "Itching around the anus, Visible worms in stool",
+  "severity": 3,
+  "tests": "Visual examination, Sticky tape test",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c94"
+  },
+  "medicalcondition": "Thyroid cancer: Teenagers and young adults",
+  "symptoms": "Neck lump, Hoarseness, Difficulty swallowing",
+  "severity": 5,
+  "tests": "Ultrasound, Biopsy, Blood tests",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c95"
+  },
+  "medicalcondition": "Tinnitus",
+  "symptoms": "Ringing, buzzing, or hissing sound in the ears",
+  "severity": 3,
+  "tests": "Hearing tests, Imaging tests (MRI)",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c96"
+  },
+  "medicalcondition": "Tonsillitis",
+  "symptoms": "Sore throat, Difficulty swallowing, Fever",
+  "severity": 3,
+  "tests": "Throat swab, Blood tests",
+  "price": [
+    1000,
+    2000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612ca3"
+  },
+  "medicalcondition": "Urinary tract infection (UTI)",
+  "symptoms": "Burning sensation, Frequent urination, Cloudy urine",
+  "severity": 3,
+  "tests": "Urinalysis, Urine culture",
+  "price": [
+    1000,
+    2000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612ca6"
+  },
+  "medicalcondition": "Vaginal cancer",
+  "symptoms": "Abnormal vaginal bleeding, Pelvic pain, Pain during intercourse",
+  "severity": 7,
+  "tests": "Pelvic exam, Pap smear, Biopsy",
+  "price": [
+    2200,
+    4500,
+    6500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b6e"
+  },
+  "medicalcondition": "Acute pancreatitis",
+  "symptoms": "Abdominal pain, Nausea, Vomiting, Fever, Rapid pulse, Swollen abdomen",
+  "severity": 8,
+  "tests": "Blood tests, Imaging tests (CT scan, MRI, Ultrasound), Pancreatic function tests",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b65"
+  },
+  "medicalcondition": "Abdominal aortic aneurysm",
+  "symptoms": "Abdominal pain, Back pain, Pulsating sensation in the abdomen",
+  "severity": 7,
+  "tests": "Ultrasound, CT scan, MRI",
+  "price": [
+    4500,
+    5500,
+    5000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b73"
+  },
+  "medicalcondition": "Allergies",
+  "symptoms": "Runny or stuffy nose, Sneezing, Itchy eyes, skin, or throat, Hives, Swelling, Anaphylaxis (severe allergic reaction)",
+  "severity": 5,
+  "tests": "Skin prick test, Blood test (Allergen-specific IgE antibodies), Patch test",
+  "price": [
+    2000,
+    2500,
+    2200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b74"
+  },
+  "medicalcondition": "Alzheimer’s disease",
+  "symptoms": "Memory loss, Difficulty performing familiar tasks, Problems with language, Disorientation, Mood swings",
+  "severity": 9,
+  "tests": "Neurological examination, Cognitive tests (Mini-Mental State Examination, Montreal Cognitive Assessment), Brain imaging (MRI, CT scan, PET scan)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b76"
+  },
+  "medicalcondition": "Anaphylaxis",
+  "symptoms": "Skin rash, Itching, Swelling of the lips, tongue, throat, Shortness of breath, Wheezing, Difficulty swallowing, Rapid heartbeat",
+  "severity": 9,
+  "tests": "Blood tests (to measure tryptase levels, complete blood count), Skin prick test (to identify allergen triggering the reaction)",
+  "price": [
+    2500,
+    3500,
+    3000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b78"
+  },
+  "medicalcondition": "Angioedema",
+  "symptoms": "Swelling of the skin, typically around the eyes and lips, Swelling of the hands, feet, and throat, Abdominal cramping, Breathing difficulty",
+  "severity": 7,
+  "tests": "Blood tests (to check for levels of complement proteins, including C1 esterase inhibitor), Skin prick test (to identify triggering allergens)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b7c"
+  },
+  "medicalcondition": "Anxiety disorders in children",
+  "symptoms": "Excessive worrying, Avoidance of certain situations, Physical complaints (headaches, stomach aches), Irritability, Difficulty concentrating",
+  "severity": 6,
+  "tests": "Psychological evaluation (questionnaires, interviews), Observation of behavior, Blood tests (to rule out medical conditions)",
+  "price": [
+    2000,
+    2500,
+    2200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b7e"
+  },
+  "medicalcondition": "Arterial thrombosis",
+  "symptoms": "Pain or cramping in the affected area, Numbness or weakness in the limbs, Coldness or pallor in the affected area, Changes in skin color, Swelling",
+  "severity": 7,
+  "tests": "Doppler ultrasound, Magnetic resonance angiography (MRA), Computed tomography angiography (CTA)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b81"
+  },
+  "medicalcondition": "Asthma",
+  "symptoms": "Shortness of breath, Chest tightness or pain, Wheezing when exhaling, Coughing or wheezing attacks that are worsened by a respiratory virus",
+  "severity": 6,
+  "tests": "Spirometry, Peak flow meter, Allergy testing (skin prick test, blood test), Chest X-ray",
+  "price": [
+    2500,
+    3000,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b90"
+  },
+  "medicalcondition": "Bowel incontinence",
+  "symptoms": "Involuntary bowel movements, Difficulty controlling gas, Diarrhea",
+  "severity": 6,
+  "tests": "Anal manometry, Colonoscopy",
+  "price": [
+    1600,
+    3200,
+    4800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b91"
+  },
+  "medicalcondition": "Bowel polyps",
+  "symptoms": "No specific symptoms, but can cause bleeding, Changes in bowel habits",
+  "severity": 5,
+  "tests": "Colonoscopy, Flexible sigmoidoscopy",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b9a"
+  },
+  "medicalcondition": "Bulimia",
+  "symptoms": "Binge eating followed by purging, Excessive exercise, Frequent trips to the bathroom after meals",
+  "severity": 6,
+  "tests": "Physical examination, Blood tests",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b9d"
+  },
+  "medicalcondition": "Catarrh",
+  "symptoms": "Runny or stuffy nose, Sneezing, Coughing",
+  "severity": 3,
+  "tests": "Physical examination, Blood tests",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612ba6"
+  },
+  "medicalcondition": "Chronic fatigue syndrome",
+  "symptoms": "Persistent fatigue, Muscle and joint pain, Headaches",
+  "severity": 6,
+  "tests": "Physical examination, Blood tests",
+  "price": [
+    1500,
+    3000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612ba8"
+  },
+  "medicalcondition": "Chronic lymphocytic leukaemia",
+  "symptoms": "Fatigue, Enlarged lymph nodes, Weight loss",
+  "severity": 9,
+  "tests": "Blood tests, Bone marrow biopsy",
+  "price": [
+    3200,
+    6400,
+    8500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bad"
+  },
+  "medicalcondition": "Cirrhosis",
+  "symptoms": "Fatigue, Weakness, Abdominal swelling",
+  "severity": 8,
+  "tests": "Liver function tests, Imaging tests (CT, MRI)",
+  "price": [
+    3000,
+    6000,
+    8000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bae"
+  },
+  "medicalcondition": "Clostridium difficile",
+  "symptoms": "Diarrhea, Abdominal pain, Fever",
+  "severity": 6,
+  "tests": "Stool tests, Colonoscopy",
+  "price": [
+    1500,
+    3000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bb1"
+  },
+  "medicalcondition": "Coma",
+  "symptoms": "Unconsciousness, No response to stimuli, Abnormal breathing",
+  "severity": 10,
+  "tests": "Neurological examination, Imaging tests (CT, MRI), EEG",
+  "price": [
+    4000,
+    8000,
+    10000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bb9"
+  },
+  "medicalcondition": "Crohn’s disease",
+  "symptoms": "Abdominal pain, Diarrhea, Fatigue",
+  "severity": 7,
+  "tests": "Colonoscopy, Blood tests, Imaging tests (CT, MRI)",
+  "price": [
+    2500,
+    5000,
+    7000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bba"
+  },
+  "medicalcondition": "Croup",
+  "symptoms": "Barking cough, Stridor, Fever",
+  "severity": 4,
+  "tests": "Clinical diagnosis, Chest X-ray",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bc1"
+  },
+  "medicalcondition": "Dementia with Lewy bodies",
+  "symptoms": "Visual hallucinations, Tremors, Fluctuating alertness",
+  "severity": 8,
+  "tests": "Cognitive tests, Brain imaging (MRI, CT scan)",
+  "price": [
+    2800,
+    5500,
+    7500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bc5"
+  },
+  "medicalcondition": "Diabetes",
+  "symptoms": "Increased thirst, Frequent urination, Fatigue",
+  "severity": 7,
+  "tests": "Fasting blood sugar, HbA1c, Oral glucose tolerance test",
+  "price": [
+    2000,
+    4000,
+    6000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bd6"
+  },
+  "medicalcondition": "Escherichia coli (E. coli) O157",
+  "symptoms": "Severe stomach cramps, Diarrhea, Vomiting",
+  "severity": 6,
+  "tests": "Stool culture, Blood tests",
+  "price": [
+    1600,
+    3200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bd8"
+  },
+  "medicalcondition": "Ewing sarcoma: Children",
+  "symptoms": "Bone pain, Swelling, Fatigue",
+  "severity": 7,
+  "tests": "Biopsy, X-rays, MRI",
+  "price": [
+    2500,
+    5000,
+    7000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bda"
+  },
+  "medicalcondition": "Febrile seizures",
+  "symptoms": "Convulsions, Fever, Loss of consciousness",
+  "severity": 4,
+  "tests": "Clinical diagnosis, Blood tests",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bdd"
+  },
+  "medicalcondition": "Fever in children",
+  "symptoms": "High body temperature, Irritability, Poor feeding",
+  "severity": 3,
+  "tests": "Clinical examination, Blood tests",
+  "price": [
+    1000,
+    2000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612be0"
+  },
+  "medicalcondition": "Farting",
+  "symptoms": "Excessive gas, Belching, Abdominal bloating",
+  "severity": 2,
+  "tests": "Clinical diagnosis",
+  "price": [
+    600,
+    1200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612be2"
+  },
+  "medicalcondition": "Foetal alcohol syndrome",
+  "symptoms": "Facial deformities, Growth delays, Intellectual disability",
+  "severity": 7,
+  "tests": "Clinical examination, Blood tests",
+  "price": [
+    2200,
+    4500,
+    6500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612be4"
+  },
+  "medicalcondition": "Functional neurological disorder (FND)",
+  "symptoms": "Neurological symptoms inconsistent with known diseases",
+  "severity": 6,
+  "tests": "Neurological examination, MRI, EEG",
+  "price": [
+    1800,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bef"
+  },
+  "medicalcondition": "Glandular fever",
+  "symptoms": "Fatigue, Sore throat, Swollen lymph nodes",
+  "severity": 5,
+  "tests": "Monospot test, Blood tests",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bf2"
+  },
+  "medicalcondition": "Gum disease",
+  "symptoms": "Bleeding gums, Bad breath, Receding gums",
+  "severity": 3,
+  "tests": "Dental examination, X-rays",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bf3"
+  },
+  "medicalcondition": "Haemorrhoids (piles)",
+  "symptoms": "Bleeding during bowel movements, Itching, Swelling",
+  "severity": 3,
+  "tests": "Clinical examination, Colonoscopy",
+  "price": [
+    1000,
+    2000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bf6"
+  },
+  "medicalcondition": "Head and neck cancer",
+  "symptoms": "Persistent sore throat, Difficulty swallowing, Lump in the neck",
+  "severity": 8,
+  "tests": "Biopsy, Imaging tests (CT, MRI)",
+  "price": [
+    3000,
+    6000,
+    8000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bfc"
+  },
+  "medicalcondition": "Hepatitis A",
+  "symptoms": "Fatigue, Nausea, Jaundice",
+  "severity": 6,
+  "tests": "Blood tests, Hepatitis A antibody test",
+  "price": [
+    1600,
+    3200,
+    4800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c02"
+  },
+  "medicalcondition": "Hodgkin lymphoma",
+  "symptoms": "Swollen lymph nodes, Fatigue, Unexplained weight loss",
+  "severity": 8,
+  "tests": "Biopsy, Imaging tests (CT, PET-CT)",
+  "price": [
+    3000,
+    6000,
+    8000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c03"
+  },
+  "medicalcondition": "Hodgkin lymphoma: Children",
+  "symptoms": "Swollen lymph nodes, Fatigue, Unexplained weight loss",
+  "severity": 7,
+  "tests": "Biopsy, Imaging tests (CT, PET-CT)",
+  "price": [
+    2500,
+    5000,
+    7000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c04"
+  },
+  "medicalcondition": "Hodgkin lymphoma: Teenagers and young adults",
+  "symptoms": "Swollen lymph nodes, Fatigue, Unexplained weight loss",
+  "severity": 7,
+  "tests": "Biopsy, Imaging tests (CT, PET-CT)",
+  "price": [
+    2500,
+    5000,
+    7000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c05"
+  },
+  "medicalcondition": "Huntington’s disease",
+  "symptoms": "Motor and cognitive decline, Involuntary movements",
+  "severity": 9,
+  "tests": "Genetic testing, Neurological examination",
+  "price": [
+    3000,
+    6000,
+    8000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c0b"
+  },
+  "medicalcondition": "Indigestion",
+  "symptoms": "Pain or discomfort in the upper abdomen, Belching, Bloating, Nausea, Vomiting, Heartburn",
+  "severity": 4,
+  "tests": "Physical examination, Endoscopy, Upper gastrointestinal series",
+  "price": [
+    1500,
+    2000,
+    1800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c0c"
+  },
+  "medicalcondition": "Ingrown toenail",
+  "symptoms": "Pain, Swelling, Redness, Infection, Tenderness",
+  "severity": 3,
+  "tests": "Physical examination",
+  "price": [
+    1000,
+    1500,
+    1200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c10"
+  },
+  "medicalcondition": "Irritable bowel syndrome (IBS)",
+  "symptoms": "Abdominal pain or cramping, Bloating, Gas, Diarrhea or constipation, Mucus in the stool",
+  "severity": 6,
+  "tests": "Physical examination, Blood tests (to rule out other conditions), Stool tests, Colonoscopy",
+  "price": [
+    2500,
+    3000,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c13"
+  },
+  "medicalcondition": "Kaposi’s sarcoma",
+  "symptoms": "Red or purple patches on the skin or inside the mouth, Swelling, Skin lesions, Fever, Night sweats, Weight loss",
+  "severity": 7,
+  "tests": "Biopsy of skin lesion, Endoscopy, Imaging tests (CT scan, MRI)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c15"
+  },
+  "medicalcondition": "Kidney infection",
+  "symptoms": "Back pain, Side (flank) pain, Abdominal pain, Groin pain, Frequent urination, Painful urination, Cloudy or bloody urine, Fever",
+  "severity": 6,
+  "tests": "Urinalysis, Urine culture, Blood tests, Imaging tests (CT scan, ultrasound)",
+  "price": [
+    2500,
+    3000,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c16"
+  },
+  "medicalcondition": "Kidney stones",
+  "symptoms": "Severe pain in the side and back, below the ribs, Pain that spreads to the lower abdomen and groin, Painful urination, Pink, red or brown urine, Cloudy or foul-smelling urine, Nausea and vomiting",
+  "severity": 6,
+  "tests": "Urinalysis, Blood tests, Imaging tests (CT scan, ultrasound, X-ray), Urine culture",
+  "price": [
+    2500,
+    3000,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c18"
+  },
+  "medicalcondition": "Lactose intolerance",
+  "symptoms": "Diarrhea, Nausea, Abdominal cramps, Bloating, Gas",
+  "severity": 4,
+  "tests": "Lactose tolerance test, Hydrogen breath test, Stool acidity test",
+  "price": [
+    1500,
+    2000,
+    1800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c19"
+  },
+  "medicalcondition": "Laryngeal (larynx) cancer",
+  "symptoms": "Hoarseness or changes in the voice, Sore throat or cough that does not go away, Difficulty swallowing, Ear pain, Lump in the neck",
+  "severity": 7,
+  "tests": "Physical examination, Laryngoscopy, Biopsy, Imaging tests (CT scan, MRI)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c1a"
+  },
+  "medicalcondition": "Laryngitis",
+  "symptoms": "Hoarseness, Weak voice, Sore throat, Dry throat, Cough, Difficulty swallowing",
+  "severity": 5,
+  "tests": "Physical examination, Throat culture, Laryngoscopy",
+  "price": [
+    2000,
+    2500,
+    2200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c1c"
+  },
+  "medicalcondition": "Lichen planus",
+  "symptoms": "Itching, Purple, flat-topped bumps (plaques), White, lacy patches, Painful sores or ulcers",
+  "severity": 4,
+  "tests": "Physical examination, Skin biopsy",
+  "price": [
+    1500,
+    2000,
+    1800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c25"
+  },
+  "medicalcondition": "Lymphoedema",
+  "symptoms": "Swelling in one or more limbs, Heaviness or tightness in the affected limb, Limited range of motion, Aching or discomfort, Recurring infections, Hardening and thickening of the skin",
+  "severity": 6,
+  "tests": "Physical examination, Lymphoscintigraphy, MRI or CT scan",
+  "price": [
+    2500,
+    3000,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c2d"
+  },
+  "medicalcondition": "Mesothelioma",
+  "symptoms": "Shortness of breath, Chest pain, Unexplained weight loss, Fatigue, Wheezing, Persistent cough, Lumps of tissue under the skin on your chest",
+  "severity": 8,
+  "tests": "Imaging tests (CT scan, MRI, PET scan), Biopsy, Thoracoscopy, Thoracentesis",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c30"
+  },
+  "medicalcondition": "Miscarriage",
+  "symptoms": "Vaginal bleeding or spotting, Abdominal pain or cramping, Fluid or tissue passing from the vagina, Sudden decrease in pregnancy signs, such as breast tenderness or morning sickness",
+  "severity": 7,
+  "tests": "Physical examination, Pelvic exam, Ultrasound, Blood tests (hCG levels)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c35"
+  },
+  "medicalcondition": "Multiple sclerosis (MS)",
+  "symptoms": "Fatigue, Numbness or weakness, Difficulty walking, Spasticity, Tremors, Problems with coordination and balance, Bladder and bowel dysfunction, Cognitive changes",
+  "severity": 8,
+  "tests": "Neurological examination, MRI of the brain and spinal cord, Lumbar puncture (spinal tap), Evoked potentials tests",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c36"
+  },
+  "medicalcondition": "Mumps",
+  "symptoms": "Swollen and tender salivary glands (parotitis) on one or both sides of the face, Fever, Headache, Muscle aches, Fatigue, Loss of appetite",
+  "severity": 6,
+  "tests": "Physical examination, Blood tests, Viral culture",
+  "price": [
+    2500,
+    3000,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c38"
+  },
+  "medicalcondition": "Myasthenia gravis",
+  "symptoms": "Muscle weakness that improves with rest, Drooping eyelids, Double vision, Weakness in the arms or legs, Difficulty chewing, swallowing, or speaking, Fatigue",
+  "severity": 7,
+  "tests": "Neurological examination, Blood tests (antibodies to acetylcholine receptor), Electromyography (EMG), Imaging tests (CT scan, MRI)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c3d"
+  },
+  "medicalcondition": "Non-alcoholic fatty liver disease (NAFLD)",
+  "symptoms": "Fatigue, Enlarged liver, Abdominal swelling, Enlarged blood vessels underneath the skin's surface, Enlarged breasts in men",
+  "severity": 6,
+  "tests": "Liver function tests, Blood tests (lipid profile, fasting blood glucose), Imaging tests (ultrasound, CT scan, MRI)",
+  "price": [
+    2500,
+    3000,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c47"
+  },
+  "medicalcondition": "Osteoporosis",
+  "symptoms": "Back pain, Loss of height over time, A stooped posture, A bone fracture that occurs more easily than expected",
+  "severity": 6,
+  "tests": "Bone density test (DEXA scan), Blood tests (calcium, vitamin D levels), Imaging tests (X-ray)",
+  "price": [
+    2500,
+    3000,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c4d"
+  },
+  "medicalcondition": "Overactive thyroid",
+  "symptoms": "Nervousness, Irritability, Increased perspiration, Thinning of the skin, Fine, brittle hair, Weakness, Fatigue, Tremor, Muscle weakness",
+  "severity": 6,
+  "tests": "Thyroid function tests (TSH, T4, T3), Thyroid ultrasound, Radioactive iodine uptake test",
+  "price": [
+    2500,
+    3000,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c4e"
+  },
+  "medicalcondition": "Paget’s disease of the nipple",
+  "symptoms": "Redness, Itching, Nipple discharge",
+  "severity": 6,
+  "tests": "Mammogram, Biopsy",
+  "price": [
+    1800,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c5a"
+  },
+  "medicalcondition": "Polycystic ovary syndrome (PCOS)",
+  "symptoms": "Irregular periods, Acne, Excess hair growth",
+  "severity": 4,
+  "tests": "Ultrasound, Blood tests",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c62"
+  },
+  "medicalcondition": "Psoriasis",
+  "symptoms": "Red patches of skin, Silvery scales, Itching",
+  "severity": 4,
+  "tests": "Clinical examination, Skin biopsy",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c63"
+  },
+  "medicalcondition": "Psoriatic arthritis",
+  "symptoms": "Joint pain, Swelling, Nail changes",
+  "severity": 6,
+  "tests": "X-rays, Blood tests",
+  "price": [
+    1800,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c6c"
+  },
+  "medicalcondition": "Rheumatoid arthritis",
+  "symptoms": "Joint pain, Swelling, Morning stiffness",
+  "severity": 6,
+  "tests": "Blood tests, X-rays",
+  "price": [
+    1800,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c6e"
+  },
+  "medicalcondition": "Rosacea",
+  "symptoms": "Redness, Visible blood vessels, Pimple-like bumps",
+  "severity": 4,
+  "tests": "Clinical examination, Skin biopsy",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c72"
+  },
+  "medicalcondition": "Scoliosis",
+  "symptoms": "Uneven shoulders or hips, Back pain, Difficulty breathing",
+  "severity": 5,
+  "tests": "X-rays, CT scan",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c74"
+  },
+  "medicalcondition": "Shingles",
+  "symptoms": "Painful rash, Burning sensation, Headache",
+  "severity": 5,
+  "tests": "Clinical diagnosis, Viral culture",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c7a"
+  },
+  "medicalcondition": "Skin cancer (non-melanoma)",
+  "symptoms": "Bump or spot, Changes in skin texture, Bleeding",
+  "severity": 6,
+  "tests": "Skin biopsy, Imaging tests (CT, MRI)",
+  "price": [
+    1800,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b66"
+  },
+  "medicalcondition": "Acne",
+  "symptoms": "Pimples, Blackheads, Whiteheads, Redness, Inflammation",
+  "severity": 4,
+  "tests": "Physical examination",
+  "price": [
+    1500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b67"
+  },
+  "medicalcondition": "Acute cholecystitis",
+  "symptoms": "Abdominal pain (especially in the upper right side), Fever, Nausea, Vomiting, Jaundice",
+  "severity": 8,
+  "tests": "Ultrasound, CT scan, Blood tests",
+  "price": [
+    2500,
+    3500,
+    3000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b6c"
+  },
+  "medicalcondition": "Acute myeloid leukaemia: Children",
+  "symptoms": "Same as Acute myeloid leukaemia",
+  "severity": 9,
+  "tests": "Same as Acute myeloid leukaemia",
+  "price": [
+    2000,
+    3500,
+    3000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b6d"
+  },
+  "medicalcondition": "Acute myeloid leukaemia: Teenagers and young adults",
+  "symptoms": "Same as Acute myeloid leukaemia",
+  "severity": 9,
+  "tests": "Same as Acute myeloid leukaemia",
+  "price": [
+    2000,
+    3500,
+    3000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b70"
+  },
+  "medicalcondition": "Addison’s disease",
+  "symptoms": "Fatigue, Weight loss, Darkening of the skin, Low blood pressure, Salt craving, Hypoglycemia",
+  "severity": 7,
+  "tests": "Blood tests (ACTH stimulation test, Cortisol level test, ACTH level test), Imaging tests (CT scan, MRI)",
+  "price": [
+    4000,
+    5000,
+    4500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b71"
+  },
+  "medicalcondition": "Alcohol-related liver disease",
+  "symptoms": "Fatigue, Jaundice, Swelling in the legs and abdomen, Confusion, Nausea, Weight loss",
+  "severity": 8,
+  "tests": "Liver function tests, Blood tests (to check for alcohol-related liver damage), Imaging tests (Ultrasound, CT scan, MRI)",
+  "price": [
+    2500,
+    3500,
+    3000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b72"
+  },
+  "medicalcondition": "Allergic rhinitis",
+  "symptoms": "Sneezing, Runny or stuffy nose, Itchy eyes, nose, or throat, Watery eyes, Coughing",
+  "severity": 5,
+  "tests": "Skin prick test, Blood test (Allergen-specific IgE antibodies), Nasal endoscopy",
+  "price": [
+    2000,
+    2500,
+    2200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b77"
+  },
+  "medicalcondition": "Angina",
+  "symptoms": "Chest pain or discomfort, Pain in your arms, neck, jaw, shoulder or back accompanying chest pain, Nausea, Fatigue, Shortness of breath",
+  "severity": 8,
+  "tests": "Electrocardiogram (ECG), Stress test, Coronary angiography",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b7b"
+  },
+  "medicalcondition": "Anxiety",
+  "symptoms": "Feeling nervous, Restlessness, Increased heart rate, Rapid breathing, Sweating, Trembling",
+  "severity": 6,
+  "tests": "Physical examination, Psychological evaluation (questionnaires, interviews), Blood tests (to rule out medical conditions)",
+  "price": [
+    2000,
+    2500,
+    2200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b7d"
+  },
+  "medicalcondition": "Appendicitis",
+  "symptoms": "Pain in the abdomen (usually starting near the belly button), Loss of appetite, Nausea, Vomiting, Low-grade fever, Constipation or diarrhea",
+  "severity": 8,
+  "tests": "Physical examination (McBurney's point tenderness test), Blood tests (complete blood count, white blood cell count), Imaging tests (CT scan, ultrasound)",
+  "price": [
+    2500,
+    3500,
+    3000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b7f"
+  },
+  "medicalcondition": "Arthritis",
+  "symptoms": "Joint pain, Joint swelling, Joint stiffness, Reduced range of motion, Warmth around the joint, Redness of the skin around the joint",
+  "severity": 7,
+  "tests": "Physical examination, Blood tests (C-reactive protein, rheumatoid factor, anti-cyclic citrullinated peptide antibodies), Imaging tests (X-ray, MRI, ultrasound)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b84"
+  },
+  "medicalcondition": "Attention deficit hyperactivity disorder (ADHD)",
+  "symptoms": "Inattention, Hyperactivity, Impulsivity, Difficulty organizing tasks, Forgetfulness, Restlessness",
+  "severity": 6,
+  "tests": "Psychological evaluation (questionnaires, interviews), Observation of behavior, Rating scales (Conners scale, Vanderbilt ADHD diagnostic rating scales)",
+  "price": [
+    2500,
+    3000,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b87"
+  },
+  "medicalcondition": "Benign prostate enlargement",
+  "symptoms": "Frequent urination, Difficulty starting or stopping urination, Weak urine stream",
+  "severity": 6,
+  "tests": "Digital rectal exam, Prostate-specific antigen (PSA) blood test",
+  "price": [
+    1800,
+    3200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b8b"
+  },
+  "medicalcondition": "Bladder cancer",
+  "symptoms": "Blood in urine, Frequent urination, Pelvic pain",
+  "severity": 8,
+  "tests": "Cystoscopy, Imaging tests (CT, MRI)",
+  "price": [
+    2000,
+    4000,
+    6000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b8c"
+  },
+  "medicalcondition": "Blood poisoning (sepsis)",
+  "symptoms": "Fever, Rapid heart rate, Confusion",
+  "severity": 9,
+  "tests": "Blood cultures, Imaging tests (X-rays, CT scans)",
+  "price": [
+    3000,
+    6000,
+    8000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b8f"
+  },
+  "medicalcondition": "Bowel cancer",
+  "symptoms": "Changes in bowel habits, Blood in stool, Abdominal pain",
+  "severity": 8,
+  "tests": "Colonoscopy, CT colonography",
+  "price": [
+    2800,
+    5500,
+    7500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b95"
+  },
+  "medicalcondition": "Brain tumours: Teenagers and young adults",
+  "symptoms": "Headaches, Seizures, Changes in personality",
+  "severity": 8,
+  "tests": "MRI, CT scan, Biopsy",
+  "price": [
+    3200,
+    6400,
+    8500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b98"
+  },
+  "medicalcondition": "Bronchiectasis",
+  "symptoms": "Chronic cough, Recurrent chest infections, Shortness of breath",
+  "severity": 7,
+  "tests": "CT scan, Pulmonary function tests",
+  "price": [
+    2500,
+    5000,
+    7000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612b99"
+  },
+  "medicalcondition": "Bronchitis",
+  "symptoms": "Cough, Chest discomfort, Shortness of breath",
+  "severity": 5,
+  "tests": "Physical examination, Chest X-ray",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612ba0"
+  },
+  "medicalcondition": "Cervical cancer",
+  "symptoms": "Abnormal vaginal bleeding, Pelvic pain, Pain during intercourse",
+  "severity": 9,
+  "tests": "Pap test, HPV test, Biopsy",
+  "price": [
+    3500,
+    7000,
+    9000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612ba2"
+  },
+  "medicalcondition": "Chest pain",
+  "symptoms": "Sharp or dull chest pain, Tightness in the chest, Shortness of breath",
+  "severity": 7,
+  "tests": "ECG, Chest X-ray, Blood tests",
+  "price": [
+    1800,
+    3600,
+    5400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612ba3"
+  },
+  "medicalcondition": "Chickenpox",
+  "symptoms": "Red spots, Itchy rash, Fever",
+  "severity": 4,
+  "tests": "Clinical diagnosis, Blood tests",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612ba5"
+  },
+  "medicalcondition": "Chlamydia",
+  "symptoms": "Painful urination, Abnormal discharge, Pelvic pain",
+  "severity": 6,
+  "tests": "Urine test, Swab test",
+  "price": [
+    1400,
+    2800,
+    4200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612ba9"
+  },
+  "medicalcondition": "Chronic myeloid leukaemia",
+  "symptoms": "Fatigue, Abdominal pain, Easy bruising",
+  "severity": 9,
+  "tests": "Blood tests, Bone marrow biopsy",
+  "price": [
+    3400,
+    6800,
+    9000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bb0"
+  },
+  "medicalcondition": "Cold sore",
+  "symptoms": "Painful blisters, Itching, Redness",
+  "severity": 3,
+  "tests": "Clinical diagnosis",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bb2"
+  },
+  "medicalcondition": "Common cold",
+  "symptoms": "Runny or stuffy nose, Sneezing, Coughing",
+  "severity": 2,
+  "tests": "Clinical diagnosis, Blood tests",
+  "price": [
+    600,
+    1200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bb3"
+  },
+  "medicalcondition": "Common heart conditions",
+  "symptoms": "Chest pain, Shortness of breath, Fatigue",
+  "severity": 7,
+  "tests": "ECG, Echocardiogram, Blood tests",
+  "price": [
+    2000,
+    4000,
+    6000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bb4"
+  },
+  "medicalcondition": "Congenital heart disease",
+  "symptoms": "Cyanosis, Shortness of breath, Fatigue",
+  "severity": 8,
+  "tests": "Echocardiogram, Chest X-ray, MRI",
+  "price": [
+    2800,
+    5500,
+    7500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bb5"
+  },
+  "medicalcondition": "Conjunctivitis",
+  "symptoms": "Redness of the eye, Itching, Discharge",
+  "severity": 3,
+  "tests": "Physical examination",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bb6"
+  },
+  "medicalcondition": "Constipation",
+  "symptoms": "Infrequent bowel movements, Straining during bowel movements, Abdominal discomfort",
+  "severity": 4,
+  "tests": "Clinical diagnosis, Blood tests",
+  "price": [
+    1000,
+    2000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bc7"
+  },
+  "medicalcondition": "Discoid eczema",
+  "symptoms": "Dry, itchy, and cracked skin",
+  "severity": 3,
+  "tests": "Clinical examination, Skin biopsy",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bcb"
+  },
+  "medicalcondition": "Dry mouth",
+  "symptoms": "Difficulty swallowing, Sticky or dry feeling in the mouth",
+  "severity": 3,
+  "tests": "Salivary flow test, Blood tests",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bcc"
+  },
+  "medicalcondition": "Dysphagia (swallowing problems)",
+  "symptoms": "Difficulty swallowing, Choking, Regurgitation",
+  "severity": 5,
+  "tests": "Barium swallow test, Endoscopy",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bd3"
+  },
+  "medicalcondition": "Endometriosis",
+  "symptoms": "Pelvic pain, Painful periods, Infertility",
+  "severity": 6,
+  "tests": "Pelvic ultrasound, Laparoscopy",
+  "price": [
+    1800,
+    3600,
+    5400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bde"
+  },
+  "medicalcondition": "Fibroids",
+  "symptoms": "Heavy menstrual bleeding, Pelvic pain, Frequent urination",
+  "severity": 6,
+  "tests": "Pelvic ultrasound, Hysteroscopy",
+  "price": [
+    1800,
+    3600,
+    5400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612be3"
+  },
+  "medicalcondition": "Food poisoning",
+  "symptoms": "Nausea, Vomiting, Diarrhea",
+  "severity": 4,
+  "tests": "Stool culture, Blood tests",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612be5"
+  },
+  "medicalcondition": "Fungal nail infection",
+  "symptoms": "Thickened, discolored nails",
+  "severity": 3,
+  "tests": "Nail clippings examination",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612be9"
+  },
+  "medicalcondition": "Gastroenteritis",
+  "symptoms": "Nausea, Vomiting, Diarrhea",
+  "severity": 4,
+  "tests": "Stool culture, Blood tests",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bee"
+  },
+  "medicalcondition": "Germ cell tumours",
+  "symptoms": "Testicular or ovarian mass, Abdominal pain",
+  "severity": 7,
+  "tests": "Blood tests, Imaging tests (CT, MRI), Biopsy",
+  "price": [
+    2500,
+    5000,
+    7000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bf4"
+  },
+  "medicalcondition": "Hand, foot and mouth disease",
+  "symptoms": "Fever, Sore throat, Skin rash",
+  "severity": 3,
+  "tests": "Clinical diagnosis",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bf5"
+  },
+  "medicalcondition": "Hay fever",
+  "symptoms": "Sneezing, Runny or stuffy nose, Itchy eyes",
+  "severity": 2,
+  "tests": "Clinical diagnosis",
+  "price": [
+    600,
+    1200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bfa"
+  },
+  "medicalcondition": "Heart attack",
+  "symptoms": "Chest pain, Shortness of breath, Sweating",
+  "severity": 9,
+  "tests": "ECG, Blood tests, Coronary angiography",
+  "price": [
+    3500,
+    7000,
+    9000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612bfb"
+  },
+  "medicalcondition": "Heart failure",
+  "symptoms": "Shortness of breath, Fatigue, Swelling in the legs",
+  "severity": 8,
+  "tests": "Echocardiogram, Blood tests",
+  "price": [
+    2800,
+    5500,
+    7500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c06"
+  },
+  "medicalcondition": "Hyperglycaemia (high blood sugar)",
+  "symptoms": "Increased thirst, Frequent urination, Fatigue",
+  "severity": 6,
+  "tests": "Blood glucose tests, HbA1c",
+  "price": [
+    1800,
+    3600,
+    5400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c07"
+  },
+  "medicalcondition": "Hyperhidrosis",
+  "symptoms": "Excessive sweating, Damp palms, Foot odor",
+  "severity": 4,
+  "tests": "Clinical diagnosis, Sweat tests",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c08"
+  },
+  "medicalcondition": "Hypoglycaemia (low blood sugar)",
+  "symptoms": "Shakiness, Sweating, Confusion",
+  "severity": 4,
+  "tests": "Blood glucose tests, Insulin levels",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c0d"
+  },
+  "medicalcondition": "Inherited heart conditions",
+  "symptoms": "Varies depending on the specific condition, may include chest pain, shortness of breath, palpitations, fainting, fatigue",
+  "severity": 8,
+  "tests": "Genetic testing, Electrocardiogram (ECG), Echocardiogram, Cardiac MRI",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c12"
+  },
+  "medicalcondition": "Itchy bottom",
+  "symptoms": "Itching around the anus, Irritation or pain around the anus, Redness or inflammation around the anus",
+  "severity": 3,
+  "tests": "Physical examination, Anal swab test",
+  "price": [
+    1000,
+    1500,
+    1200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c1d"
+  },
+  "medicalcondition": "Lipoedema",
+  "symptoms": "Enlarged hips, thighs, buttocks, and legs disproportionate to the upper body, Tendency to bruise easily, Pain, Swelling, Sensitivity to touch",
+  "severity": 6,
+  "tests": "Physical examination, Ultrasonography, Lymphoscintigraphy",
+  "price": [
+    2500,
+    3000,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c21"
+  },
+  "medicalcondition": "Loss of libido",
+  "symptoms": "Reduced interest in sexual activity, Reduced sexual desire or arousal, Difficulty achieving orgasm, Erectile dysfunction (in men), Pain during intercourse (in women)",
+  "severity": 5,
+  "tests": "Physical examination, Blood tests (testosterone levels), Hormone tests, Psychological evaluation",
+  "price": [
+    2000,
+    2500,
+    2200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c28"
+  },
+  "medicalcondition": "Malignant brain tumour (cancerous)",
+  "symptoms": "Headaches, Seizures, Weakness or paralysis, Speech difficulties, Changes in vision, Nausea and vomiting, Confusion, Memory problems",
+  "severity": 9,
+  "tests": "MRI or CT scan, Biopsy, Lumbar puncture, Angiogram",
+  "price": [
+    4000,
+    5000,
+    4500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c33"
+  },
+  "medicalcondition": "Mouth ulcer",
+  "symptoms": "Pain, Soreness or irritation in the mouth, Redness or swelling, White or yellow ulcer with a red border",
+  "severity": 4,
+  "tests": "Physical examination, Biopsy",
+  "price": [
+    1500,
+    2000,
+    1800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c39"
+  },
+  "medicalcondition": "Nasal and sinus cancer",
+  "symptoms": "Blocked sinuses that don't clear, Sinus pain, Postnasal drip, Nosebleeds, Runny nose, Decreased sense of smell, Watery eyes, Pain in the upper teeth",
+  "severity": 7,
+  "tests": "Physical examination, Nasal endoscopy, Imaging tests (CT scan, MRI)",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c41"
+  },
+  "medicalcondition": "Nosebleed",
+  "symptoms": "Bleeding from one or both nostrils, Dripping blood from the nose, Frequent swallowing",
+  "severity": 3,
+  "tests": "Physical examination, Nasal endoscopy",
+  "price": [
+    1000,
+    1500,
+    1200
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c43"
+  },
+  "medicalcondition": "Obsessive compulsive disorder (OCD)",
+  "symptoms": "Obsessions (recurring unwanted thoughts), Compulsions (repetitive behaviors), Fear of contamination, Fear of harm, Fear of making mistakes, Excessive concern with order, symmetry, or exactness",
+  "severity": 6,
+  "tests": "Psychological evaluation, Self-report questionnaires, Diagnostic interviews",
+  "price": [
+    2500,
+    3000,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c48"
+  },
+  "medicalcondition": "Osteosarcoma",
+  "symptoms": "Bone pain or tenderness, Swelling near a bone, Difficulty moving a limb or joint, Limping, Unexplained weight loss, Fatigue, Fever",
+  "severity": 7,
+  "tests": "X-ray, CT scan, MRI, Bone scan, Biopsy",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c49"
+  },
+  "medicalcondition": "Otitis externa",
+  "symptoms": "Ear pain, Itchiness in the ear canal, Redness and swelling in the ear canal, Drainage of clear, odorless fluid",
+  "severity": 4,
+  "tests": "Physical examination, Culture of the drainage from the ear, Swab for bacterial culture and sensitivity",
+  "price": [
+    1500,
+    2000,
+    1800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c4b"
+  },
+  "medicalcondition": "Ovarian cancer: Teenagers and young adults",
+  "symptoms": "Abdominal bloating or swelling, Quickly feeling full when eating, Weight loss, Discomfort in the pelvis area, Changes in bowel habits, such as constipation, A frequent need to urinate",
+  "severity": 8,
+  "tests": "Pelvic examination, Transvaginal ultrasound, CA-125 blood test, Biopsy",
+  "price": [
+    3000,
+    4000,
+    3500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c4f"
+  },
+  "medicalcondition": "Pancreatic cancer",
+  "symptoms": "Abdominal pain, Jaundice, Weight loss",
+  "severity": 8,
+  "tests": "CT scan, MRI, Biopsy",
+  "price": [
+    2800,
+    5500,
+    7500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c50"
+  },
+  "medicalcondition": "Panic disorder",
+  "symptoms": "Panic attacks, Sweating, Trembling",
+  "severity": 4,
+  "tests": "Psychological evaluation, Blood tests",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c57"
+  },
+  "medicalcondition": "Personality disorder",
+  "symptoms": "Difficulty forming relationships, Impulsive behavior, Mood swings",
+  "severity": 5,
+  "tests": "Psychological evaluation, Interview",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c5b"
+  },
+  "medicalcondition": "Polymyalgia rheumatica",
+  "symptoms": "Muscle pain and stiffness, Fatigue, Limited range of motion",
+  "severity": 5,
+  "tests": "Blood tests, Imaging tests (MRI, CT scan)",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c5e"
+  },
+  "medicalcondition": "Postnatal depression",
+  "symptoms": "Persistent sadness, Lack of interest in the baby, Fatigue",
+  "severity": 5,
+  "tests": "Edinburgh Postnatal Depression Scale, Psychiatric evaluation",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c5f"
+  },
+  "medicalcondition": "Pregnancy and baby",
+  "symptoms": "Varies based on pregnancy stage",
+  "severity": 2,
+  "tests": "Ultrasound, Blood tests",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c61"
+  },
+  "medicalcondition": "Prostate cancer",
+  "symptoms": "Frequent urination, Blood in urine, Erectile dysfunction",
+  "severity": 8,
+  "tests": "PSA blood test, Biopsy, MRI",
+  "price": [
+    2800,
+    5500,
+    7500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c66"
+  },
+  "medicalcondition": "Rare tumours",
+  "symptoms": "Varies based on the type of tumour",
+  "severity": 7,
+  "tests": "Biopsy, Imaging tests (CT, MRI)",
+  "price": [
+    2200,
+    4500,
+    6500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c67"
+  },
+  "medicalcondition": "Raynaud’s phenomenon",
+  "symptoms": "Cold fingers or toes, Color changes in skin, Numbness or tingling",
+  "severity": 4,
+  "tests": "Cold stimulation test, Blood tests",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c68"
+  },
+  "medicalcondition": "Reactive arthritis",
+  "symptoms": "Joint pain, Swelling, Redness",
+  "severity": 5,
+  "tests": "Joint fluid analysis, Blood tests",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c77"
+  },
+  "medicalcondition": "Sinusitis",
+  "symptoms": "Facial pain, Nasal congestion, Headache",
+  "severity": 4,
+  "tests": "Clinical examination, Sinus X-rays",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c79"
+  },
+  "medicalcondition": "Skin cancer (melanoma)",
+  "symptoms": "Changes in mole, Irregular borders, Itching",
+  "severity": 7,
+  "tests": "Skin biopsy, Imaging tests (CT, MRI)",
+  "price": [
+    2200,
+    4500,
+    6500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c7c"
+  },
+  "medicalcondition": "Slapped cheek syndrome",
+  "symptoms": "Red rash on the face, Fever, Headache",
+  "severity": 3,
+  "tests": "Clinical diagnosis, Blood tests",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c8c"
+  },
+  "medicalcondition": "Syphilis",
+  "symptoms": "Painless sores, Rash, Fever",
+  "severity": 5,
+  "tests": "Blood tests, Rapid plasma reagin (RPR) test",
+  "price": [
+    1400,
+    2800
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c90"
+  },
+  "medicalcondition": "Thirst",
+  "symptoms": "Increased sensation of needing to drink",
+  "severity": 2,
+  "tests": "Blood tests, Urinalysis",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c97"
+  },
+  "medicalcondition": "Tooth decay",
+  "symptoms": "Toothache, Sensitivity, Discoloration",
+  "severity": 2,
+  "tests": "Dental examination, X-rays",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612ca4"
+  },
+  "medicalcondition": "Urinary tract infection (UTI) in children",
+  "symptoms": "Fever, Irritability, Bedwetting",
+  "severity": 2,
+  "tests": "Urine analysis, Ultrasound",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612ca5"
+  },
+  "medicalcondition": "Urticaria (hives)",
+  "symptoms": "Raised, red, itchy welts on the skin",
+  "severity": 3,
+  "tests": "Clinical examination, Allergy tests",
+  "price": [
+    1000,
+    2000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612ca7"
+  },
+  "medicalcondition": "Vaginal discharge",
+  "symptoms": "Changes in color or odor, Itching, Pain",
+  "severity": 3,
+  "tests": "Pelvic exam, Swab tests",
+  "price": [
+    1000,
+    2000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612ca8"
+  },
+  "medicalcondition": "Varicose eczema",
+  "symptoms": "Red, itchy, swollen skin, Varicose veins",
+  "severity": 4,
+  "tests": "Clinical examination, Doppler ultrasound",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612caa"
+  },
+  "medicalcondition": "Vertigo",
+  "symptoms": "Dizziness, Nausea, Unsteadiness",
+  "severity": 4,
+  "tests": "Dix-Hallpike maneuver, Electronystagmography (ENG)",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612cab"
+  },
+  "medicalcondition": "Vitamin B12 or folate deficiency anaemia",
+  "symptoms": "Fatigue, Shortness of breath, Pale skin",
+  "severity": 3,
+  "tests": "Blood tests, Serum B12 and folate levels",
+  "price": [
+    1000,
+    2000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612cac"
+  },
+  "medicalcondition": "Vomiting in adults",
+  "symptoms": "Forced expulsion of stomach contents",
+  "severity": 3,
+  "tests": "Clinical examination, Blood tests",
+  "price": [
+    1000,
+    2000
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c7b"
+  },
+  "medicalcondition": "Skin rashes in children",
+  "symptoms": "Varies based on the type of rash",
+  "severity": 3,
+  "tests": "Clinical examination, Skin scraping",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c81"
+  },
+  "medicalcondition": "Stillbirth",
+  "symptoms": "No fetal movements, Absence of heartbeat",
+  "severity": 8,
+  "tests": "Ultrasound, Doppler studies",
+  "price": [
+    2800,
+    5500,
+    7500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c89"
+  },
+  "medicalcondition": "Sunburn",
+  "symptoms": "Red, painful skin, Swelling, Blisters",
+  "severity": 2,
+  "tests": "Clinical examination",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c8d"
+  },
+  "medicalcondition": "Testicular cancer",
+  "symptoms": "Lump or swelling in the testicle, Pain",
+  "severity": 7,
+  "tests": "Ultrasound, Blood tests, Biopsy",
+  "price": [
+    2200,
+    4500,
+    6500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c8f"
+  },
+  "medicalcondition": "Testicular lumps and swellings",
+  "symptoms": "Varies based on the cause",
+  "severity": 3,
+  "tests": "Ultrasound, Blood tests",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c92"
+  },
+  "medicalcondition": "Thrush",
+  "symptoms": "Itching, Burning, Cottage cheese-like discharge",
+  "severity": 3,
+  "tests": "Clinical examination, Swab test",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c93"
+  },
+  "medicalcondition": "Thyroid cancer",
+  "symptoms": "Neck lump, Hoarseness, Difficulty swallowing",
+  "severity": 6,
+  "tests": "Ultrasound, Biopsy, Blood tests",
+  "price": [
+    1800,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c98"
+  },
+  "medicalcondition": "Toothache",
+  "symptoms": "Pain in or around the tooth",
+  "severity": 2,
+  "tests": "Dental examination, X-rays",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c9a"
+  },
+  "medicalcondition": "Trigeminal neuralgia",
+  "symptoms": "Severe facial pain, Episodes of stabbing pain",
+  "severity": 4,
+  "tests": "Clinical evaluation, MRI",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c9c"
+  },
+  "medicalcondition": "Type 1 diabetes",
+  "symptoms": "Increased thirst, Frequent urination, Fatigue",
+  "severity": 6,
+  "tests": "Blood glucose tests, HbA1c",
+  "price": [
+    1800,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c9d"
+  },
+  "medicalcondition": "Type 2 diabetes",
+  "symptoms": "Increased thirst, Frequent urination, Fatigue",
+  "severity": 7,
+  "tests": "Blood glucose tests, HbA1c",
+  "price": [
+    2200,
+    4500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612c9e"
+  },
+  "medicalcondition": "Trichomonas infection",
+  "symptoms": "Itching, Burning, Discharge",
+  "severity": 3,
+  "tests": "Swab test, Wet mount test",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612ca0"
+  },
+  "medicalcondition": "Ulcerative colitis",
+  "symptoms": "Diarrhea, Abdominal pain, Blood in stool",
+  "severity": 6,
+  "tests": "Colonoscopy, Blood tests",
+  "price": [
+    1800,
+    3600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612ca1"
+  },
+  "medicalcondition": "Underactive thyroid",
+  "symptoms": "Fatigue, Weight gain, Cold intolerance",
+  "severity": 4,
+  "tests": "Thyroid function tests, Thyroid ultrasound",
+  "price": [
+    1200,
+    2400
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612cae"
+  },
+  "medicalcondition": "Warts and verrucas",
+  "symptoms": "Small, rough growths on the skin",
+  "severity": 2,
+  "tests": "Clinical examination, Skin biopsy",
+  "price": [
+    800,
+    1600
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612cb0"
+  },
+  "medicalcondition": "Wilms’ tumour",
+  "symptoms": "Abdominal swelling, Blood in urine, Fever",
+  "severity": 7,
+  "tests": "CT scan, MRI, Biopsy",
+  "price": [
+    2200,
+    4500,
+    6500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612cb1"
+  },
+  "medicalcondition": "Womb (uterus) cancer",
+  "symptoms": "Abnormal vaginal bleeding, Pelvic pain, Pain during intercourse",
+  "severity": 7,
+  "tests": "Pelvic exam, Endometrial biopsy",
+  "price": [
+    2200,
+    4500,
+    6500
+  ]
+},
+{
+  "_id": {
+    "$oid": "65cccc8816085881d7612cb2"
+  },
+  "medicalcondition": "Yellow fever",
+  "symptoms": "Fever, Muscle pain, Jaundice",
+  "severity": 5,
+  "tests": "Blood tests, Liver function tests",
+  "price": [
+    1400,
+    2800
+  ]
+}]

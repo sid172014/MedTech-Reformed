@@ -24,9 +24,18 @@ const userSchema = new mongoose.Schema({
     },
     medInfo: [
         {
-            medicalHistory: [String], // Array of strings
-            tests: [String], // Array of strings
-            medicines: [String], // Array of strings
+            medicalHistory: {
+                type: [String],
+                default: []
+            },
+            tests: {
+                type: [String],
+                default: []
+            },
+            medicines: {
+                type: [String],
+                default: []
+            },
             date: {
                 type: Date,
                 default: Date.now

@@ -96,8 +96,24 @@ router.get('/users/mydetails', detailsMiddleware , (req,res) => {
     }
 });
 
+router.patch('/users/update', detailsMiddleware, async (req,res) => {
+    try{
+        const updateUser = await users.findByIdAndUpdate(req.user.id,{
+            $push : {
+                medInfo : {
+                    medicalHistory : req.body.medicalHistory.map((item) => {return item}),
+                    tests : req.body.tests.map((item) =>{return item})
+                }
+            }
+        });
+        res.send(updateUser);
+    }catch(e){
+        res.status(404).send(e.message);
+    }
+})
+
 // Sending ML model the request to give the predicted disease based on the symptoms
-router.get('/users/getPred', detailsMiddleware ,async (req,res) => {
+router.post('/users/getPred', detailsMiddleware ,async (req,res) => {
     try{
         const response = await axios.post('http://127.0.0.1:8000/getPrediction',req.body);
         res.send(response.data);

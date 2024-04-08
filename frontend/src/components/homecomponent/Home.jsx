@@ -214,7 +214,7 @@ theme="dark"
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
       </head>
       
-      <div>
+      <div id="home">
         {/* Navigation section */}
         <div id="nav">
           <img src={Logo} alt="" />
@@ -268,7 +268,7 @@ theme="dark"
               </div>
             </div>
             <div className="container">
-              <div className="main">
+              <div className="mainLoginSignup">
                 <input type="checkbox" id="chk" aria-hidden="true" />
                 <div className="signup">
                   <div id="signupForm">
