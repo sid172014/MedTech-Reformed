@@ -61,6 +61,7 @@ const Reminders = () => {
         {medicines.length === 0 ? null : medicines.map((item) => {
             return <div key={item.medicine}>{item.medicine} - {item.dosage}</div>
         })}
+        
       </div>
     </>
   );
