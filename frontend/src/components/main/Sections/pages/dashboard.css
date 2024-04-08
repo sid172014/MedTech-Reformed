@@ -1,0 +1,31 @@
+/* CSS */
+
+  
+#testTable {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;  }
+  
+  #testThead{
+    background-color: #f1dbdb;
+  }
+  
+  #testTH, #testTD {
+    padding: 12px 50px;
+    text-align: left;
+  }
+  
+  #testTh {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  
+  #testBody #testTR:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  

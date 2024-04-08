@@ -261,19 +261,30 @@ const Dashboard = () => {
           
             {/* Displaying data */}
             <div className="col-md-12">
-            {testsRecommended.length === 0 ? null : 
-                  testsRecommended.map((data) => {
-                  return data.tests.map((item) => {
+          {testsRecommended.length === 0 ? null :
+            <table id="testTable">
+              <thead id="testThead">
+                <tr>
+                  <th id="testTD">Test</th>
+                  <th id="testTD">Severity</th>
+                </tr>
+              </thead>
+              <tbody id="testBody">
+                {testsRecommended.map((data) => {
+                  return data.tests.map((item, index) => {
                     return (
-                      <div key={item}>
-                        <div>{item}</div>
-                        <div>{data.severity}</div>
-                      </div>
+                      <tr id="testTR" key={index}>
+                        <td id="testTH">{item}</td>
+                        <td id="testTH">{data.severity}</td>
+                      </tr>
                     );
                   })
-                })
-            }
-            </div>
+                })}
+              </tbody>
+            </table>
+          }
+        </div>
+
            
         </div>
       </div>
