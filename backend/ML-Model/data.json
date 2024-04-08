@@ -1,0 +1,26 @@
+[
+    {
+        "medicine": "Ranitidine",
+        "dosage": "150 mg"
+    },
+    {
+        "medicine": "Phenobarbital",
+        "dosage": "30 mg"
+    },
+    {
+        "medicine": "Tramadol",
+        "dosage": "50 mg"
+    },
+    {
+        "medicine": "Zolpidem",
+        "dosage": "10 mg"
+    },
+    {
+        "medicine": "Venlafaxine",
+        "dosage": "75 mg"
+    },
+    {
+        "medicine": "Digoxin",
+        "dosage": "0.25 mg"
+    }
+]

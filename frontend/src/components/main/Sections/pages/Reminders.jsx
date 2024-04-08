@@ -58,10 +58,9 @@ const Reminders = () => {
         {error && <p>Error: {error}</p>}
       </div>
       <div className="col-md-12">
-        {medicines.length === 0 ? null : medicines.map((item) => {
-            return <div key={item.medicine}>{item.medicine} - {item.dosage}</div>
+        {medicines.map((item) => {
+          return <div key={item.medicine}>{item.medicine} - {item.dosage}</div>
         })}
-        
       </div>
     </>
   );
