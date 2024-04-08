@@ -1,35 +1,41 @@
-/* CSS */
 .table-container {
-    margin-top: 20px;
-  }
-  
-  .custom-table {
-    width: 100%;
-    border-collapse: collapse;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  }
-  
-  .custom-header {
-    background-color: #f1dbdb;
-    padding: 12px 15px;
-    text-align: left;
-    text-transform: uppercase;
-    font-size: 14px;
-    letter-spacing: 1px;
-  }
-  
-  .custom-table td, .custom-table th {
-    padding: 12px 15px;
-    text-align: left;
-  }
-  
-  .custom-table tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  
-  .custom-table tbody tr:hover {
-    background-color: #f0f0f0;
-  }
-  
+  margin-top: 20px;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.custom-header {
+  background-color: #f1dbdb;
+  padding: 12px 15px;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #ddd; /* Add bottom line to header cells */
+}
+
+.custom-table td, .custom-table th {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* Add bottom line to regular cells */
+  border-right: 1px solid #ddd; /* Add right line to all cells */
+}
+
+.custom-table tbody tr:last-child td,
+.custom-table tbody tr:last-child th {
+  border-bottom: none; /* Remove bottom line from last row */
+}
+
+.custom-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.custom-table tbody tr:hover {
+  background-color: #f0f0f0;
+}

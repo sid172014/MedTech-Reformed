@@ -1,0 +1,39 @@
+#medicalTable {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; 
+}
+
+#medicalThead {
+    background-color: #f1dbdb;
+}
+
+#medicalTH, #medicalTD {
+    padding: 12px 50px;
+    text-align: left;
+    border-bottom: 2px solid #ddd; /* Add border to bottom of header cells */
+    border-right: 1px solid #ddd;
+}
+
+#medicalTH {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+#medicalBody #medicalTR:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#medicalBody #medicalTR:hover {
+    background-color: #f0f0f0;
+}
+
+#medicalBody #medicalTD {
+    border-bottom: 1px solid #ddd; /* Add border to bottom of regular cells */
+    border-right: 1px solid #ddd;
+}
