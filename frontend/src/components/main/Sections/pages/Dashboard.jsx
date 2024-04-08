@@ -122,6 +122,7 @@ const Dashboard = () => {
     // Submit Final Info
     const handleSubmitSymptoms = async () => {
         console.log("Submit clicked");
+        
         if(selectedItems2.length > 0){
             const json = {
                 symptoms:""
@@ -133,6 +134,7 @@ const Dashboard = () => {
 
             const response = await axios.post('http://localhost:3000/users/getPred', json);
             console.log(response.data.prediction);
+            let medicalHistory = response.data.prediction;
             const conditions = data.filter((item) => {
                 if(response.data.prediction === item.medicalcondition){
                     return item.tests;

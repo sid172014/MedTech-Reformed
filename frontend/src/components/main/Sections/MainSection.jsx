@@ -1,31 +1,39 @@
-import {ToastContainer, toast} from 'react-toastify';
-import PageTitle from "./PageTitle"
-import './main.css'
-import 'react-toastify/dist/ReactToastify.css';
-import Dashboard from "./pages/Dashboard"
+import { ToastContainer, toast } from "react-toastify";
+import PageTitle from "./PageTitle";
+import "./main.css";
+import "react-toastify/dist/ReactToastify.css";
 
-const MainSection = ({componentSelected}) => {
+import Dashboard from "./pages/Dashboard";
+import Lab from "./pages/Lab";
 
-  
+const MainSection = ({ componentSelected }) => {
 
-  return (  
-    <main id="mainSection" className="main" style={{marginLeft:"300px"}}>
+  let renderElement = "null";
+
+  if(componentSelected === 'Dashboard'){
+    renderElement = <Dashboard></Dashboard>
+  }else if(componentSelected === 'Labs'){
+    renderElement = <Lab></Lab>
+  }
+
+  return (
+    <main id="mainSection" className="main" style={{ marginLeft: "300px" }}>
       <ToastContainer
-position="top-right"
-autoClose={1000}
-hideProgressBar={false}
-newestOnTop={false}
-closeOnClick
-rtl={false}
-pauseOnFocusLoss
-draggable
-pauseOnHover
-theme="dark"
-/>
+        position="top-right"
+        autoClose={1000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
       <PageTitle title={componentSelected}></PageTitle>
-      <Dashboard></Dashboard>
+      {renderElement}
     </main>
   );
-}
+};
 
-export default MainSection
+export default MainSection;

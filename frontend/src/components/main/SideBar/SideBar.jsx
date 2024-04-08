@@ -17,33 +17,12 @@ const SideBar = ({setcomponentSelected}) => {
                 </a>
             </li>
 
+
             <li className='nav-item'>
-                <a onClick={() => {handleClick("Document")}} className='nav-link collapsed' data-bs-target="#components-nav" data-bs-toggle="collapse" href='#'>
+                <a onClick={() => {handleClick("Labs")}} className='nav-link collapsed' data-bs-target="#components-nav" data-bs-toggle="collapse" href='#'>
                     <i className='bi bi-menu-button-wide'></i>
-                    <span>Documents</span>
+                    <span>Lab Tests</span>
                 </a>
-                <ul id='components-nav' className='nav-content collapse' data-bs-parent="#sidebar-nav">
-                    <li>
-                        <a href='#'>
-                            <i className='bi bi-circle'></i>
-                            <span>Customers</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href='#'>
-                            <i className='bi bi-circle'></i>
-                            <span>Suppliers</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href='#'>
-                            <i className='bi bi-circle'></i>
-                            <span>Logistics</span>
-                        </a>
-                    </li>
-                </ul>
             </li>
 
 
