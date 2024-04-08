@@ -102,7 +102,8 @@ router.patch('/users/update', detailsMiddleware, async (req,res) => {
             $push : {
                 medInfo : {
                     medicalHistory : req.body.medicalHistory?.map((item) => {return item}),
-                    tests : req.body.tests?.map((item) =>{return item})
+                    tests : req.body.tests?.map((item) =>{return item}),
+                    medicines : req.body.medicines?.map((item) => {return item})
                 }
             }
         });
