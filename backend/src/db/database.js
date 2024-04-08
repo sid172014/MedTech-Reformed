@@ -42,6 +42,10 @@ const userSchema = new mongoose.Schema({
             }
         }
     ],
+    presmeds: {
+        type : [String],
+        default : []
+    },
     token : {
         type : String,
         required : true
