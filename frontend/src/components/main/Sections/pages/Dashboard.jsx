@@ -1,6 +1,6 @@
 import { useState } from "react";
 import './dashboard.css'
-
+import {toast} from 'react-toastify';
 import axios from 'axios';
 
 // Importing Raw Data
@@ -76,34 +76,52 @@ const Dashboard = () => {
     };
 
 
+    const handleSubmitMedicalCondition = async () => {
+      if(selectedItems1.length > 0){
+        const conditions = data.filter((item) => {
+            if(selectedItems1.includes(item.medicalcondition)){
+                return item.tests;
+            }
+        });
+
+        let tests = conditions.map((item) => {
+            return [item.tests.split(','),item.severity];
+        });
+
+        settestsRecommended((prev) => {
+
+          const newObject = [];
+          tests.forEach((test) => {
+              newObject.push({
+                tests: test[0],
+                severity : test[1]
+              })
+          });
+
+          const triggerUpdate = async () => {
+            const tests = newObject.map((item) => {
+              return item.tests;
+            });
+
+            console.log("Medical ", selectedItems1);
+            console.log("Test " , tests.flat());
+            const response = await axios.patch('http://localhost:3000/users/update', {
+              medicalHistory : selectedItems1,
+              tests : tests.flat()
+            });
+            toast.success("Processing Your Data");
+            console.log(response.data);
+          };
+          triggerUpdate();
+          
+          return newObject;
+        });
+    }
+    }
+
     // Submit Final Info
-    const handleSubmit = async () => {
+    const handleSubmitSymptoms = async () => {
         console.log("Submit clicked");
-        if(selectedItems1.length > 0){
-            const conditions = data.filter((item) => {
-                if(selectedItems1.includes(item.medicalcondition)){
-                    return item.tests;
-                }
-            });
-
-            let tests = conditions.map((item) => {
-                return [item.tests.split(','),item.severity];
-            });
-
-            console.log(tests);
-            settestsRecommended((prev) => {
-
-              const newObject = [...prev];
-              tests.forEach((test) => {
-                  newObject.push({
-                    tests: test[0],
-                    severity : test[1]
-                  })
-              });
-              console.log(newObject);
-              return newObject;
-            });
-        }
         if(selectedItems2.length > 0){
             const json = {
                 symptoms:""
@@ -125,8 +143,23 @@ const Dashboard = () => {
             });
             
             settestsRecommended((prev) => {
-              const newObject = [...prev,{tests : tests[0][0], severity : tests[0][1]}];
+              const newObject = [{tests : tests[0][0], severity : tests[0][1]}];
               console.log(newObject);
+
+              const triggerUpdate = async () => {
+                const tests = newObject.map((item) => {
+                  return item.tests;
+                });
+
+                console.log(tests[0]);
+                const response = await axios.patch('http://localhost:3000/users/update', {
+                  tests : tests[0]
+                });
+                toast.success("Processing Your Data");
+                console.log(response.data);
+              };
+              triggerUpdate();
+
               return newObject;
             });
             
@@ -215,15 +248,18 @@ const Dashboard = () => {
             </div>
           </div>
 
-            <div className="col-md-12">
-                <button onClick={handleSubmit} style={{width:"100%"}}>Submit</button>
+            <div className="col-md-6">
+                <button onClick={handleSubmitMedicalCondition} style={{width:"100%"}}>Submit Medical</button>
+            </div>
+            <div className="col-md-6">
+                <button onClick={handleSubmitSymptoms} style={{width:"100%"}}>Submit Symptoms</button>
             </div>
 
-
+          
             {/* Displaying data */}
             <div className="col-md-12">
             {testsRecommended.length === 0 ? null : 
-                testsRecommended.map((data) => {
+                  testsRecommended.map((data) => {
                   return data.tests.map((item) => {
                     return (
                       <div key={item}>

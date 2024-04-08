@@ -101,14 +101,14 @@ router.patch('/users/update', detailsMiddleware, async (req,res) => {
         const updateUser = await users.findByIdAndUpdate(req.user.id,{
             $push : {
                 medInfo : {
-                    medicalHistory : req.body.medicalHistory.map((item) => {return item}),
-                    tests : req.body.tests.map((item) =>{return item})
+                    medicalHistory : req.body.medicalHistory?.map((item) => {return item}),
+                    tests : req.body.tests?.map((item) =>{return item})
                 }
             }
         });
         res.send(updateUser);
     }catch(e){
-        res.status(404).send(e.message);
+        res.status(404).send(e);
     }
 })
 
