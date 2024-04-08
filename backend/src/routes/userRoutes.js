@@ -160,8 +160,7 @@ router.post('/upload', upload.single('image'), async (req, res) => {
         const flaskResponse = await axios.post('http://127.0.0.1:8000/process', {
             image: imageBase64,
         });
-        console.log(flaskResponse.data);
-        return res.json({ message: [{medicine : "paraceta", dosage: "10 mg"},{medicine : "mol", dosage: "20 mg"},{medicine : "peta", dosage: "5 mg"}]});
+        return res.json({ message: flaskResponse.data.message});
 
     } catch (error) {
         return res.status(500).json({ message: 'Error sending image to Flask backend' });
