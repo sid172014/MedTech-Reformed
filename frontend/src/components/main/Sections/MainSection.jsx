@@ -6,6 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Dashboard from "./pages/Dashboard";
 import Lab from "./pages/Lab";
 import MedHistory from "./pages/MedHistory";
+import Reminders from "./pages/Reminders";
 
 const MainSection = ({ componentSelected }) => {
 
@@ -17,6 +18,8 @@ const MainSection = ({ componentSelected }) => {
     renderElement = <Lab></Lab>
   }else if(componentSelected === "Medical History"){
     renderElement = <MedHistory></MedHistory>
+  }else if(componentSelected === "Reminders"){
+    renderElement = <Reminders></Reminders>
   }
 
   return (
