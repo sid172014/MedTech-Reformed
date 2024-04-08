@@ -40,6 +40,13 @@ const SideBar = ({setcomponentSelected}) => {
             </li>
 
             <li className='nav-item'>
+                <a onClick={() => {handleClick("Profile")}} className='nav-link collapsed' data-bs-target="#components-nav" data-bs-toggle="collapse" href='#'>
+                    <i className='bi bi-menu-button-wide'></i>
+                    <span>Profile</span>
+                </a>
+            </li>
+
+            <li className='nav-item'>
                 <a onClick={() => {handleClick("Forms")}} className='nav-link collapsed' data-bs-target="#forms-nav" data-bs-toggle="collapse" href='#'>
                     <i className='bi bi-journal-text'></i>
                     <span>Forms</span>

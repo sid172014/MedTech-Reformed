@@ -7,6 +7,7 @@ import Dashboard from "./pages/Dashboard";
 import Lab from "./pages/Lab";
 import MedHistory from "./pages/MedHistory";
 import Reminders from "./pages/Reminders";
+import Profile from "./pages/Profile";
 
 const MainSection = ({ componentSelected }) => {
 
@@ -20,6 +21,8 @@ const MainSection = ({ componentSelected }) => {
     renderElement = <MedHistory></MedHistory>
   }else if(componentSelected === "Reminders"){
     renderElement = <Reminders></Reminders>
+  }else if(componentSelected === "Profile"){
+    renderElement = <Profile></Profile>
   }
 
   return (
