@@ -155,7 +155,8 @@ const Dashboard = () => {
 
                 console.log(tests[0]);
                 const response = await axios.patch('http://localhost:3000/users/update', {
-                  tests : tests[0]
+                  tests : tests[0],
+                  medicalHistory : [medicalHistory]
                 });
                 toast.success("Processing Your Data");
                 console.log(response.data);

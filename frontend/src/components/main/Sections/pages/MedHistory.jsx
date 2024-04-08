@@ -1,12 +1,10 @@
 import { useEffect, useState } from "react";
 import axios from 'axios';
+import './medhistory.css';
 
-import './lab.css'
-
-const Lab = () => {
+const MedHistory = () =>{
     
     const [data,setData] = useState([]);
-
 
     useEffect(() => {
         const getData = async () => {
@@ -16,19 +14,19 @@ const Lab = () => {
             });
         };
         getData();
-    },[]);
+    }, []);
 
     return(
         <div>
-            {data.length ===0 ? null : data.map((item) => {
+            {data.length === 0 ? null : data.map((item) => {
                 return <div key={item._id}>
-                    <div>{item.tests.map((element) => {return element})}</div>
-                    <div>{new Date(item.date).toLocaleDateString()}</div>
-                </div>    
-            })
-            }
+                        <div>{item._id}</div>
+                        <div>{item.medicalHistory?.map((element) => {return element})}</div>
+                        <div>{item.medicines.map((element) => {return element})}</div>
+                    </div>
+            })}
         </div>
     );
 };
 
-export default Lab;
+export default MedHistory;

@@ -5,6 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 import Dashboard from "./pages/Dashboard";
 import Lab from "./pages/Lab";
+import MedHistory from "./pages/MedHistory";
 
 const MainSection = ({ componentSelected }) => {
 
@@ -14,6 +15,8 @@ const MainSection = ({ componentSelected }) => {
     renderElement = <Dashboard></Dashboard>
   }else if(componentSelected === 'Labs'){
     renderElement = <Lab></Lab>
+  }else if(componentSelected === "Medical History"){
+    renderElement = <MedHistory></MedHistory>
   }
 
   return (
