@@ -18,14 +18,40 @@ const MedHistory = () =>{
 
     return(
         <div>
-            {data.length === 0 ? null : data.map((item) => {
-                return <div key={item._id}>
-                        <div>{item._id}</div>
-                        <div>{item.medicalHistory?.map((element) => {return element})}</div>
-                        <div>{item.medicines.map((element) => {return element})}</div>
-                    </div>
-            })}
-        </div>
+        {data.length === 0 ? null : (
+            <table id="medicalTable">
+                <thead id="medicalThead">
+                    <tr id="medicalTR">
+                        <th id="medicalTH">ID</th>
+                        <th id="medicalTH">Medical History</th>
+                        <th id="medicalTH">Medicines</th>
+                    </tr>
+                </thead>
+                <tbody id="medicalBody">
+                    {data.map((item) => (
+                        <tr id="medicalTR" key={item._id}>
+                            <td id="medicalTD">{item._id}</td>
+                            <td id="medicalTD">
+                                <ul>
+                                    {item.medicalHistory?.map((element, index) => (
+                                        <li key={index}>{element}</li>
+                                    ))}
+                                </ul>
+                            </td>
+                            <td id="medicalTD">
+                                <ul>
+                                    {item.medicines.map((element, index) => (
+                                        <li key={index}>{element}</li>
+                                    ))}
+                                </ul>
+                            </td>
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
+        )}
+    </div>
+    
     );
 };
 
