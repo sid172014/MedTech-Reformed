@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {useNavigate} from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import LeftSvg from "./stuff/left.svg";
@@ -9,7 +9,7 @@ import Logo from "./stuff/logo-no-background.png";
 import "./home.css";
 import axios from "axios";
 
-import {ToastContainer,toast} from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 // In order to use and set cookies for authentication we have to use this
@@ -19,7 +19,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Home = () => {
 
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
   // Form Data Container
   const [loginData, setLoginData] = useState({
@@ -63,7 +63,7 @@ const Home = () => {
       toast.success(response.data.message);
       setTimeout(() => {
         navigate('/loggedIn')
-      },3000);
+      }, 3000);
     } catch (e) {
       console.log(e.response.data.message);
       toast.error(e.response.data.message);
@@ -79,8 +79,8 @@ const Home = () => {
     console.log(response.data);
     toast.success("Signed up Successfully");
     setTimeout(() => {
-        navigate('/loggedIn')
-      },3000);
+      navigate('/loggedIn')
+    }, 3000);
   };
 
   useEffect(() => {
@@ -164,18 +164,18 @@ const Home = () => {
 
   return (
     <>
-        <ToastContainer
-position="top-right"
-autoClose={3000}
-hideProgressBar={false}
-newestOnTop={false}
-closeOnClick
-rtl={false}
-pauseOnFocusLoss
-draggable
-pauseOnHover
-theme="dark"
-/>
+      <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -213,7 +213,7 @@ theme="dark"
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
       </head>
-      
+
       <div id="home">
         {/* Navigation section */}
         <div id="nav">
@@ -231,7 +231,7 @@ theme="dark"
         <div id="cursor"></div>
 
         {/* Video background */}
-        <video autoPlay loop muted src={VideoSource}></video>
+        <video className="video1" autoPlay loop muted src={VideoSource}></video>
 
         {/* Main content container */}
         <div id="main">
@@ -270,12 +270,12 @@ theme="dark"
             <div className="container">
               <div className="mainLoginSignup">
                 <input type="checkbox" id="chk" aria-hidden="true" />
-                <div className="signup">
+                <div className="signup1">
                   <div id="signupForm">
-                    <label htmlFor="chk" aria-hidden="true">
+                    <label className="label2" htmlFor="chk" aria-hidden="true">
                       Sign up
                     </label>
-                    <input
+                    <input className="input1"
                       id="username"
                       type="text"
                       name="username"
@@ -283,7 +283,8 @@ theme="dark"
                       required=""
                       onChange={handleSignupDataChange}
                     />
-                    <input
+
+                    <input className="input1"
                       id="email"
                       type="email"
                       name="email"
@@ -291,7 +292,8 @@ theme="dark"
                       required=""
                       onChange={handleSignupDataChange}
                     />
-                    <input
+
+                    <input className="input1"
                       id="password"
                       type="password"
                       name="password"
@@ -299,7 +301,8 @@ theme="dark"
                       required=""
                       onChange={handleSignupDataChange}
                     />
-                    <input
+
+                    <input className="input1"
                       id="phone"
                       type="text"
                       name="phone"
@@ -307,16 +310,17 @@ theme="dark"
                       required=""
                       onChange={handleSignupDataChange}
                     />
+
                     <div id="display"></div>
-                    <button onClick={handleSignupDataSubmit}>Sign up</button>
+                    <button className="button1" onClick={handleSignupDataSubmit}>Sign up</button>
                   </div>
                 </div>
-                <div className="login">
+                <div className="login1">
                   <div>
-                    <label htmlFor="chk" aria-hidden="true">
+                    <label className="label2" htmlFor="chk" aria-hidden="true">
                       Login
                     </label>
-                    <input
+                    <input className="input1"
                       id="email"
                       type="email"
                       name="email"
@@ -324,7 +328,7 @@ theme="dark"
                       required=""
                       onChange={handleLoginDataChange}
                     />
-                    <input
+                    <input className="input1"
                       id="password"
                       type="password"
                       name="password"
@@ -333,7 +337,7 @@ theme="dark"
                       onChange={handleLoginDataChange}
                     />
                     <div id="displaylogin"></div>
-                    <button onClick={handleLoginDataSubmit}>Login</button>
+                    <button className="button1" onClick={handleLoginDataSubmit}>Login</button>
                   </div>
                 </div>
               </div>
