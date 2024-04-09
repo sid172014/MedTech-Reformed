@@ -1,0 +1,43 @@
+.col-md-12{
+    margin-top: 20px;
+  }
+  
+ .tabledoc {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .docheader {
+    background-color: #054231;
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #ddd; /* Add bottom line to header cells */
+  }
+  
+  .docTD, .docTH{
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Add bottom line to regular cells */
+    border-right: 1px solid #ddd; /* Add right line to all cells */
+  }
+  
+  .docBody .docTR:last-child td,
+  .docBody .docTR:last-child th {
+    border-bottom: none; /* Remove bottom line from last row */
+  }
+  
+  .tabledoc .docBody .docTR:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .tabledoc .docBody .docTR:hover {
+    background-color: #f0f0f0;
+  }
+  
