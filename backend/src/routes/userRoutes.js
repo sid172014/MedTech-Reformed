@@ -5,6 +5,9 @@ const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
 
+// Reminders Function
+const {scheduleRemindersCall} = require('../utils/medicalReminders');
+
 // Initializing the router
 const router = new express.Router();
 
@@ -166,5 +169,28 @@ router.post('/upload', upload.single('image'), async (req, res) => {
         return res.status(500).json({ message: 'Error sending image to Flask backend' });
     }
 });
+
+router.post('/users/reminders', detailsMiddleware,async (req,res) => {
+    try{
+        const medicinesDates = req.body.medicineDates;
+        const keys = Object.keys(medicinesDates[1]);
+
+        
+        medicinesDates.forEach((item) => {
+            const keys = Object.keys(item);
+            const values = Object.values(item);
+            if(keys.length !== 0){
+                console.log(keys[0]);
+                const medicine = keys[0];
+                const datetime = values[0];
+                const number = req.body.number;
+                scheduleRemindersCall(datetime,number,medicine);
+            }
+        })
+        res.send("Executing");
+    }catch(e){
+        res.status(500).send(e.message);
+    }
+})
 
 module.exports = router;
