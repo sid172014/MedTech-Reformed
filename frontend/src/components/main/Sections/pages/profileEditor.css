@@ -1,0 +1,186 @@
+.profile-editor {
+    max-width: 400px;
+    color: #054231;
+    margin: 0 auto;
+    background-color: #4d4b4b53;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    background-image: url('https://github.com/OlgaKoplik/CodePen/blob/master/leaf2.png?raw=true'), url('https://github.com/OlgaKoplik/CodePen/blob/master/leaf.png?raw=true');
+    background-repeat: no-repeat, no-repeat;
+  background-position: 120% -30%, 200% -110%;
+  background-size: 40%, 80%;
+  animation: open .5s;
+  border-radius: 10px;
+  }
+  .onehead{
+    font-size: 30px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+    
+    
+  }
+  
+  .oneLabel {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .oneInput[type="text"],
+  .oneInput[type="email"],
+  .oneInput[type="tel"],
+  .oneInput[type="file"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;  }
+  
+  /* .oneButton {
+    background-color: #0542317e;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  <!-- HTML !-->
+<button class="button-30" role="button">Button 30</button> */
+
+/* CSS */
+.oneButton  {
+  align-items: center;
+ 
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  width: 100%;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.oneButton :focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.oneButton:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.oneButton:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+
+.upload-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+}
+
+/* ------------------------------------------- */
+.main123 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    margin: 10px;
+}
+
+
+
+.main__container123 {
+    background-color: grey;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: conic-gradient(from 360deg at 50% 0%, #67D9A6, rgb(255, 255, 255));
+    box-shadow: 0px -4px 20px 14px rgba(0,0,0,0.1);
+    -webkit-animation: rotar 2s infinite linear;
+    animation: rotar 2s infinite linear;
+    border: 2px solid #22cc80;
+}
+
+.main_container__2{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: rgb(202, 202, 255);
+    box-shadow: Active 0px -7px 11px 4px rgba(6, 56, 255, 0.1), 0px -7px 11px 4px rgba(83, 108, 255, 0.1);
+    background-image: url('https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png');
+    background-size: cover;
+    background-position: center center; 
+}
+
+.div__punto{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0px;
+    background-color: white;
+    -webkit-filter: blur(5px);
+            filter: blur(5px);
+    box-shadow: Active 0px -7px 11px 4px rgba(6, 56, 255, 0.1), 0px -7px 11px 4px rgba(83, 108, 255, 0.1);
+}
+
+@-webkit-keyframes rotar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+@keyframes rotar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
