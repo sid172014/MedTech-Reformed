@@ -193,5 +193,13 @@ router.post('/users/reminders', detailsMiddleware,async (req,res) => {
     }
 });
 
+router.put('/users/update', detailsMiddleware, async (req,res) => {
+    try{
+        res.send("Hello world");
+    }catch(e){
+        res.status(400).send(e.message);
+    }
+});
+
 
 module.exports = router;

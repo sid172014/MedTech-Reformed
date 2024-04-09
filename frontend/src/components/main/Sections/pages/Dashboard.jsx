@@ -252,10 +252,10 @@ const Dashboard = () => {
           </div>
 
             <div className="col-md-6">
-                <button onClick={handleSubmitMedicalCondition} style={{width:"100%"}}>Submit Medical</button>
+                <button onClick={handleSubmitMedicalCondition} style={{width:"100%",backgroundColor:"#054231", color:"white"}}>Submit Medical</button>
             </div>
             <div className="col-md-6">
-                <button onClick={handleSubmitSymptoms} style={{width:"100%"}}>Submit Symptoms</button>
+                <button onClick={handleSubmitSymptoms} style={{width:"100%",backgroundColor:"#054231", color:"white"}}>Submit Symptoms</button>
             </div>
 
           

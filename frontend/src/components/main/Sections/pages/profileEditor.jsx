@@ -25,11 +25,11 @@ const handleSubmit = async (e) => {
     try {
         // Make a PUT request to update user data
         console.log('Submitting form with updated data:', updatedUserData);
-        const response = await axios.put('http://localhost:3000/users/mydetails', updatedUserData); // Update the correct URL
-        console.log('User data updated successfully:', response.data);
+        const response = await axios.put('http://localhost:3000/users/update', updatedUserData); // Update the correct URL
+        console.log(response.data);
         
         // Update the user data in the parent component
-        onUpdateUserData(response.data);
+        // onUpdateUserData(response.data);
     } catch (error) {
         console.error('Error updating user data:', error);
         // Handle error scenarios, display error message, etc.

@@ -2,27 +2,28 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
 import DatePicker from "react-datepicker";
+import './Reminders.css'
 
 import "react-datepicker/dist/react-datepicker.css";
 
-const Reminders = () => {
+const Remindersss = () => {
   const [image, setImage] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
   const [medicines, setmedicines] = useState([]);
   const [medicineDates, setMedicineDates] = useState({});
-  const [userData,setUserData] = useState();
+  const [userData, setUserData] = useState();
 
 
   useEffect(() => {
     const getData = async () => {
       const response = await axios.get('http://localhost:3000/users/mydetails');
       setUserData(() => {
-          return response.data;
+        return response.data;
       });
-  };
-  getData();
-  },[]);
+    };
+    getData();
+  }, []);
 
   const handleImageChange = (e) => {
     setImage(e.target.files[0]);
@@ -75,61 +76,74 @@ const Reminders = () => {
   // Reminder submit
   const handleSetReminder = async () => {
     const newObject = {
-      medicineDates : [{}],
-      number : userData.phone
+      medicineDates: [{}],
+      number: userData.phone
     };
-    Object.entries(medicineDates).map(([medicineName,date]) => {
-      console.log(medicineName,date.toLocaleDateString(),date.toLocaleTimeString());
+    Object.entries(medicineDates).map(([medicineName, date]) => {
+      console.log(medicineName, date.toLocaleDateString(), date.toLocaleTimeString());
       newObject.medicineDates.push({
-        [medicineName] : `${date.toLocaleDateString()}T${date.toLocaleTimeString()}`
+        [medicineName]: `${date.toLocaleDateString()}T${date.toLocaleTimeString()}`
       });
     });
+    
     toast.success("Reminders Schedule Sent!!");
     const response = await axios.post('http://localhost:3000/users/reminders', newObject);
-    console.log(response.data); 
+    console.log(response.data);
   }
-  
+
   return (
     <>
-      <div className="col-md-12">
+      <div id="Reminder" className="col-md-12">
         <h1>Upload Picture</h1>
         <div>
-          <input type="file" onChange={handleImageChange} />
+          <input className="Rinput" type="file" onChange={handleImageChange} />
         </div>
         <div>
-          <button onClick={handleSubmit}>Upload</button>
+          <button className="Rbutton" onClick={handleSubmit}>Upload</button>
         </div>
 
         {isLoading && <p>Uploading image...</p>}
         {error && <p>Error: {error}</p>}
       </div>
       <div className="col-md-12">
-        {medicines.length === 0 ? null : medicines.map((item) => {
-          return (
-            <div key={item.medicine}>
-              <div key={item.medicine}>
-                {item.medicine} - {item.dosage}
-              </div>
-              <DatePicker
-                selected={medicineDates[item.medicine] || new Date()}
-                onChange={(date) => handleDateChange(date, item.medicine)}
-                showTimeSelect
-                dateFormat="Pp"
-              />
-            </div>
-          );
-        })}
+        {medicines.length === 0 ? null : (
+          <table id="Rtable">
+            <thead id="Rthead">
+              <tr id="RTR">
+                <th id="RTH">Medicine</th>
+                <th id="RTH">Dosage</th>
+                <th id="RTH">Date</th>
+              </tr>
+            </thead>
+            <tbody id="RBody">
+              {medicines.map((item) => (
+                <tr id="RTR" key={item.medicine}>
+                  <td id="RTD">{item.medicine}</td>
+                  <td id="RTD">{item.dosage}</td>
+                  <td id="RTD">
+                    <DatePicker
+                      selected={medicineDates[item.medicine] || new Date()}
+                      onChange={(date) => handleDateChange(date, item.medicine)}
+                      showTimeSelect
+                      dateFormat="Pp"
+                    />
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        )}
       </div>
 
-        <div className="col-md-6">
-          <div>Contact Number</div>
-          <input type="number" value={userData ? userData.phone : null} readOnly></input>
-        </div>
-        <div className="col-md-6">
-          <button onClick={handleSetReminder}>Set Reminders</button>
-        </div>
+      <div className="col-md-12">
+        <div>Contact Number</div>
+        <input className="Rinput" type="number" value={userData ? userData.phone : null} readOnly></input>
+      </div>
+      <div className="col-md-12">
+        <button className="Rbutton" onClick={handleSetReminder}>Set Reminders</button>
+      </div>
     </>
   );
 };
 
-export default Reminders;
+export default Remindersss;
