@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
+import './Doctor.css'
 
 import docdata from "../../../../data/doctors_data.json";
 const Doctors = () => {
@@ -39,22 +40,22 @@ const Doctors = () => {
             return (
               <div key={item.length}>
                 <div className="col-md-12">{item.medicalHistory[0]}</div>
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Doctor Name</th>
-                      <th>Phone</th>
-                      <th>Address</th>
-                      <th>Years of Experience</th>
+                <table className="tabledoc">
+                  <thead className="docheader">
+                    <tr className="docTR">
+                      <th className="docTH">Doctor Name</th>
+                      <th className="docTH">Phone</th>
+                      <th className="docTH">Address</th>
+                      <th className="docTH">Years of Experience</th>
                     </tr>
                   </thead>
-                  <tbody>
+                  <tbody className="docBody">
                     {indexes.map((index) => (
-                      <tr key={index}>
-                        <td>{docdata[index].Doctor}</td>
-                        <td>{docdata[index].Phno}</td>
-                        <td>{docdata[index].addr_l}</td>
-                        <td>{docdata[index].year_l}</td>
+                      <tr  className="docTR"  key={index}>
+                        <td className="docTD">{docdata[index].Doctor}</td>
+                        <td className="docTD">{docdata[index].Phno}</td>
+                        <td className="docTD">{docdata[index].addr_l}</td>
+                        <td className="docTD">{docdata[index].year_l}</td>
                       </tr>
                     ))}
                   </tbody>
