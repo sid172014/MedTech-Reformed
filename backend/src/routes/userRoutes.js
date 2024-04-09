@@ -191,6 +191,7 @@ router.post('/users/reminders', detailsMiddleware,async (req,res) => {
     }catch(e){
         res.status(500).send(e.message);
     }
-})
+});
+
 
 module.exports = router;

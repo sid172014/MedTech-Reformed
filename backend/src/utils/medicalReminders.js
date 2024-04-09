@@ -1,7 +1,7 @@
 const schedule = require('node-schedule');
 
 const triggerCall = (number) => {
-    const accountSid = process.env.accountSid;
+    const accountSid = "ACf382cb92769be8308a0b5e397b2d464b";
     const authToken = process.env.authToken;
     const client = require('twilio')(accountSid, authToken);
 
@@ -32,7 +32,7 @@ const triggerCall = (number) => {
 
 const whatsAppReminders = (number,message) => {
 
-    const accountSid = process.env.accountSid;
+    const accountSid = "ACf382cb92769be8308a0b5e397b2d464b";
     const authToken = process.env.authToken;
     const client = require('twilio')(accountSid, authToken);
 
