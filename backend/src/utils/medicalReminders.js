@@ -2,7 +2,7 @@ const schedule = require('node-schedule');
 
 const triggerCall = (number) => {
     const accountSid = "ACf382cb92769be8308a0b5e397b2d464b";
-    const authToken = process.env.authToken;
+    const authToken = "0fb9d6f33978f604662dbc1515d517dd";
     const client = require('twilio')(accountSid, authToken);
 
     // Replace this with the user's dynamic phone number
@@ -33,7 +33,7 @@ const triggerCall = (number) => {
 const whatsAppReminders = (number,message) => {
 
     const accountSid = "ACf382cb92769be8308a0b5e397b2d464b";
-    const authToken = process.env.authToken;
+    const authToken = "0fb9d6f33978f604662dbc1515d517dd";
     const client = require('twilio')(accountSid, authToken);
 
     // Replace this variable with the user's dynamic WhatsApp number
